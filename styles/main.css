@@ -11,6 +11,8 @@
 #primary-menu {
     display: flex;
     flex-wrap: nowrap;
+    align-items: center;
+    height: 100%;
 }
 #primary-menu ul {
     list-style: none;
