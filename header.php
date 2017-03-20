@@ -24,9 +24,9 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'bf_futuretastic' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
-		<header class="navbar">
+		<div class="navbar">
 			<section class="navbar-primary">
-				<a href="#" class="navbar-brand mr-10"><img class="logo" src="http://unrbrushfire.org/wp-content/uploads/2017/03/logo.png" alt="Brushfire "></a>
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="navbar-brand mr-10" rel="home"><img class="logo" src="http://unrbrushfire.org/wp-content/uploads/2017/03/logo.png" alt="Brushfire "></a>
 			</section>
 			<section class="navbar-section">
 				<a href="#" class="btn btn-link">About Us</a>
@@ -36,15 +36,10 @@
 			<section class="navbar-section">
 				<button class="btn btn-primary">Submit</button>
 			</section>
-		</header>
+		</div>
+
 		<div class="site-branding">
-			<?php
-			if ( is_front_page() && is_home() ) : ?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<?php else : ?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-			<?php
-			endif;
+
 
 			$description = get_bloginfo( 'description', 'display' );
 			if ( $description || is_customize_preview() ) : ?>
