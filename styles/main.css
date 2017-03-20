@@ -4,8 +4,13 @@
 }
 .navbar {
     max-width: 1400px;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
+#primary-menu {
+
+}
 #primary-menu ul {
     background-color: red;
     list-style: none;
