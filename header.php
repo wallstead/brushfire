@@ -29,9 +29,6 @@
 		</section>
 		<section class="navbar-section">
 			<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
-			<a href="#" class="btn btn-link">About Us</a>
-			<a href="https://github.com/picturepan2/spectre" class="btn btn-link">Artist Spotlight</a>
-			<a href="https://github.com/picturepan2/spectre" class="btn btn-link">Contact</a>
 		</section>
 		<section class="navbar-section">
 			<button class="btn btn-primary">Submit</button>
