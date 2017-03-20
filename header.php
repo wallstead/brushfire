@@ -28,15 +28,15 @@
             <div class="column col-12">
               <section class="navbar">
                 <section class="navbar-section">
-                  <a href="#navbar" class="btn btn-link">Docs</a>
-                  <a href="#navbar" class="btn btn-link">Examples</a>
+                  <a href="#navbar" class="btn btn-link">About Us</a>
+                  <a href="#navbar" class="btn btn-link">Artist Spotlight</a>
                 </section>
                 <section class="navbar-primary">
-                  <figure class="avatar" data-initial="S" style="background-color: #5764c6;"></figure>
+                  <img class="logo" src="http://unrbrushfire.org/wp-content/uploads/2017/03/logo.png" alt="Brushfire Logo">
                 </section>
                 <section class="navbar-section">
-                  <a href="https://twitter.com/spectrecss" class="btn btn-link">Twitter</a>
-                  <a href="https://github.com/picturepan2/spectre" class="btn btn-link">GitHub</a>
+                  <a href="https://twitter.com/spectrecss" class="btn btn-link">Events</a>
+                  <a href="https://github.com/picturepan2/spectre" class="btn btn-link">Submit</a>
                 </section>
               </section>
             </div>
