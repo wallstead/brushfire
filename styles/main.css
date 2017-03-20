@@ -5,3 +5,8 @@
 .navbar {
     max-width: 1400px;
 }
+
+#primary-menu ul {
+    background-color: red;
+    list-style: none;
+}
