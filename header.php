@@ -24,6 +24,23 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'bf_futuretastic' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
+		<div class="columns">
+            <div class="column col-12">
+              <section class="navbar">
+                <section class="navbar-section">
+                  <a href="#navbar" class="btn btn-link">Docs</a>
+                  <a href="#navbar" class="btn btn-link">Examples</a>
+                </section>
+                <section class="navbar-primary">
+                  <figure class="avatar" data-initial="S" style="background-color: #5764c6;"></figure>
+                </section>
+                <section class="navbar-section">
+                  <a href="https://twitter.com/spectrecss" class="btn btn-link">Twitter</a>
+                  <a href="https://github.com/picturepan2/spectre" class="btn btn-link">GitHub</a>
+                </section>
+              </section>
+            </div>
+          </div>
 		<div class="site-branding">
 			<?php
 			if ( is_front_page() && is_home() ) : ?>
