@@ -16,3 +16,7 @@
     background-color: red;
     list-style: none;
 }
+
+#primary-menu li {
+    display: inline;
+}
