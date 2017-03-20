@@ -26,16 +26,17 @@
 	<header id="masthead" class="site-header" role="banner">
 		<header class="navbar">
 			<section class="navbar-primary">
-				<a href="#" class="navbar-brand mr-10">Spectre.css</a>
+				<a href="#" class="navbar-brand mr-10"><img class="logo" src="http://unrbrushfire.org/wp-content/uploads/2017/03/logo.png" alt="Brushfire "></a>
 			</section>
 			<section class="navbar-section">
-				<a href="#" class="btn btn-link">Docs</a>
-				<a href="https://github.com/picturepan2/spectre" class="btn btn-link">GitHub</a>
+				<a href="#" class="btn btn-link">About Us</a>
+				<a href="https://github.com/picturepan2/spectre" class="btn btn-link">Artist Spotlight</a>
+				<a href="https://github.com/picturepan2/spectre" class="btn btn-link">Contact</a>
 			</section>
 			<section class="navbar-section">
 				<div class="input-group input-inline">
 					<input class="form-input" type="text" placeholder="search" />
-					<button class="btn btn-primary input-group-btn">Search</button>
+					<button class="btn btn-primary"><i class="icon icon-markunread"></i> Submit</button>
 				</div>
 			</section>
 		</header>
