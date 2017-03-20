@@ -34,10 +34,7 @@
 				<a href="https://github.com/picturepan2/spectre" class="btn btn-link">Contact</a>
 			</section>
 			<section class="navbar-section">
-				<div class="input-group input-inline">
-					<input class="form-input" type="text" placeholder="search" />
-					<button class="btn btn-primary"><i class="icon icon-markunread"></i> Submit</button>
-				</div>
+				<button class="btn btn-primary"><i class="icon icon-markunread"></i> Submit</button>
 			</section>
 		</header>
 		<div class="site-branding">
