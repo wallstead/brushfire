@@ -105,7 +105,7 @@ add_action( 'widgets_init', 'bf_futuretastic_widgets_init' );
  * Enqueue scripts and styles.
  */
 function bf_futuretastic_scripts() {
-	wp_enqueue_style( 'spectre', get_template_directory_uri() . '/styles/spectre.min.css' );
+	// wp_enqueue_style( 'spectre', get_template_directory_uri() . '/styles/spectre.min.css' );
 
 	wp_enqueue_style( 'bf_futuretastic-style', get_stylesheet_uri() );
 
