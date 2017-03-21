@@ -101,6 +101,8 @@
     max-width: 1200px;
     margin: 25px auto;
     color: #404d5b; }
+  #content .theCrewContainer .theCrew {
+    border-radius: 15px; }
 
 #colophon {
   width: 100%;
