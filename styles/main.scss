@@ -136,7 +136,7 @@ body {
         font-size: 1.4em;
         line-height: 1.2;
         max-width: 1200px;
-        margin: 25px auto;
+        padding: 25px auto;
         color: #404040;
         background-color: white;
     }
@@ -145,6 +145,7 @@ body {
 
         .theCrew {
             border-radius: 15px;
+            vertical-align: bottom;
         }
     }
 
