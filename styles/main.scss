@@ -62,4 +62,24 @@
 #navbar .navbar-right {
     display: flex;
     align-items: center;
+
+    .nav-button {
+        white-space: nowrap;
+        display: inline-block;
+        height: 40px;
+        font-family: "freight-sans-pro",sans-serif;
+        line-height: 40px;
+        padding: 0 14px;
+        box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+        background-color: #a22900;
+        border-radius: 4px;
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.025em;
+        color: white;
+        text-decoration: none;
+        transition: all 0.15s ease;
+        -webkit-backface-visibility: hidden;
+    }
 }
