@@ -1,3 +1,5 @@
+@import "queries";
+
 @mixin gradient-background($bottom, $top) {
     background: $top; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(left top, $top, $bottom); /* For Safari 5.1 to 6.0 */
@@ -141,7 +143,13 @@
     }
 
     .profile {
-        width: 20%;
+        width: 50%;
+        @include break(medium) {
+            width: 25%;
+        }
+        @include break(large) {
+            width: 20%;
+        }
         padding: 0 10px;
 
         h3 {
@@ -165,6 +173,8 @@
     .profileContainer {
         display: flex;
         flex-wrap: wrap;
+
+
     }
 
 }
