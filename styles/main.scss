@@ -116,3 +116,18 @@
 
 
 }
+
+
+#footer {
+    width: 100%;
+    background-color: #fbfbfb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+
+    .site-info {
+        // text-align: center;
+
+    }
+}

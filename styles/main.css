@@ -90,4 +90,12 @@
   #content h1 {
     font-size: 3em; }
 
+#footer {
+  width: 100%;
+  background-color: #fbfbfb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px; }
+
 /*# sourceMappingURL=main.css.map */
