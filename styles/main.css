@@ -107,6 +107,11 @@
   #content .profile {
     width: 20%;
     padding: 0 10px; }
+    #content .profile h3 {
+      width: 100%;
+      text-align: center; }
+      #content .profile h3 span {
+        font-weight: 300; }
     #content .profile img {
       border-radius: 15px; }
   #content .profileContainer {
