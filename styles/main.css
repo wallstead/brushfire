@@ -87,5 +87,7 @@
   max-width: 1400px;
   margin: 0 auto;
   font-family: "jaf-domus"; }
+  #content h1 {
+    font-size: 3em; }
 
 /*# sourceMappingURL=main.css.map */
