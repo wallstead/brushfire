@@ -41,15 +41,15 @@
     margin: 0; }
   #primary-menu li {
     display: inline;
-    padding: 10px;
     text-align: center;
     font-size: 1.5em;
-    font-weight: 300; }
+    font-weight: 300;
+    padding-bottom: 5px; }
     #primary-menu li a {
       transition: color 0.2s;
       text-decoration: none;
       color: #e0dfdf;
-      padding: 10px; }
+      margin: 10px; }
       #primary-menu li a:hover {
         color: #773D3B; }
   #primary-menu .current_page_item {
