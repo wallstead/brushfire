@@ -94,6 +94,11 @@
     text-align: center; }
   #content .entry-content {
     margin: 0; }
+  #content p {
+    font-size: 2em;
+    line-height: 1.2;
+    max-width: 1200px;
+    margin: 0 auto; }
 
 #colophon {
   width: 100%;
