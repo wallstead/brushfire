@@ -14,7 +14,7 @@
   /* Standard syntax */ }
 
 .logo {
-  height: 100%; }
+  max-width: 500px; }
 
 #navbar {
   max-width: 1400px;
