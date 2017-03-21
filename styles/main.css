@@ -104,6 +104,8 @@
     color: #404040; }
   #content .theCrewContainer .theCrew {
     border-radius: 15px; }
+  #content .profile {
+    width: 20%; }
 
 #colophon {
   width: 100%;
