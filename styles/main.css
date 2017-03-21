@@ -86,7 +86,8 @@
 #content {
   max-width: 1400px;
   margin: 0 auto;
-  font-family: "jaf-domus"; }
+  font-family: "jaf-domus";
+  padding: 0 20px; }
   #content h1 {
     font-size: 3em;
     text-align: center; }
