@@ -1,4 +1,4 @@
-@mixin gradient-background($top, $bottom) {
+@mixin gradient-background($bottom, $top) {
     background: $top;
     background: -webkit-gradient(linear, left bottom, left top, $bottom, $top);
     background-image: -moz-linear-gradient(top, $bottom, $top);
@@ -9,7 +9,6 @@
 #header-container {
     height: 500px;
     width: 100%;
-    /* fallback for gradient */
     @include gradient-background(#6f0000, #200122);
 }
 
