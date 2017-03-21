@@ -31,7 +31,7 @@
 				<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
 			</section>
 			<section class="navbar-right">
-				<a class="nav-button">Submit Your Work</a>
+				<a class="nav-button" href="https://brushfire.submittable.com/submit">Submit Your Work</a>
 			</section>
 
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'bf_futuretastic' ); ?></button>
