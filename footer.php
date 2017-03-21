@@ -15,7 +15,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<p>© 2016 Brushfire Literature &amp; Arts</p>
+			<p>© 2017 Brushfire Literature &amp; Arts</p>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
