@@ -1,0 +1,60 @@
+@mixin gradient-background($top, $middle, $bottom) {
+    background: $middle;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0.01, $bottom), color-stop(0.64, $middle), color-stop(1, $top));
+    background-image: -moz-linear-gradient(top, $top, $middle, $bottom);
+}
+
+/* to override other styles */
+#header-container {
+    height: 500px;
+    width: 100%;
+    /* fallback for gradient */
+    @include gradient-background(rgba(63,60,65,.9);, rgba(67,67,67,.9);, rgba(70,70,73,.9);)
+}
+
+.logo {
+    max-width: 500px;
+}
+
+#navbar {
+    max-width: 1400px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+#primary-menu {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+
+    ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        height: 100%;
+        margin: 0;
+    }
+
+    li {
+        display: inline;
+        padding: 10px;
+        text-align: center;
+
+        a {
+            text-decoration: none;
+            color: #C65F62;
+
+            &:hover {
+                color: #773D3B;
+            }
+        }
+    }
+}
+
+#navbar .navbar-right {
+    display: flex;
+    align-items: center;
+}
