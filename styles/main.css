@@ -90,6 +90,10 @@
   #content h1 {
     font-size: 3em;
     text-align: center; }
+  #content h2 {
+    text-align: center; }
+  #content .entry-content {
+    margin: 0; }
 
 #colophon {
   width: 100%;
