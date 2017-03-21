@@ -37,10 +37,14 @@
   #primary-menu li {
     display: inline;
     padding: 10px;
-    text-align: center; }
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 600; }
     #primary-menu li a {
+      transition: color 0.2s;
       text-decoration: none;
-      color: #C65F62; }
+      color: #e0dfdf;
+      padding: 10px; }
       #primary-menu li a:hover {
         color: #773D3B; }
 
