@@ -111,7 +111,9 @@
       width: 100%;
       text-align: center; }
       #content .profile h3 span {
-        font-weight: 300; }
+        font-weight: 300;
+        font-size: 0.8em;
+        margin-left: 5px; }
     #content .profile img {
       border-radius: 15px; }
   #content .profileContainer {
