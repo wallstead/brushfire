@@ -1,7 +1,8 @@
 @mixin gradient-background($top, $middle, $bottom) {
     background: $middle;
-    background: -webkit-gradient(linear, left bottom, left top, color-stop(0.01, $bottom), color-stop(0.64, $middle), color-stop(1, $top));
-    background-image: -moz-linear-gradient(top, $top, $middle, $bottom);
+    background: -webkit-gradient(linear, left bottom, left top, $bottom, $top);
+    background-image: -moz-linear-gradient(top, $bottom, $top);
+    background: linear-gradient(top left, $bottom, $top); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /* to override other styles */
@@ -9,7 +10,7 @@
     height: 500px;
     width: 100%;
     /* fallback for gradient */
-    @include gradient-background(rgba(63,60,65,.9), rgba(67,67,67,.9), rgba(70,70,73,.9));
+    @include gradient-background(#6f0000, #200122);
 }
 
 .logo {
