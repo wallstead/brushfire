@@ -118,7 +118,7 @@ body {
     font-size: 1.4em;
     line-height: 1.2;
     max-width: 1200px;
-    padding: 25px auto;
+    padding: 25px 0;
     color: #404040;
     background-color: white; }
   #content .theCrewContainer .theCrew {
