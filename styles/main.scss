@@ -9,7 +9,7 @@
     height: 500px;
     width: 100%;
     /* fallback for gradient */
-    @include gradient-background(rgba(63,60,65,.9), rgba(67,67,67,.9), rgba(70,70,73,.9))
+    @include gradient-background(rgba(63,60,65,.9), rgba(67,67,67,.9), rgba(70,70,73,.9));
 }
 
 .logo {
