@@ -105,7 +105,10 @@
   #content .theCrewContainer .theCrew {
     border-radius: 15px; }
   #content .profile {
-    width: 20%; }
+    width: 20%;
+    padding: 0 10px; }
+    #content .profile img {
+      border-radius: 15px; }
   #content .profileContainer {
     display: flex;
     flex-wrap: wrap; }
