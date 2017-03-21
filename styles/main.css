@@ -124,6 +124,8 @@ body {
   #content .theCrewContainer .theCrew {
     border-radius: 15px; }
   #content .profile {
+    background-color: white;
+    border-radius: 15px;
     width: 50%;
     padding: 0 10px; }
     @media screen and (min-width: 48em) and (max-width: 64em) {
@@ -143,6 +145,7 @@ body {
     #content .profile p {
       font-size: 1em; }
   #content .profileContainer {
+    align-items: flex-start;
     display: flex;
     flex-wrap: wrap; }
 

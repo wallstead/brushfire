@@ -149,6 +149,9 @@ body {
     }
 
     .profile {
+        background-color: white;
+        border-radius: 15px;
+        
         width: 50%;
         @include break(medium) {
             width: 33.33%;
@@ -177,6 +180,7 @@ body {
     }
 
     .profileContainer {
+        align-items: flex-start;
         display: flex;
         flex-wrap: wrap;
 
