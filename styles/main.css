@@ -87,7 +87,7 @@
   max-width: 1400px;
   margin: 0 auto;
   font-family: "jaf-domus";
-  padding: 0 20px; }
+  padding: 0 30px; }
   #content h1 {
     font-size: 3em;
     text-align: center; }
@@ -101,7 +101,7 @@
     line-height: 1.2;
     max-width: 1200px;
     margin: 25px auto;
-    color: #404d5b; }
+    color: #404040; }
   #content .theCrewContainer .theCrew {
     border-radius: 15px; }
 
