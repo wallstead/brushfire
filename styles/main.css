@@ -123,6 +123,8 @@ body {
     background-color: white; }
   #content .theCrewContainer .theCrew {
     border-radius: 15px; }
+  #content .aboutUs {
+    background-color: white; }
   #content .profile {
     background-color: white;
     border-radius: 15px;
@@ -143,7 +145,8 @@ body {
     #content .profile img {
       border-radius: 15px; }
     #content .profile p {
-      font-size: 1em; }
+      font-size: 1em;
+      margin-bottom: 0; }
   #content .profileContainer {
     align-items: flex-start;
     display: flex;
