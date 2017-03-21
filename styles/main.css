@@ -14,14 +14,15 @@
   /* Standard syntax */ }
 
 .logo {
-  max-width: 500px; }
+  height: 100%; }
 
 #navbar {
   max-width: 1400px;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
-  margin: 0 auto; }
+  margin: 0 auto;
+  height: 140px; }
 
 #primary-menu {
   display: flex;
