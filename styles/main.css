@@ -105,7 +105,8 @@ body {
   max-width: 1400px;
   margin: 0 auto;
   font-family: "jaf-domus";
-  padding: 0 30px; }
+  padding: 0 30px;
+  background-color: #ffffff; }
   #content h1 {
     font-size: 3em;
     text-align: center; }
