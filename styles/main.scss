@@ -29,10 +29,6 @@
     margin: 0 auto;
     height: 140px;
     padding: 15px 30px 0;
-
-    section {
-        height: 100%;
-    }
 }
 
 #primary-menu {
@@ -112,6 +108,13 @@
 @media screen and (max-width: 1200px) {
     #navbar {
         flex-wrap: wrap;
+
+        .navlinks {
+            width: 100%;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+        }
     }
 }
 

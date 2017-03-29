@@ -38,13 +38,14 @@
 			<section>
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="navbar-brand mr-10" rel="home"><img class="logo" src="http://unrbrushfire.org/wp-content/uploads/2017/03/logo_offwhite-e1490808554731-1.png" alt="Brushfire "></a>
 			</section>
-			<section>
-				<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
-			</section>
-			<section class="navbar-right">
-				<a class="nav-button" href="https://brushfire.submittable.com/submit">Submit Your Work</a>
-			</section>
-
+            <div class="navlinks">
+                <section>
+    				<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
+    			</section>
+    			<section class="navbar-right">
+    				<a class="nav-button" href="https://brushfire.submittable.com/submit">Submit Your Work</a>
+    			</section>
+            </div>
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'bf_futuretastic' ); ?></button>
 		</nav>
 	</div>
