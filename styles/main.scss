@@ -133,6 +133,25 @@
 @media screen and (max-width: 715px) { /* ONLY for use with nav, everything else is mobile-first! */
     #navbar {
         .navlinks {
+            flex-wrap: wrap;
+
+            section {
+                width: 100%;
+
+                #primary-menu {
+                    flex-wrap: wrap;
+                    height: auto;
+
+                    ul {
+                        width: 100%;
+                        flex-wrap: wrap;
+
+                        li {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
         }
 
         .logo-container {
@@ -141,7 +160,7 @@
             }
             .logo {
                 max-width: none;
-                width:90%;
+                width:85%;
             }
         }
     }
