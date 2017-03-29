@@ -150,7 +150,14 @@
     text-align: center; }
   #navbar .logo-container .logo {
     max-width: none;
-    width: 85%; } }
+    width: 85%; }
+
+  #issuu-docs {
+    display: none; }
+
+  .header-container {
+    height: auto;
+    padding-bottom: 12px; } }
 #issuu-docs {
   display: flex;
   flex-wrap: nowrap;
