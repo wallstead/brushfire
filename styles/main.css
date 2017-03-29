@@ -121,7 +121,10 @@
     #navbar .logo-container {
       width: 100%;
       display: flex;
-      justify-content: center; } }
+      justify-content: center; }
+
+  #issuu-docs {
+    height: 280px; } }
 @media screen and (max-width: 715px) {
   /* ONLY for use with nav, everything else is mobile-first! */
   #navbar .navlinks {
