@@ -61,7 +61,7 @@
                       $header = $response['headers']; // array of http header lines
                       $body = $response['body']; // use the content
                     }
-                    echo '<script>console.log('.$response.')</script>';
+                    echo '<p>'.$response.'</p>';
                 ?>
             </div>
         </div>
