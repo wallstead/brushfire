@@ -30,6 +30,8 @@
     height: 140px;
     padding: 15px 30px 0;
 
+
+
     .navlinks {
         display: flex;
         flex-wrap: nowrap;
@@ -118,6 +120,12 @@
             width: 100%;
             display: flex;
             flex-wrap: nowrap;
+            justify-content: center;
+        }
+
+        .logo-container {
+            width: 100%;
+            display: flex;
             justify-content: center;
         }
     }
