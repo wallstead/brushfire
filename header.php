@@ -50,7 +50,10 @@
 		</nav>
 
         <div id="issuu-docs">
-            
+            <div class="recent-journal">
+                <img src="https://image.isu.pub/151201061539-043f73ad373df04638163bf34f7b2e5d/jpg/page_1_thumb_large.jpg" alt="pub1">
+                <p>Journal 1</p>
+            </div>
         </div>
 	</div>
 
