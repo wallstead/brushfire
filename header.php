@@ -57,10 +57,14 @@
                     $response = wp_remote_get( 'http://search.issuu.com/api/2_0/document?q=username:brushfireliteraryartsjournal' );
                     if( is_array($response) ) {
                       $header = $response['headers']; // array of http header lines
-                      $body = $response['body']; // use the content
+                        $body = $response['body']; // use the content
 
-                      $array = json_decode( $body, true );
-                      echo '<p>'.$array.'</p>';
+                        $array = json_decode( $body, true );
+                        if( ! empty( $array ) ) {
+                            foreach($array['response']['docs'] as $doc) {
+                                echo $doc['docname'], '<br>';
+                            }
+                        }
                     }
                 ?>
                 <p>Journal 1 Title</p>
