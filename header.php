@@ -35,14 +35,14 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'bf_futuretastic' ); ?></a>
 	<div id="header-container">
 		<nav id="navbar" role="navigation">
-			<section class="logo-container" role="region" aria-labelledby="Brushfire Logo">
+			<section class="logo-container" role="region">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="navbar-brand mr-10" rel="home"><img class="logo" src="http://unrbrushfire.org/wp-content/uploads/2017/03/logo_offwhite-e1490808554731-1.png" alt="Brushfire "></a>
 			</section>
-            <div class="navlinks" role="region" aria-labelledby="Navigation Links">
+            <div class="navlinks" role="region">
                 <section>
     				<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
     			</section>
-    			<section class="navbar-right" role="region" aria-labelledby="Submission Button">
+    			<section class="navbar-right" role="region">
     				<a class="nav-button" href="https://brushfire.submittable.com/submit">Submit Your Work</a>
     			</section>
             </div>
