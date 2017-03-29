@@ -34,8 +34,7 @@
   #header-container .nav-container {
     max-width: 1400px;
     display: flex;
-    flex-wrap: wrap;
-    height: 100%; }
+    flex-wrap: wrap; }
 
 .logo {
   max-width: 500px; }

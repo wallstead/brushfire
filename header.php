@@ -49,13 +49,13 @@
                 </div>
     			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'bf_futuretastic' ); ?></button>
     		</nav>
+        </div>
 
-            <div id="issuu-docs">
-                <div class="recent-journal">
-                    <p>Journal 1 Title</p>
-                    <img src="https://image.isu.pub/151201061539-043f73ad373df04638163bf34f7b2e5d/jpg/page_1_thumb_large.jpg" alt="pub1">
+        <div id="issuu-docs">
+            <div class="recent-journal">
+                <p>Journal 1 Title</p>
+                <img src="https://image.isu.pub/151201061539-043f73ad373df04638163bf34f7b2e5d/jpg/page_1_thumb_large.jpg" alt="pub1">
 
-                </div>
             </div>
         </div>
 
