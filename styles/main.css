@@ -153,10 +153,10 @@
     width: 85%; }
 
   #issuu-docs {
-    display: none; }
+    display: none !important; }
 
   .header-container {
-    height: auto;
+    height: auto !important;
     padding-bottom: 12px; } }
 #issuu-docs {
   display: flex;

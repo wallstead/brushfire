@@ -197,11 +197,11 @@
     }
 
     #issuu-docs {
-        display: none;
+        display: none !important;
     }
 
     .header-container {
-        height: auto;
+        height: auto !important;
         padding-bottom: 12px;
     }
 }
