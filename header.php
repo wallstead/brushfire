@@ -60,8 +60,9 @@
                     if( is_array($response) ) {
                       $header = $response['headers']; // array of http header lines
                       $body = $response['body']; // use the content
+                      echo '<p>'.$body.'</p>';
                     }
-                    echo '<p>'.$response.'</p>';
+
                 ?>
             </div>
         </div>
