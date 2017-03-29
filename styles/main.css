@@ -127,6 +127,10 @@ body {
     color: #404040;
     background-color: white;
     padding: 0 0 20px 0; }
+  #content .basicInfo {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap; }
   #content .theCrewContainer {
     width: 100%; }
     @media screen and (min-width: 64em) {
