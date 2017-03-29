@@ -62,7 +62,7 @@
                         $array = json_decode( $body, true );
                         if( ! empty( $array ) ) {
                             foreach($array['response']['docs'] as $doc) {
-                                echo $doc['docname'], '<br>';
+                                echo $doc['documentId'], '<br>';
                             }
                         }
                     }
