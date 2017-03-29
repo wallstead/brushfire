@@ -66,12 +66,7 @@
                     }
                 }
             ?>
-            <!-- <div class="recent-journal">
-
-                <p>Journal 1 Title</p>
-                <img src="https://image.isu.pub/151201061539-043f73ad373df04638163bf34f7b2e5d/jpg/page_1_thumb_large.jpg" alt="pub1">
-
-            </div> -->
+            
         </div>
 
 	</div>
