@@ -149,7 +149,8 @@
     max-width: none;
     width: 85%; } }
 #issuu-docs {
-  background-color: black;
+  display: flex;
+  flex-wrap: nowrap;
   height: 300px;
   overflow: hidden;
   margin: 0 auto;
@@ -157,9 +158,12 @@
   width: 100%; }
   #issuu-docs .recent-journal {
     background-color: white;
-    width: 15%; }
+    width: 15%;
+    margin-right: 25px; }
     #issuu-docs .recent-journal p {
-      /* title */ }
+      /* title */
+      text-align: center;
+      margin: 0; }
 
 body {
   background-color: #ffffff;

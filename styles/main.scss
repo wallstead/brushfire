@@ -194,7 +194,8 @@
 }
 
 #issuu-docs {
-    background-color: black;
+    display: flex;
+    flex-wrap: nowrap;
     height: 300px;
     overflow: hidden;
     margin: 0 auto;
@@ -204,9 +205,11 @@
     .recent-journal {
         background-color: white;
         width: 15%;
+        margin-right: 25px;
 
         p { /* title */
-
+            text-align: center;
+            margin: 0;
         }
     }
 }
