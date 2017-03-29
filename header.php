@@ -52,21 +52,22 @@
         </div>
 
         <div id="issuu-docs">
-            <div class="recent-journal">
-                <?php
-                    $response = wp_remote_get( 'http://search.issuu.com/api/2_0/document?q=username:brushfireliteraryartsjournal' );
-                    if( is_array($response) ) {
-                      $header = $response['headers']; // array of http header lines
-                        $body = $response['body']; // use the content
+            <?php
+                $response = wp_remote_get( 'http://search.issuu.com/api/2_0/document?q=username:brushfireliteraryartsjournal' );
+                if( is_array($response) ) {
+                  $header = $response['headers']; // array of http header lines
+                    $body = $response['body']; // use the content
 
-                        $array = json_decode( $body, true );
-                        if( ! empty( $array ) ) {
-                            foreach($array['response']['docs'] as $doc) {
-                                echo '<p>'.$doc['documentId'].'</p>';
-                            }
+                    $array = json_decode( $body, true );
+                    if( ! empty( $array ) ) {
+                        foreach($array['response']['docs'] as $doc) {
+                            echo '<div class="recent-journal"><p>'.$doc['docname'].'</p><img src="'.$doc['documentId'].'" alt="'.$doc['docname'].'"></div>';
                         }
                     }
-                ?>
+                }
+            ?>
+            <div class="recent-journal">
+
                 <p>Journal 1 Title</p>
                 <img src="https://image.isu.pub/151201061539-043f73ad373df04638163bf34f7b2e5d/jpg/page_1_thumb_large.jpg" alt="pub1">
 
