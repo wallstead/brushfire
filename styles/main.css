@@ -157,7 +157,8 @@
   margin: 0 auto;
   max-width: 1400px;
   width: 100%;
-  font-family: "ingra"; }
+  font-family: "ingra";
+  padding: 0 30px; }
   #issuu-docs .recent-journal {
     box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
     background-color: white;
