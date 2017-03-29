@@ -151,7 +151,8 @@
 #issuu-docs {
   display: flex;
   flex-wrap: nowrap;
-  height: 300px;
+  height: 320px;
+  padding-top: 20px;
   overflow: hidden;
   margin: 0 auto;
   max-width: 1400px;
@@ -162,7 +163,8 @@
     background-color: white;
     width: 15%;
     margin-right: 25px;
-    border-radius: 3px; }
+    border-radius: 3px;
+    transition: all 0.25s; }
     #issuu-docs .recent-journal p {
       /* title */
       text-align: center;
