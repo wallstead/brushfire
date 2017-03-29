@@ -127,7 +127,14 @@
           width: 100%;
           flex-wrap: wrap; }
           #navbar .navlinks section #primary-menu ul li {
-            width: 100%; }
+            width: 100%;
+            border-bottom: 2px solid rgba(104, 18, 22, 0.19); }
+          #navbar .navlinks section #primary-menu ul .current_page_item {
+            border-bottom: none; }
+      #navbar .navlinks section .navbar-right {
+        display: flex;
+        justify-content: center;
+        padding-top: 12px; }
   #navbar .logo-container a {
     text-align: center; }
   #navbar .logo-container .logo {
