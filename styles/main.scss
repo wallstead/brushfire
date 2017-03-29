@@ -149,14 +149,14 @@
                         width: 100%;
                         flex-wrap: wrap;
 
-                        .current_page_item {
-                            
-                            background-color: rgba(104, 18, 22, 0.19);
-                        }
-
                         li {
                             width: 100%;
                             border-bottom: 2px solid rgba(104, 18, 22, 0.19);
+                        }
+
+                        .current_page_item {
+                            border-bottom: none;
+                            background-color: rgba(104, 18, 22, 0.19);
                         }
                     }
                 }
