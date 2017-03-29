@@ -42,7 +42,7 @@
                 <section role="menu" aria-label="Main Navigation Links">
     				<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
     			</section>
-    			<section class="navbar-right" role="button" aria-label="Submission Button">
+    			<section class="navbar-right" role="button" aria-label="Submission Work">
     				<a class="nav-button" href="https://brushfire.submittable.com/submit">Submit Your Work</a>
     			</section>
             </div>
