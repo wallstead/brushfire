@@ -39,7 +39,7 @@
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="navbar-brand mr-10" rel="home"><img class="logo" src="http://unrbrushfire.org/wp-content/uploads/2017/03/logo_offwhite-e1490808554731-1.png" alt="Brushfire "></a>
 			</section>
             <div class="navlinks" role="region" aria-label="Navigation Links">
-                <section>
+                <section role="region" aria-label="Main Navigation Links">
     				<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
     			</section>
     			<section class="navbar-right" role="region" aria-label="Submission Button">
