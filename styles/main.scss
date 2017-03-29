@@ -201,15 +201,19 @@
     margin: 0 auto;
     max-width: 1400px;
     width: 100%;
+    font-family: "ingra";
 
     .recent-journal {
         background-color: white;
         width: 15%;
         margin-right: 25px;
+        border-radius: 3px;
 
         p { /* title */
             text-align: center;
             margin: 0;
+            line-height: 30px;
+            font-weight: 300;
         }
     }
 }
