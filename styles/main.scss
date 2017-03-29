@@ -20,11 +20,13 @@
     /* flex-wrap: wrap; */
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 
     .nav-container {
         max-width: 1400px;
         display: flex;
         flex-wrap: wrap;
+        width: 100%;
         // margin: 0 auto;
     }
 }

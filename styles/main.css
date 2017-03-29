@@ -29,11 +29,13 @@
   display: flex;
   /* flex-wrap: wrap; */
   flex-direction: column;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: center; }
   #header-container .nav-container {
     max-width: 1400px;
     display: flex;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    width: 100%; }
 
 .logo {
   max-width: 500px; }
