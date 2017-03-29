@@ -169,7 +169,7 @@ body {
     border-radius: 15px;
     color: #404040;
     background-color: white;
-    padding: 0 0 20px 0; }
+    padding: 0 0 20px; }
   #content .basicInfo {
     display: flex;
     width: 100%;

@@ -1,13 +1,16 @@
 @import "queries";
-
 @mixin gradient-background($bottom, $top) {
-    background: $top; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(left top, $top, $bottom); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom right, $top, $bottom); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom right, $top, $bottom); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom right, $top, $bottom); /* Standard syntax */
+    background: $top;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, $top, $bottom);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, $top, $bottom);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, $top, $bottom);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, $top, $bottom);
+    /* Standard syntax */
 }
-
 /* to override other styles */
 #header-container {
     height: 500px;
@@ -110,8 +113,8 @@
         }
     }
 }
-
-@media screen and (max-width: 1215px) { /* ONLY for use with nav, everything else is mobile-first! */
+@media screen and (max-width: 1215px) {
+    /* ONLY for use with nav, everything else is mobile-first! */
     #navbar {
         flex-wrap: wrap;
 
@@ -129,8 +132,8 @@
         }
     }
 }
-
-@media screen and (max-width: 715px) { /* ONLY for use with nav, everything else is mobile-first! */
+@media screen and (max-width: 715px) {
+    /* ONLY for use with nav, everything else is mobile-first! */
     #navbar {
         .navlinks {
             flex-wrap: wrap;
@@ -161,7 +164,6 @@
                     display: flex;
                     justify-content: center;
                     padding-top: 12px;
-
                 }
             }
         }
@@ -170,9 +172,10 @@
             a {
                 text-align: center;
             }
+
             .logo {
                 max-width: none;
-                width:85%;
+                width: 85%;
             }
         }
     }
@@ -215,7 +218,7 @@ body {
         border-radius: 15px;
         color: #404040;
         background-color: white;
-        padding: 0 0 20px 0;
+        padding: 0 0 20px;
     }
 
     .basicInfo {
@@ -229,6 +232,7 @@ body {
         @include break(large) {
             width: 50%;
         }
+
         .theCrew {
             border-radius: 4px;
             vertical-align: bottom;
@@ -248,7 +252,6 @@ body {
     .profile {
         background-color: white;
         border-radius: 4px;
-
         width: 50%;
         @include break(medium) {
             width: 33.33%;
@@ -261,12 +264,14 @@ body {
         h3 {
             width: 100%;
             text-align: center;
+
             span {
                 font-weight: 300;
                 // font-size: 0.8em;
                 margin-left: 5px;
             }
         }
+
         img {
             border-radius: 4px;
         }
@@ -282,11 +287,10 @@ body {
         display: flex;
         flex-wrap: wrap;
     }
-
 }
 
-
-#colophon { // footer
+#colophon {
+    // footer
     width: 100%;
     background-color: #fbfbfb;
     display: flex;
@@ -294,5 +298,4 @@ body {
     justify-content: center;
     height: 150px;
     font-family: "ingra";
-
 }
