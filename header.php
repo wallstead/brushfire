@@ -61,17 +61,17 @@
                     $array = json_decode( $body, true );
                     if( ! empty( $array ) ) {
                         foreach($array['response']['docs'] as $doc) {
-                            echo '<div class="recent-journal"><p>'.$doc['docname'].'</p><img src="'.$doc['documentId'].'" alt="'.$doc['docname'].'"></div>';
+                            echo '<div class="recent-journal"><p>'.$doc['docname'].'</p><img src="https://image.isu.pub/'.$doc['documentId'].'/jpg/page_1_thumb_large.jpg" alt="'.$doc['docname'].'"></div>';
                         }
                     }
                 }
             ?>
-            <div class="recent-journal">
+            <!-- <div class="recent-journal">
 
                 <p>Journal 1 Title</p>
                 <img src="https://image.isu.pub/151201061539-043f73ad373df04638163bf34f7b2e5d/jpg/page_1_thumb_large.jpg" alt="pub1">
 
-            </div>
+            </div> -->
         </div>
 
 	</div>
