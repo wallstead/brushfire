@@ -153,7 +153,8 @@
   height: 300px;
   overflow: hidden;
   margin: 0 auto;
-  max-width: 1400px; }
+  max-width: 1400px;
+  width: 100%; }
   #issuu-docs .recent-journal {
     background-color: white;
     width: 15%; }
