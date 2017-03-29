@@ -34,28 +34,31 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'bf_futuretastic' ); ?></a>
 	<div id="header-container">
-		<nav id="navbar" role="navigation">
-			<section class="logo-container" role="banner" aria-label="Brushfire Logo">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="navbar-brand mr-10" rel="home"><img class="logo" src="http://unrbrushfire.org/wp-content/uploads/2017/03/logo_offwhite-e1490808554731-1.png" alt="Brushfire "></a>
-			</section>
-            <div class="navlinks" role="menubar" aria-label="Navigation Links">
-                <section role="menu" aria-label="Main Navigation Links">
-    				<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
+        <div class="nav-container">
+            <nav id="navbar" role="navigation">
+    			<section class="logo-container" role="banner" aria-label="Brushfire Logo">
+    				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="navbar-brand mr-10" rel="home"><img class="logo" src="http://unrbrushfire.org/wp-content/uploads/2017/03/logo_offwhite-e1490808554731-1.png" alt="Brushfire "></a>
     			</section>
-    			<section class="navbar-right" role="button" aria-label="Submission Work">
-    				<a class="nav-button" href="https://brushfire.submittable.com/submit">Submit Your Work</a>
-    			</section>
-            </div>
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'bf_futuretastic' ); ?></button>
-		</nav>
+                <div class="navlinks" role="menubar" aria-label="Navigation Links">
+                    <section role="menu" aria-label="Main Navigation Links">
+        				<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
+        			</section>
+        			<section class="navbar-right" role="button" aria-label="Submission Work">
+        				<a class="nav-button" href="https://brushfire.submittable.com/submit">Submit Your Work</a>
+        			</section>
+                </div>
+    			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'bf_futuretastic' ); ?></button>
+    		</nav>
 
-        <div id="issuu-docs">
-            <div class="recent-journal">
-                <p>Journal 1 Title</p>
-                <img src="https://image.isu.pub/151201061539-043f73ad373df04638163bf34f7b2e5d/jpg/page_1_thumb_large.jpg" alt="pub1">
+            <div id="issuu-docs">
+                <div class="recent-journal">
+                    <p>Journal 1 Title</p>
+                    <img src="https://image.isu.pub/151201061539-043f73ad373df04638163bf34f7b2e5d/jpg/page_1_thumb_large.jpg" alt="pub1">
 
+                </div>
             </div>
         </div>
+
 	</div>
 
 
