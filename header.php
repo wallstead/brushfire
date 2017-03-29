@@ -53,17 +53,19 @@
 
         <div id="issuu-docs">
             <div class="recent-journal">
-                <p>Journal 1 Title</p>
-                <img src="https://image.isu.pub/151201061539-043f73ad373df04638163bf34f7b2e5d/jpg/page_1_thumb_large.jpg" alt="pub1">
                 <?php
                     $response = wp_remote_get( 'http://search.issuu.com/api/2_0/document?q=username:brushfireliteraryartsjournal' );
                     if( is_array($response) ) {
                       $header = $response['headers']; // array of http header lines
                       $body = $response['body']; // use the content
-                      echo '<p>'.$body.'</p>';
-                    }
 
+                      $array = json_decode( $body, true );
+                      echo '<p>'.$array.'</p>';
+                    }
                 ?>
+                <p>Journal 1 Title</p>
+                <img src="https://image.isu.pub/151201061539-043f73ad373df04638163bf34f7b2e5d/jpg/page_1_thumb_large.jpg" alt="pub1">
+
             </div>
         </div>
 
