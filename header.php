@@ -48,6 +48,9 @@
             </div>
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'bf_futuretastic' ); ?></button>
 		</nav>
+
+        <div id="issuu-docs">
+        </div>
 	</div>
 
 
