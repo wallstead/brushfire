@@ -162,10 +162,9 @@
   display: flex;
   flex-wrap: nowrap;
   height: 295px;
-  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: scroll;
   margin: 0 auto;
-  max-width: 1400px;
-  width: 100%;
   font-family: "ingra";
   padding: 20px 30px 0; }
   #issuu-docs .recent-journal {
