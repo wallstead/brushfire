@@ -53,20 +53,19 @@
 
         <div id="issuu-docs">
             <?php
-                $response = wp_remote_get( 'http://search.issuu.com/api/2_0/document?q=username:brushfireliteraryartsjournal' );
+                $response = wp_remote_get( 'http://search.issuu.com/api/2_0/document?q=username:brushfire&responseParams=%2A&sortBy=epoch&pageSize=6' );
                 if( is_array($response) ) {
                   $header = $response['headers']; // array of http header lines
                     $body = $response['body']; // use the content
-
                     $array = json_decode( $body, true );
                     if( ! empty( $array ) ) {
                         foreach($array['response']['docs'] as $doc) {
-                            echo '<div class="recent-journal"><p>'.$doc['docname'].'</p><img src="https://image.isu.pub/'.$doc['documentId'].'/jpg/page_1_thumb_large.jpg" alt="'.$doc['docname'].'"></div>';
+                            echo '<div class="recent-journal"><p>'.$doc['title'].'</p><img src="https://image.isu.pub/'.$doc['documentId'].'/jpg/page_1_thumb_large.jpg" alt="'.$doc['title on Issuu'].'"></div>';
                         }
                     }
                 }
             ?>
-            
+
         </div>
 
 	</div>
