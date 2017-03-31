@@ -53,7 +53,7 @@
 
         <div id="issuu-docs">
             <?php
-                $response = wp_remote_get( 'http://search.issuu.com/api/2_0/document?q=username:brushfire&responseParams=%2A&sortBy=epoch&pageSize=6' );
+                $response = wp_remote_get( 'http://search.issuu.com/api/2_0/document?q=username:brushfire&responseParams=%2A&sortBy=epoch' );
                 if( is_array($response) ) {
                   $header = $response['headers']; // array of http header lines
                     $body = $response['body']; // use the content
