@@ -60,7 +60,7 @@
                     $array = json_decode( $body, true );
                     if( ! empty( $array ) ) {
                         foreach($array['response']['docs'] as $doc) {
-                            echo '<div class="recent-journal"><p>'.$doc['title'].'</p><img src="https://image.isu.pub/'.$doc['documentId'].'/jpg/page_1_thumb_large.jpg" alt="'.$doc['title on Issuu'].'"></div>';
+                            echo '<a href="https://issuu.com/brushfire/docs/'.$doc['docname'].'"><div class="recent-journal"><p>'.$doc['title'].'</p><img src="https://image.isu.pub/'.$doc['documentId'].'/jpg/page_1_thumb_large.jpg" alt="'.$doc['title on Issuu'].'"></div></a>';
                         }
                     }
                 }
