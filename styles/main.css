@@ -215,6 +215,8 @@ body {
     flex-wrap: wrap; }
     #content .entry-content .portrait {
       width: 20%; }
+    #content .entry-content .artistbio {
+      width: 80%; }
   #content p {
     font-weight: 200;
     font-size: 1.05em;
