@@ -30,16 +30,15 @@
 
 
 			<?php
-			$portraitImageGroup = get_group('artist_portrait_image');
+			$urlGroup = get_group('artist_links');
 			// We can use the pr($elements) or print_r($elements) functions to see the contents of the array
-
-
-			echo get('artist_link',1,1);
-			// This would show something like this: http://magic.local/wp-content/files_mf/125780366410677912_gal.jpg
-
 
 			?>
 
+			<script>
+			    console.log(<?php json_encode($urlGroup); ?>);
+			</script>
+			
 			<img src="<?php $portraitImageGroup[1]["o"]; ?>" alt="test">
 
 			<?php
