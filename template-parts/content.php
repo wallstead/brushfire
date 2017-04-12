@@ -36,7 +36,6 @@
 			    }
 			}
 
-
 			echo '<p class="artistbio">';
 			the_content( sprintf(
 				/* translators: %s: Name of current post. */
@@ -44,11 +43,19 @@
 				the_title( '<span class="screen-reader-text">"', '"</span>', false )
 			) );
 			echo '</p>';
-			
+
 			wp_link_pages( array(
 				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'bf_futuretastic' ),
 				'after'  => '</div>',
 			) );
+
+			echo '<div class="artistart">'
+			$artImages = rwmb_meta( 'image_upload');
+			if ( !empty( $artImages ) ) {
+			    foreach ( $artImages as $artImage ) {
+			        echo '<img class="art" src="', esc_url( $artImage['full_url'] ), '"  alt="', esc_attr( $artImage['alt'] ), '">';
+			    }
+			}
 		?>
 	</div><!-- .entry-content -->
 

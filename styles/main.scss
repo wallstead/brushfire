@@ -297,6 +297,16 @@ body {
             max-width: none;
             padding-left: 30px;
         }
+
+        .artistart {
+            width: 100%;
+            display: flex;
+            flex-wrap: nowrap;
+
+            .art {
+                width: 20%;
+            }
+        }
     }
 
     p {

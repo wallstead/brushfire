@@ -226,6 +226,12 @@ body {
       margin: 0;
       max-width: none;
       padding-left: 30px; }
+    #content .entry-content .artistart {
+      width: 100%;
+      display: flex;
+      flex-wrap: nowrap; }
+      #content .entry-content .artistart .art {
+        width: 20%; }
   #content p {
     font-weight: 200;
     font-size: 1.05em;
