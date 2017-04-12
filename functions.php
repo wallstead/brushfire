@@ -85,8 +85,20 @@ function your_prefix_meta_boxes( $meta_boxes ) {
                 'type' => 'text',
             ),
 			array(
+				'id'               => 'portrait_upload',
+				'name'             => esc_html__( 'Artist Portrait', 'your-prefix' ),
+				'type'             => 'image_upload',
+				// Delete image from Media Library when remove it from post meta?
+				// Note: it might affect other posts if you use same image for multiple posts
+				'force_delete'     => false,
+				// Maximum image uploads
+				'max_file_uploads' => 1,
+				// Display the "Uploaded 1/2 files" status
+				'max_status'       => false,
+			),
+			array(
 				'id'               => 'image_upload',
-				'name'             => esc_html__( 'Image Upload', 'your-prefix' ),
+				'name'             => esc_html__( 'Art', 'your-prefix' ),
 				'type'             => 'image_upload',
 				// Delete image from Media Library when remove it from post meta?
 				// Note: it might affect other posts if you use same image for multiple posts

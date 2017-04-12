@@ -29,7 +29,9 @@
 	<div class="entry-content">
 		<?php
 
-			echo rwmb_meta( 'name' );
+			$portraitImage = rwmb_meta( 'portrait_upload')[0];
+			echo '<img style="padding:5px" src="', esc_url( $portraitImage['full_url'] ), '"  alt="', esc_attr( $portraitImage['alt'] ), '">';
+
 
 			$images = rwmb_meta( 'image_upload'); // Since 4.8.0
 			if ( !empty( $images ) ) {
