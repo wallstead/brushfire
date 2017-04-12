@@ -35,7 +35,7 @@
 
 			?>
 			<script type="text/javascript">
-				alert('<?php echo $portraitImageGroup; ?>');
+				alert('<?php echo $portraitImageGroup[0]; ?>');
 			</script>
 			<img src="<?php $portraitImageGroup[0]["o"]; ?>" alt="test">
 
