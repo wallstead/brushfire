@@ -210,7 +210,7 @@ body {
     text-align: center;
     width: 100%; }
   #content .entry-title {
-    margin-bottom: 15px !important; }
+    margin-bottom: 0 !important; }
   #content .entry-meta {
     width: 100%;
     text-align: center;
