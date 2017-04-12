@@ -216,7 +216,9 @@ body {
     #content .entry-content .portrait {
       width: 20%; }
     #content .entry-content .artistbio {
-      width: 80%; }
+      width: 79%;
+      margin: 0;
+      max-width: none; }
   #content p {
     font-weight: 200;
     font-size: 1.05em;

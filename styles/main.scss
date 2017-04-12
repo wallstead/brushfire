@@ -277,13 +277,14 @@ body {
         display: flex;
         flex-wrap: wrap;
 
-
         .portrait {
             width: 20%;
         }
 
         .artistbio {
-            width: 80%;
+            width: 79%;
+            margin: 0;
+            max-width: none;
         }
     }
 
