@@ -29,12 +29,15 @@
 	<div class="entry-content">
 
 
-			<img src="<?php echo get_image('artist_portrait', 0, 0, 0); ?>" alt="Portrait of ">
 			<?php
 			$portraitImageGroup = get_group('artist_portrait_image');
 			// We can use the pr($elements) or print_r($elements) functions to see the contents of the array
 
-			?><img src="<?php $portraitImageGroup[0]["o"] ?>" alt="test">
+			?>
+			<script type="text/javascript">
+				alert('<?php echo $portraitImageGroup; ?>');
+			</script>
+			<img src="<?php $portraitImageGroup[0]["o"]; ?>" alt="test">
 
 			<?php
 			the_content( sprintf(
