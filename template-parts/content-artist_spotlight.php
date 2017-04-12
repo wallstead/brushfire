@@ -35,6 +35,11 @@
 
 			echo "<pre>"; print_r($portraitImageGroup);
 
+
+			echo get('artist_portrait');
+			// This would show something like this: http://magic.local/wp-content/files_mf/125780366410677912_gal.jpg
+
+
 			?>
 			<script type="text/javascript">
 				var jArray= <?php echo json_encode($portraitImageGroup); ?>;
