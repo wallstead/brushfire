@@ -38,12 +38,7 @@
 
 
 
-			$images = rwmb_meta( 'image_upload'); // Since 4.8.0
-			if ( !empty( $images ) ) {
-			    foreach ( $images as $image ) {
-			        echo '<a href="', esc_url( $image['full_url'] ), '" title="', esc_attr( $image['title'] ), '" rel="lightbox"><img style="padding:5px" src="', esc_url( $image['full_url'] ), '"  alt="', esc_attr( $image['alt'] ), '"></a>';
-			    }
-			}
+
 
 			the_content( sprintf(
 				/* translators: %s: Name of current post. */
