@@ -87,20 +87,20 @@ add_action( 'after_setup_theme', 'bf_futuretastic_content_width', 0 );
 /* Registering custom post type */
 
 
-function create_post_type() {
-  register_post_type( 'artist_spotlight',
-    array(
-      'labels' => array(
-        'name' => __( 'Artist Spotlights' ),
-        'singular_name' => __( 'Artist Spotlight' )
-      ),
-	  'public' => true,
-	  'menu_position' => 20,
-	  'supports' => array( 'title', 'editor', 'custom-fields' )
-    )
-  );
-}
-add_action( 'init', 'create_post_type' );
+// function create_post_type() {
+//   register_post_type( 'artist_spotlight',
+//     array(
+//       'labels' => array(
+//         'name' => __( 'Artist Spotlights' ),
+//         'singular_name' => __( 'Artist Spotlight' )
+//       ),
+// 	  'public' => true,
+// 	  'menu_position' => 20,
+// 	  'supports' => array( 'title', 'editor', 'custom-fields' )
+//     )
+//   );
+// }
+// add_action( 'init', 'create_post_type' );
 
 /**
  * Register widget area.
