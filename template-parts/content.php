@@ -56,7 +56,7 @@
 			        echo '<img class="art" src="', esc_url( $artImage['full_url'] ), '"  alt="', esc_attr( $artImage['alt'] ), '">';
 			    }
 			}
-			echo '</div>'
+			echo '</div>';
 		?>
 	</div><!-- .entry-content -->
 
