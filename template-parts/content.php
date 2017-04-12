@@ -28,6 +28,8 @@
 
 	<div class="entry-content">
 		<?php
+			echo get_image('artist_portrait');
+
 			the_content( sprintf(
 				/* translators: %s: Name of current post. */
 				wp_kses( __( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'bf_futuretastic' ), array( 'span' => array( 'class' => array() ) ) ),
