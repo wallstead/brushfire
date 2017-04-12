@@ -76,7 +76,7 @@ add_action( 'after_setup_theme', 'bf_futuretastic_setup' );
 add_filter( 'rwmb_meta_boxes', 'your_prefix_meta_boxes' );
 function your_prefix_meta_boxes( $meta_boxes ) {
     $meta_boxes[] = array(
-        'title'      => __( 'Test Meta Box', 'textdomain' ),
+        'title'      => __( 'Artist Info', 'textdomain' ),
         'post_types' => 'post',
         'fields'     => array(
             array(
@@ -84,25 +84,23 @@ function your_prefix_meta_boxes( $meta_boxes ) {
                 'name' => __( 'Name', 'textdomain' ),
                 'type' => 'text',
             ),
-            array(
-                'id'      => 'gender',
-                'name'    => __( 'Gender', 'textdomain' ),
-                'type'    => 'radio',
-                'options' => array(
-                    'm' => __( 'Male', 'textdomain' ),
-                    'f' => __( 'Female', 'textdomain' ),
-                ),
-            ),
-            array(
-                'id'   => 'email',
-                'name' => __( 'Email', 'textdomain' ),
-                'type' => 'email',
-            ),
-            array(
-                'id'   => 'bio',
-                'name' => __( 'Biography', 'textdomain' ),
-                'type' => 'textarea',
-            ),
+			array(
+				'id'               => 'image_upload',
+				'name'             => esc_html__( 'Image Upload', 'your-prefix' ),
+				'type'             => 'image_upload',
+				// Delete image from Media Library when remove it from post meta?
+				// Note: it might affect other posts if you use same image for multiple posts
+				'force_delete'     => false,
+				// Maximum image uploads
+				'max_file_uploads' => 6,
+				// Display the "Uploaded 1/2 files" status
+				'max_status'       => true,
+			),
+			array(
+				'name' => esc_html__( 'Color picker', 'your-prefix' ),
+				'id'   => "color_pickers",
+				'type' => 'color',
+			)
         ),
     );
     return $meta_boxes;
