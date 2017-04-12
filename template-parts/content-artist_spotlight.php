@@ -35,8 +35,11 @@
 
 			?>
 			<script type="text/javascript">
-			    var obj = <?php echo json_encode($portraitImageGroup); ?>;
-				console.log(obj)
+				var jArray= <?php echo json_encode($portraitImageGroup ); ?>;
+
+				for(var i=0;i<6;i++){
+					alert(jArray[i]);
+				}
 			</script>
 			<img src="<?php $portraitImageGroup[0]["o"]; ?>" alt="test">
 
