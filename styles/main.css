@@ -229,9 +229,11 @@ body {
     #content .entry-content .artistart {
       width: 100%;
       display: flex;
-      flex-wrap: nowrap; }
+      flex-wrap: wrap; }
       #content .entry-content .artistart .art {
-        width: 20%; }
+        width: 25%;
+        padding: 10px;
+        align-self: flex-start; }
   #content p {
     font-weight: 200;
     font-size: 1.05em;
