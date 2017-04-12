@@ -29,6 +29,7 @@
 	<div class="entry-content">
 
 			<img src="<?php echo get_image('artist_portrait', 1, 1, 0); ?>" alt="Portrait of ">
+			<?php echo get_image('artist_portrait', 1, 1, 0); ?>
 			<?php
 			the_content( sprintf(
 				/* translators: %s: Name of current post. */
