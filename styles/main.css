@@ -213,6 +213,8 @@ body {
     margin: 0;
     display: flex;
     flex-wrap: wrap; }
+    #content .entry-content .portrait {
+      width: 20%; }
   #content p {
     font-weight: 200;
     font-size: 1.05em;

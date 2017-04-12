@@ -276,6 +276,11 @@ body {
         margin: 0;
         display: flex;
         flex-wrap: wrap;
+
+
+        .portrait {
+            width: 20%;
+        }
     }
 
     p {
