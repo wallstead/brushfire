@@ -36,6 +36,7 @@
 			?>
 			<script type="text/javascript">
 			    var obj = <?php echo json_encode($portraitImageGroup); ?>;
+				console.log(obj)
 			</script>
 			<img src="<?php $portraitImageGroup[0]["o"]; ?>" alt="test">
 
