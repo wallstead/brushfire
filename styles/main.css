@@ -209,6 +209,12 @@ body {
   #content h2 {
     text-align: center;
     width: 100%; }
+  #content .entry-title {
+    margin-bottom: 15px !important; }
+  #content .entry-meta {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px !important; }
   #content .entry-content {
     margin: 0;
     display: flex;
