@@ -49,13 +49,14 @@
 				'after'  => '</div>',
 			) );
 
-			echo '<div class="artistart">'
+			echo '<div class="artistart">';
 			$artImages = rwmb_meta( 'image_upload');
 			if ( !empty( $artImages ) ) {
 			    foreach ( $artImages as $artImage ) {
 			        echo '<img class="art" src="', esc_url( $artImage['full_url'] ), '"  alt="', esc_attr( $artImage['alt'] ), '">';
 			    }
 			}
+			echo '</div>'
 		?>
 	</div><!-- .entry-content -->
 
