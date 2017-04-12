@@ -33,9 +33,11 @@
 			$portraitImageGroup = get_group('artist_portrait_image');
 			// We can use the pr($elements) or print_r($elements) functions to see the contents of the array
 
+			echo "<pre>"; print_r($portraitImageGroup);
+
 			?>
 			<script type="text/javascript">
-				var jArray= <?php echo json_encode($portraitImageGroup ); ?>;
+				var jArray= <?php echo json_encode($portraitImageGroup); ?>;
 
 				for(var i=0;i<6;i++){
 					alert(jArray[i]);
