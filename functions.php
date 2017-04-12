@@ -7,6 +7,8 @@
  * @package BF_FUTURETASTIC
  */
 
+ include 'demo.php';
+
 if ( ! function_exists( 'bf_futuretastic_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.

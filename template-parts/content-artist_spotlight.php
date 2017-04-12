@@ -29,18 +29,7 @@
 	<div class="entry-content">
 
 
-			<?php
-			$urlGroup = get_group('artist_links');
-			// We can use the pr($elements) or print_r($elements) functions to see the contents of the array
-
-			?>
-
-			<script>
-			    console.log(<?php json_encode($urlGroup); ?>);
-			</script>
 			
-			<img src="<?php $portraitImageGroup[1]["o"]; ?>" alt="test">
-
 			<?php
 			the_content( sprintf(
 				/* translators: %s: Name of current post. */
