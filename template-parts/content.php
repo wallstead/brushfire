@@ -34,6 +34,7 @@
 			    foreach ( $portraitImages as $portraitImage ) {
 			        echo '<img style="padding:5px" src="', esc_url( $portraitImage['full_url'] ), '"  alt="', esc_attr( $portraitImage['alt'] ), '">';
 			    }
+			}
 			// echo '<img style="padding:5px" src="', esc_url( $portraitImage['full_url'] ), '"  alt="', esc_attr( $portraitImage['alt'] ), '">';
 
 
