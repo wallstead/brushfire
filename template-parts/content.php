@@ -35,7 +35,7 @@
 			        echo '<img class="portrait" src="', esc_url( $portraitImage['full_url'] ), '"  alt="', esc_attr( $portraitImage['alt'] ), '">';
 			    }
 			}
-
+			echo '<div class="artistcontent">';
 			echo '<p class="artistbio">';
 			the_content( sprintf(
 				/* translators: %s: Name of current post. */
@@ -43,12 +43,6 @@
 				the_title( '<span class="screen-reader-text">"', '"</span>', false )
 			) );
 			echo '</p>';
-
-			wp_link_pages( array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'bf_futuretastic' ),
-				'after'  => '</div>',
-			) );
-
 			echo '<div class="artistart">';
 			$artImages = rwmb_meta( 'image_upload');
 			if ( !empty( $artImages ) ) {
@@ -57,6 +51,14 @@
 			    }
 			}
 			echo '</div>';
+			echo '</div>';
+
+			wp_link_pages( array(
+				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'bf_futuretastic' ),
+				'after'  => '</div>',
+			) );
+
+
 		?>
 	</div><!-- .entry-content -->
 
