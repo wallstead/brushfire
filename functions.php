@@ -109,8 +109,8 @@ function your_prefix_meta_boxes( $meta_boxes ) {
 				'max_status'       => true,
 			),
 			array(
+				'id'   => 'color_picker',
 				'name' => esc_html__( 'Color picker', 'your-prefix' ),
-				'id'   => "color_picker",
 				'type' => 'color',
 			)
         ),
