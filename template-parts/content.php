@@ -29,10 +29,12 @@
 	<div class="entry-content">
 		<?php
 
-		$value = get_post_meta( get_the_ID(), 'color_picker', true ); // Last param should be 'false' if field is multiple
+			$value = get_post_meta( get_the_ID(), 'color_picker', true ); // Last param should be 'false' if field is multiple
 		// print_r( $value );
 			// $colorPicker = rwmb_meta( 'color_picker');
-			echo "<script>console.log( 'Debug Objects: ".print_r($value)."' );</script>";
+			echo "<script>console.log( 'Debug Object: ";
+			print_r($value);
+			echo "' );</script>";
 
 			$portraitImages = rwmb_meta( 'portrait_upload');
 			if ( !empty( $portraitImages ) ) {
