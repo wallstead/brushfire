@@ -29,7 +29,7 @@
 	<div class="entry-content">
 		<?php
 
-			$value = get_post_meta( get_the_ID(), 'color_picker', true ); // Last param should be 'false' if field is multiple
+			$value = get_post_meta( get_the_ID(), 'color_pickers', true ); // Last param should be 'false' if field is multiple
 		// print_r( $value );
 			// $colorPicker = rwmb_meta( 'color_picker');
 			echo "<script>console.log( 'Debug Object: ";
