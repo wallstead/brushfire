@@ -29,6 +29,10 @@
 	<div class="entry-content">
 		<?php
 
+
+			$colorPicker = rwmb_meta( 'color_picker');
+			echo '<p class="tes">'.$colorPicker.'</p>';
+
 			$portraitImages = rwmb_meta( 'portrait_upload');
 			if ( !empty( $portraitImages ) ) {
 			    foreach ( $portraitImages as $portraitImage ) {

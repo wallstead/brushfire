@@ -110,7 +110,7 @@ function your_prefix_meta_boxes( $meta_boxes ) {
 			),
 			array(
 				'name' => esc_html__( 'Color picker', 'your-prefix' ),
-				'id'   => "color_pickers",
+				'id'   => "color_picker",
 				'type' => 'color',
 			)
         ),
