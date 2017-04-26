@@ -35,7 +35,7 @@
 			        echo '<img class="portrait" src="', esc_url( $portraitImage['full_url'] ), '"  alt="', esc_attr( $portraitImage['alt'] ), '">';
 			    }
 			}
-			echo '<div class="artistcontent">';
+			echo '<div class="artist-content">';
 			echo '<p class="artistbio">';
 			the_content( sprintf(
 				/* translators: %s: Name of current post. */
