@@ -291,24 +291,28 @@ body {
             width: 30%;
         }
 
-        .artistbio {
+        .artistcontent {
             width: 69%;
-            margin: 0;
-            max-width: none;
-            padding-left: 30px;
-        }
+            .artistbio {
 
-        .artistart {
-            width: 100%;
-            display: flex;
-            flex-wrap: wrap;
+                margin: 0;
+                max-width: none;
+                padding-left: 30px;
+            }
 
-            .art {
-                width: 25%;
-                padding: 10px;
-                align-self: flex-start;
+            .artistart {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+
+                .art {
+                    width: 25%;
+                    padding: 10px;
+                    align-self: flex-start;
+                }
             }
         }
+
     }
 
     p {
