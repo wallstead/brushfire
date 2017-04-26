@@ -31,7 +31,7 @@
 
 
 			$colorPicker = rwmb_meta( 'color_picker');
-			echo '<p class="tes">'.$colorPicker.'</p>';
+			echo "<script>console.log( 'Debug Objects: " . $colorPicker . "' );</script>";
 
 			$portraitImages = rwmb_meta( 'portrait_upload');
 			if ( !empty( $portraitImages ) ) {
