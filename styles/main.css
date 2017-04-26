@@ -221,19 +221,20 @@ body {
     flex-wrap: wrap; }
     #content .entry-content .portrait {
       width: 30%; }
-    #content .entry-content .artistbio {
-      width: 69%;
-      margin: 0;
-      max-width: none;
-      padding-left: 30px; }
-    #content .entry-content .artistart {
-      width: 100%;
-      display: flex;
-      flex-wrap: wrap; }
-      #content .entry-content .artistart .art {
-        width: 25%;
-        padding: 10px;
-        align-self: flex-start; }
+    #content .entry-content .artist-content {
+      width: 69%; }
+      #content .entry-content .artist-content .artistbio {
+        margin: 0;
+        max-width: none;
+        padding-left: 30px; }
+      #content .entry-content .artist-content .artistart {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap; }
+        #content .entry-content .artist-content .artistart .art {
+          width: 25%;
+          padding: 10px;
+          align-self: flex-start; }
   #content p {
     font-weight: 200;
     font-size: 1.05em;
