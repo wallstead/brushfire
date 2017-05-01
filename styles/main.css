@@ -239,6 +239,8 @@ body {
     #content .entry-content .cscfBlock {
       max-width: 650px;
       margin: 0 auto; }
+      #content .entry-content .cscfBlock .input-xlarge {
+        width: 250px; }
   #content p {
     font-weight: 200;
     font-size: 1.05em;
