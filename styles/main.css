@@ -236,6 +236,9 @@ body {
           width: 25%;
           padding: 10px;
           align-self: flex-start; }
+    #content .entry-content .cscfBlock {
+      max-width: 650px;
+      margin: 0 auto; }
   #content p {
     font-weight: 200;
     font-size: 1.05em;
