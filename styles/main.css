@@ -242,7 +242,7 @@ body {
       #content .entry-content .cscfBlock .input-xlarge {
         width: 250px; }
       #content .entry-content .cscfBlock textarea {
-        width: 100%; }
+        width: 100% !important; }
   #content p {
     font-weight: 200;
     font-size: 1.05em;
