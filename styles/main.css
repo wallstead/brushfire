@@ -209,6 +209,8 @@ body {
   #content h2 {
     text-align: center;
     width: 100%; }
+  #content .entry-header {
+    margin-top: 17px; }
   #content .entry-title {
     margin-top: 0; }
     #content .entry-title a {
