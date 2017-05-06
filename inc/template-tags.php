@@ -25,7 +25,7 @@ function bf_futuretastic_posted_on() {
 	);
 
 	$posted_on = sprintf(
-		esc_html_x( 'Posted on %s', 'post date', 'bf_futuretastic' ),
+		esc_html_x( '%s', 'post date', 'bf_futuretastic' ),
 		'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
 	);
 

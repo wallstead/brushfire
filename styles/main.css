@@ -215,6 +215,22 @@ body {
     width: 100%;
     text-align: center;
     margin-bottom: 15px !important; }
+    #content .entry-meta .posted-on {
+      display: flex;
+      flex-direction: row;
+      justify-content: center; }
+    #content .entry-meta .posted-on:before,
+    #content .entry-meta .posted-on:after {
+      flex-grow: 1;
+      height: 1px;
+      content: '\a0';
+      background-color: #ddd;
+      position: relative;
+      top: 0.5em; }
+    #content .entry-meta .posted-on:before {
+      margin-right: 10px; }
+    #content .entry-meta .posted-on:after {
+      margin-left: 10px; }
   #content .entry-content {
     margin: 0;
     display: flex;
