@@ -23,7 +23,7 @@
 	<div class="entry-content">
 		<?php
 
-			$value = get_post_meta( the_ID(), 'color_pickers', true ); // Last param should be 'false' if field is multiple
+			$value = get_post_meta( get_the_ID(), 'color_pickers', true ); // Last param should be 'false' if field is multiple
 		// print_r( $value );
 			// $colorPicker = rwmb_meta( 'color_picker');
 			echo "<script>console.log( 'Debug Object: ";
@@ -36,7 +36,7 @@
 				if ( is_single() ) :
 					the_title( '<h1 class="entry-title">', '</h1>' );
 				else :
-					the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+					the_title( '<h2 class="entry-title" style="color: '.$value.';"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 				endif;
 
 			    foreach ( $portraitImages as $portraitImage ) {
