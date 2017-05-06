@@ -334,6 +334,9 @@ body {
         }
         .portrait {
             width:100%;
+            img {
+                border-radius: 4px;
+            }
         }
 
         .artist-content {
