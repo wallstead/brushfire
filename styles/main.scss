@@ -285,16 +285,22 @@ body {
             display: flex;
             flex-direction: row;
             justify-content: center;
+
+            a {
+                text-decoration: none;
+                color: inherit;
+                font-size: 2em;
+            }
         }
 
         .posted-on:before,
         .posted-on:after {
             flex-grow: 1;
-            height: 1px;
+            height: 2px;
             content: '\a0';
             background-color: #ddd;
             position: relative;
-            top: 0.5em;
+            top: 1.4em;;
         }
 
         .posted-on:before {
