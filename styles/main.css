@@ -249,7 +249,8 @@ body {
       #content .entry-content .artist-content .artistbio {
         margin: 0;
         max-width: none;
-        padding-left: 30px; }
+        padding-left: 30px;
+        font-family: "skolar-sans-latin"; }
       #content .entry-content .artist-content .artistart {
         width: 100%;
         display: flex;
