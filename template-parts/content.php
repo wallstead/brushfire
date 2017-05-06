@@ -32,7 +32,7 @@
 
 			$portraitImages = rwmb_meta( 'portrait_upload');
 			if ( !empty( $portraitImages ) ) {
-				echo '<div class="portraitContainer"s>'
+				echo '<div class="portraitContainer"s>';
 				if ( is_single() ) :
 					the_title( '<h1 class="entry-title">', '</h1>' );
 				else :
