@@ -266,6 +266,9 @@ body {
         width: 100%;
         display: flex;
         flex-wrap: wrap; }
+        @media screen and (min-width: 48em) {
+          #content .entry-content .artist-content .artistart {
+            padding-left: 20px; } }
         #content .entry-content .artist-content .artistart .art {
           width: 25%;
           padding: 10px;
