@@ -252,9 +252,8 @@ body {
     #content .entry-content .portraitContainer {
       width: 30%; }
     #content .entry-content .portrait {
-      width: 100%; }
-      #content .entry-content .portrait img {
-        border-radius: 4px; }
+      width: 100%;
+      border-radius: 4px; }
     #content .entry-content .artist-content {
       width: 69%; }
       #content .entry-content .artist-content .artistbio {
