@@ -242,15 +242,19 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start; }
-    #content .entry-content .portrait {
+    #content .entry-content .portraitContainer {
       width: 30%; }
+    #content .entry-content .portrait {
+      width: 100%; }
     #content .entry-content .artist-content {
       width: 69%; }
       #content .entry-content .artist-content .artistbio {
         margin: 0;
         max-width: none;
         padding-left: 30px;
-        font-family: "skolar-sans-latin"; }
+        font-family: "skolar-sans-latin";
+        font-size: 1.2em;
+        line-height: 1.2; }
       #content .entry-content .artist-content .artistart {
         width: 100%;
         display: flex;

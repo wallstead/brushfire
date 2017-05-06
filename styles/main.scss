@@ -320,8 +320,11 @@ body {
         flex-wrap: wrap;
         align-items: flex-start;
 
-        .portrait {
+        .portraitContainer {
             width: 30%;
+        }
+        .portrait {
+            width:100%;
         }
 
         .artist-content {
@@ -332,6 +335,8 @@ body {
                 max-width: none;
                 padding-left: 30px;
                 font-family: "skolar-sans-latin";
+                font-size: 1.2em;
+                line-height: 1.2;
             }
 
             .artistart {

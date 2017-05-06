@@ -12,12 +12,6 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<?php
-		if ( is_single() ) :
-			the_title( '<h1 class="entry-title">', '</h1>' );
-		else :
-			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
-		endif;
-
 		if ( 'post' === get_post_type() ) : ?>
 		<div class="entry-meta">
 			<?php bf_futuretastic_posted_on(); ?>
@@ -38,8 +32,15 @@
 
 			$portraitImages = rwmb_meta( 'portrait_upload');
 			if ( !empty( $portraitImages ) ) {
+				echo '<div class="portraitContainer"s>'
+				if ( is_single() ) :
+					the_title( '<h1 class="entry-title">', '</h1>' );
+				else :
+					the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+				endif;
+
 			    foreach ( $portraitImages as $portraitImage ) {
-			        echo '<img class="portrait" src="', esc_url( $portraitImage['full_url'] ), '"  alt="', esc_attr( $portraitImage['alt'] ), '">';
+			        echo '<img class="portrait" src="', esc_url( $portraitImage['full_url'] ), '"  alt="', esc_attr( $portraitImage['alt'] ), '"></div>';
 			    }
 			}
 			echo '<div class="artist-content">';
