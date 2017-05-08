@@ -276,6 +276,8 @@ body {
           width: 25%;
           padding: 10px;
           align-self: flex-start; }
+        #content .entry-content .artist-content .artistart .landscape {
+          width: 50% !important; }
     #content .entry-content .cscfBlock {
       max-width: 650px;
       margin: 0 auto; }

@@ -55,17 +55,17 @@
 			$artImages = rwmb_meta( 'image_upload');
 			if ( !empty( $artImages ) ) {
 			    foreach ( $artImages as $artImage ) {
-			        echo '<img class="art" src="', esc_url( $artImage['full_url'] ), '"  alt="', esc_attr( $artImage['alt'] ), '">';
-					
+
+
 					$image_attachment_id = attachment_url_to_postid( $artImage['full_url'] );
 				    $imagesrc = wp_get_attachment_image_src( $image_attachment_id, '');
 				    $image_w = $imagesrc[1];
 				    $image_h = $imagesrc[2];
 
-				    if ($image_w > $image_h) {
-				        echo '<p>landscape</p>';
-				    } else {
-				        echo '<p>portrait or square</p>';
+				    if ($image_w > $image_h) { /* landscape */
+				        echo '<img class="art landscape" src="', esc_url( $artImage['full_url'] ), '"  alt="', esc_attr( $artImage['alt'] ), '">';
+				    } else { /* portrait or square */
+						echo '<img class="art" src="', esc_url( $artImage['full_url'] ), '"  alt="', esc_attr( $artImage['alt'] ), '">';
 				    }
 			    }
 			}
