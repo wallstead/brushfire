@@ -26,9 +26,7 @@
 			$value = get_post_meta( get_the_ID(), 'color_pickers', true ); // Last param should be 'false' if field is multiple
 		// print_r( $value );
 			// $colorPicker = rwmb_meta( 'color_picker');
-			echo "<script>console.log( 'Debug Object: ";
-			print_r($value);
-			echo "' );</script>";
+			
 
 			$portraitImages = rwmb_meta( 'portrait_upload');
 			if ( !empty( $portraitImages ) ) {
