@@ -355,8 +355,8 @@ body {
 
             .artistart {
                 width: 100%;
-                display: flex;
-                flex-wrap: wrap;
+                // display: flex;
+                // flex-wrap: wrap;
 
                 @include break(not-small) {
                     padding-left: 20px;
@@ -364,7 +364,7 @@ body {
                 .art {
                     // width: 25%;
                     padding: 8px;
-                    align-self: flex-start;
+                    // align-self: flex-start;
                     height: 280px;
                 }
 
