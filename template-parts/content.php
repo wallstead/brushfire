@@ -91,6 +91,7 @@
 	var iso = new Isotope( elem, {
 		// options
 		itemSelector: '.art',
-		layoutMode: 'fitRows'
+		layoutMode: 'fitRows',
+		percentPosition: true
 	});
 </script>
