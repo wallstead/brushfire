@@ -273,11 +273,9 @@ body {
           #content .entry-content .artist-content .artistart {
             padding-left: 20px; } }
         #content .entry-content .artist-content .artistart .art {
-          width: 25%;
           padding: 10px;
-          align-self: flex-start; }
-        #content .entry-content .artist-content .artistart .landscape {
-          width: 50% !important; }
+          align-self: flex-start;
+          height: 200px; }
     #content .entry-content .cscfBlock {
       max-width: 650px;
       margin: 0 auto; }
