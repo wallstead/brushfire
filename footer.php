@@ -22,5 +22,14 @@
 
 <?php wp_footer(); ?>
 
+<script>
+	var elem = document.querySelector('.artistart');
+	var iso = new Isotope( elem, {
+		// options
+		itemSelector: '.art',
+		layoutMode: 'fitRows',
+		percentPosition: true
+	});
+</script>
 </body>
 </html>
