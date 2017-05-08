@@ -355,7 +355,7 @@ body {
 
             .artistart {
                 width: 100%;
-                // display: flex;
+                display: inline-block;
                 // flex-wrap: wrap;
 
                 @include break(not-small) {
