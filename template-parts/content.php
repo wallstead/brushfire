@@ -40,6 +40,19 @@
 				endif;
 
 			    foreach ( $portraitImages as $portraitImage ) {
+
+					$image_attachment_id = attachment_url_to_postid( $portraitImage['full_url'] );
+				    $imagesrc = wp_get_attachment_image_src( $image_attachment_id, '');
+				    $image_w = $imagesrc[1];
+				    $image_h = $imagesrc[2];
+
+				    if ($image_w > $image_h) {
+				        echo '<p>landscape</p>';
+				    } else {
+				        echo '<p>portrait or square</p>';
+				    }
+
+
 			        echo '<img class="portrait" src="', esc_url( $portraitImage['full_url'] ), '"  alt="', esc_attr( $portraitImage['alt'] ), '"></div>';
 			    }
 			}
