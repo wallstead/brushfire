@@ -85,3 +85,12 @@
 		<?php bf_futuretastic_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
+
+<script>
+	var elem = document.querySelector('.artistart');
+	var iso = new Isotope( elem, {
+		// options
+		itemSelector: '.art',
+		layoutMode: 'fitRows'
+	});
+</script>
