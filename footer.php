@@ -23,13 +23,13 @@
 <?php wp_footer(); ?>
 
 <script>
-	var elem = document.querySelector('.artistart');
-	var iso = new Isotope( elem, {
+	$('.artistart').isotope({
 		// options
 		itemSelector: '.art',
 		layoutMode: 'fitRows',
 		percentPosition: true
 	});
 </script>
+
 </body>
 </html>

@@ -28,6 +28,7 @@
         </script>
 
         <?php wp_head(); ?>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     </head>
 
