@@ -273,6 +273,7 @@ body {
           #content .entry-content .artist-content .artistart {
             padding-left: 20px; } }
         #content .entry-content .artist-content .artistart .art {
+          padding: 8px;
           align-self: flex-start;
           height: 250px; }
     #content .entry-content .cscfBlock {

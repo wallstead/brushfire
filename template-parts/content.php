@@ -92,9 +92,6 @@
 		// options
 		itemSelector: '.art',
 		layoutMode: 'fitRows',
-		percentPosition: true,
-		fitRows: {
-			gutter: 10
-		}
+		percentPosition: true
 	});
 </script>
