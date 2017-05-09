@@ -355,8 +355,8 @@ body {
 
             .artistart {
                 width: 100%;
-                display: inline-block;
-                // flex-wrap: wrap;
+                display: flex;
+                flex-wrap: wrap;
 
                 @include break(not-small) {
                     padding-left: 20px;
