@@ -23,11 +23,13 @@
 <?php wp_footer(); ?>
 
 <script>
-	$('.artistart').isotope({
-		// options
-		itemSelector: '.art',
-		layoutMode: 'fitRows',
-		percentPosition: true
+	$(document).ready(function(){
+		$('.artistart').isotope({
+			// options
+			itemSelector: '.art',
+			layoutMode: 'fitRows',
+			percentPosition: true
+		});
 	});
 </script>
 
