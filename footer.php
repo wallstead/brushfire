@@ -23,14 +23,27 @@
 <?php wp_footer(); ?>
 
 <script>
-	$(document).ready(function(){
-		$('.artistart').isotope({
-			// options
-			itemSelector: '.art',
-			layoutMode: 'fitRows',
-			percentPosition: true
-		});
-	});
+	// $(document).ready(function(){
+	// 	function triggerIsotope() {
+	// 		$('.artistart').isotope({
+	// 			// options
+	// 			itemSelector: '.art',
+	// 			layoutMode: 'fitRows',
+	// 			percentPosition: true
+	// 		});
+	// 	}
+	// });
+
+	$(document).ready({
+		$('.artistart').imagesLoaded( function() {
+			$('.artistart').isotope({
+				// options
+				itemSelector: '.art',
+				layoutMode: 'fitRows',
+				percentPosition: true
+			});
+		})
+	})
 </script>
 
 </body>
