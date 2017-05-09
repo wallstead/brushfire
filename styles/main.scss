@@ -355,21 +355,14 @@ body {
 
             .artistart {
                 width: 100%;
-                display: flex;
-                flex-wrap: wrap;
+                position: relative;
 
                 @include break(not-small) {
                     padding-left: 20px;
                 }
                 .art {
-                    // width: 25%;
                     padding: 8px;
-                    // align-self: flex-start;
                     height: 280px;
-                }
-
-                .landscape {
-                    // width: 50% !important;
                 }
             }
         }

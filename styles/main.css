@@ -266,8 +266,7 @@ body {
         line-height: 1.2; }
       #content .entry-content .artist-content .artistart {
         width: 100%;
-        display: flex;
-        flex-wrap: wrap; }
+        position: relative; }
         @media screen and (min-width: 48em) {
           #content .entry-content .artist-content .artistart {
             padding-left: 20px; } }
