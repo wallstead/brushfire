@@ -42,8 +42,12 @@
 				layoutMode: 'fitRows',
 				percentPosition: true
 			});
-		})
-	})
+		});
+
+		$(".artist-name").fitText();
+	});
+
+
 </script>
 
 </body>
