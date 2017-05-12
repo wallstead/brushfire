@@ -32,6 +32,20 @@
         <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
         <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
         <script src="/js/jquery.fittext.js"></script>
+
+        <!-- for auditting -->
+        <script type="text/javascript">
+            var access_analytics = {
+                base_url: "https://analytics.ssbbartgroup.com/api/",
+                instance_id: "AA-590382487ff9c"
+            };
+            (function(a, b, c) {
+                var d = a.createElement(b);
+                a = a.getElementsByTagName(b)[0];
+                d.src = c.base_url + "access.js?o=" + c.instance_id + "&v=2";
+                a.parentNode.insertBefore(d, a)
+            })(document, "script", access_analytics);
+        </script>
     </head>
 
     <body <?php body_class(); ?>>
