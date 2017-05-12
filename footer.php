@@ -25,10 +25,9 @@
 <script>
 	/* fittext */
 	$('.artistbio').flowtype({
-		minimum   : 500,
-		maximum   : 1200,
+		minimum   : 500
 		minFont   : 12,
-		maxFont   : 40,
+		maxFont   : 23,
 		fontRatio : 30
 	});
 
