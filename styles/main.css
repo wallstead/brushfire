@@ -212,7 +212,7 @@ body {
     margin-top: 17px; }
   #content .entry-title {
     margin-top: 0; }
-    #content .entry-title a {
+    #content .entry-title .artist-name {
       font-family: "ff-meta-serif-sc-web-pro";
       font-weight: 500;
       text-decoration: none;
@@ -261,9 +261,8 @@ body {
         margin: 0;
         max-width: none;
         padding-left: 30px;
-        font-family: "skolar-sans-latin";
-        font-size: 1.2em;
-        line-height: 1.2; }
+        font-family: "adelle";
+        font-weight: 300; }
       #content .entry-content .artist-content .artistart {
         width: 100%;
         position: relative; }
