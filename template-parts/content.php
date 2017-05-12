@@ -50,7 +50,7 @@
 			) );
 			echo '</p>';
 			echo '<div class="artistart" itemscope itemtype="http://schema.org/ImageGallery">';
-			$artImages = rwmb_meta( 'image_upload', 'type=image&size=thumbnail');
+			$artImages = rwmb_meta( 'image_upload', 'type=image&size=large');
 			if ( !empty( $artImages ) ) {
 			    foreach ( $artImages as $artImage ) {
 
