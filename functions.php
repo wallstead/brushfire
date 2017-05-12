@@ -179,7 +179,7 @@ function bf_futuretastic_scripts() {
 
 	wp_enqueue_style( 'bf_futuretastic-pswp-style', get_template_directory_uri() . '/js/pswp/photoswipe.css' );
 
-	wp_enqueue_style( 'bf_futuretastic-pswp-style', get_template_directory_uri() . '/js/pswp/default-skin.css' );
+	wp_enqueue_style( 'bf_futuretastic-pswp-skin', get_template_directory_uri() . '/js/pswp/default-skin.css' );
 
 	wp_enqueue_script( 'bf_futuretastic-flowtype', get_template_directory_uri() . '/js/flowtype.js', array(), '20151215', true );
 
