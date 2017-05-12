@@ -49,7 +49,7 @@
 				the_title( '<span class="screen-reader-text">"', '"</span>', false )
 			) );
 			echo '</p>';
-			echo '<div class="artistart">';
+			echo '<div class="artistart" itemscope itemtype="http://schema.org/ImageGallery">';
 			$artImages = rwmb_meta( 'image_upload');
 			if ( !empty( $artImages ) ) {
 			    foreach ( $artImages as $artImage ) {
@@ -60,11 +60,17 @@
 				    $image_w = $imagesrc[1];
 				    $image_h = $imagesrc[2];
 
+					echo '<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">';
+					echo '<a href="'.esc_url( $artImage['full_url'] ).'" itemprop="contentUrl" data-size="'.$image_w.'x'.$image_h.'">';
+
 				    if ($image_w > $image_h) { /* landscape */
-				        echo '<img class="art landscape" src="', esc_url( $artImage['full_url'] ), '"  alt="', esc_attr( $artImage['alt'] ), '">';
+				        echo '<img class="art landscape" src="', esc_url( $artImage['full_url'] ), '" itemprop="thumbnail" alt="', esc_attr( $artImage['alt'] ), '">';
 				    } else { /* portrait or square */
-						echo '<img class="art portrait-orientation" src="', esc_url( $artImage['full_url'] ), '"  alt="', esc_attr( $artImage['alt'] ), '">';
+						echo '<img class="art portrait-orientation" src="', esc_url( $artImage['full_url'] ), '" itemprop="thumbnail" alt="', esc_attr( $artImage['alt'] ), '">';
 				    }
+					echo '</a>';
+					// echo '<figcaption itemprop="caption description">Image caption 1</figcaption>';
+					echo '</figure>';
 			    }
 			}
 			echo '</div>';
@@ -78,7 +84,7 @@
 
 		?>
 
-		
+
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
