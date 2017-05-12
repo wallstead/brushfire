@@ -271,7 +271,9 @@ body {
             padding-left: 20px; } }
         #content .entry-content .artist-content .artistart .art {
           padding: 8px;
-          height: 280px; }
+          width: 25%; }
+        #content .entry-content .artist-content .artistart .landscape {
+          width: 50%; }
     #content .entry-content .cscfBlock {
       max-width: 650px;
       margin: 0 auto; }
