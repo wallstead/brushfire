@@ -51,6 +51,10 @@
 				}
 			});
 		});
+
+		$(".artistart").each(function( index ) {
+			console.log( "test" );
+		});
 	});
 
 
