@@ -42,18 +42,26 @@
 	// });
 
 	$(document).ready(function(){
-		$('.artistart').imagesLoaded( function() {
-			$('.artistart').isotope({
-				itemSelector: '.art',
-				percentPosition: true,
-				masonry: {
-					columnWidth: '.art'
-				}
-			});
-		});
+		// $('.artistart').imagesLoaded( function() {
+		// 	$('.artistart').isotope({
+		// 		itemSelector: '.art',
+		// 		percentPosition: true,
+		// 		masonry: {
+		// 			columnWidth: '.art'
+		// 		}
+		// 	});
+		// });
 
 		$(".artistart").each(function( index ) {
-			console.log( "test" );
+			$(this).imagesLoaded( function() {
+				$(this).isotope({
+					itemSelector: '.art',
+					percentPosition: true,
+					masonry: {
+						columnWidth: '.art'
+					}
+				});
+			});
 		});
 	});
 
