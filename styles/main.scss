@@ -335,13 +335,15 @@ body {
 
         .portraitContainer {
             width: 100%;
+            display: flex;
+            flex-wrap: wrap;
             @include break(not-small) {
                 width: 30%;
             }
         }
         .portrait {
             max-width: 320px;
-            
+
             @include break(not-small) {
                 width:100%;
             }
