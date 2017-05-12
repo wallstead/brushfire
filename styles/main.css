@@ -268,7 +268,7 @@ body {
         position: relative; }
         @media screen and (min-width: 48em) {
           #content .entry-content .artist-content .artistart {
-            padding-left: 20px; } }
+            margin-left: 20px; } }
         #content .entry-content .artist-content .artistart .art {
           padding: 8px;
           width: 25%; }
