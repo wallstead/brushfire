@@ -47,7 +47,7 @@
 				itemSelector: '.art',
 				percentPosition: true,
 				masonry: {
-					columnWidth: '.art'
+					columnWidth: '.portrait-orientation'
 				}
 			});
 		});

@@ -63,7 +63,7 @@
 				    if ($image_w > $image_h) { /* landscape */
 				        echo '<img class="art landscape" src="', esc_url( $artImage['full_url'] ), '"  alt="', esc_attr( $artImage['alt'] ), '">';
 				    } else { /* portrait or square */
-						echo '<img class="art" src="', esc_url( $artImage['full_url'] ), '"  alt="', esc_attr( $artImage['alt'] ), '">';
+						echo '<img class="art portrait-orientation" src="', esc_url( $artImage['full_url'] ), '"  alt="', esc_attr( $artImage['alt'] ), '">';
 				    }
 			    }
 			}
