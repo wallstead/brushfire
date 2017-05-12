@@ -51,7 +51,7 @@
 		// 		}
 		// 	});
 		// });
-
+		var artistArtArray = $(".artistart").toArray();
 		for (i = 0; i < 2; i++) {
 			var thisArtistArt = artistArtArray[i];
 			$(thisArtistArt).imagesLoaded( function() {
