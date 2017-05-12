@@ -27,7 +27,7 @@
 	$('.artistbio').flowtype({
 		minimum   : 500,
 		minFont   : 12,
-		maxFont   : 23,
+		maxFont   : 19,
 		fontRatio : 30
 	});
 
