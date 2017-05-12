@@ -31,15 +31,15 @@
 		fontRatio : 30
 	});
 
-	$(document).ready(function(){
-		$('.artistart').imagesLoaded( function() {
-			$('.artistart').isotope({
-				itemSelector: '.art',
-				layoutMode: 'fitRows',
-				percentPosition: true
-			});
-		});
-	});
+	// $(document).ready(function(){
+	// 	$('.artistart').imagesLoaded( function() {
+	// 		$('.artistart').isotope({
+	// 			itemSelector: '.art',
+	// 			layoutMode: 'fitRows',
+	// 			percentPosition: true
+	// 		});
+	// 	});
+	// });
 </script>
 
 </body>
