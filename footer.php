@@ -52,17 +52,20 @@
 		// 	});
 		// });
 
-		$(".artistart").each(function( index ) {
-			$(this).imagesLoaded( function() {
-				$(this).isotope({
-					itemSelector: '.art',
-					percentPosition: true,
-					masonry: {
-						columnWidth: '.art'
-					}
-				});
-			});
-		});
+		var artistArtArray = $(".artistart").toArray();
+		alert( artistArtArray );
+		// $(".artistart").toArray()
+		// .each(function( index ) {
+		// 	$(this).imagesLoaded( function() {
+		// 		$(this).isotope({
+		// 			itemSelector: '.art',
+		// 			percentPosition: true,
+		// 			masonry: {
+		// 				columnWidth: '.art'
+		// 			}
+		// 		});
+		// 	});
+		// });
 	});
 
 
