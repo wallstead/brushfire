@@ -77,6 +77,8 @@
 
 
 		?>
+
+		
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
