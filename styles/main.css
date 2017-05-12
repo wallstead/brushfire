@@ -216,7 +216,9 @@ body {
       font-family: "ff-meta-serif-sc-web-pro";
       font-weight: 500;
       text-decoration: none;
-      color: inherit; }
+      color: inherit;
+      font-size: 2.7em;
+      line-height: 0.75; }
   #content .entry-meta {
     width: 100%;
     text-align: center;
