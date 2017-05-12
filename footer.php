@@ -40,6 +40,20 @@
 	// 		});
 	// 	});
 	// });
+
+	$(document).ready(function(){
+		$('.artistart').imagesLoaded( function() {
+			$('.artistart').isotope({
+				itemSelector: '.art',
+				percentPosition: true,
+				masonry: {
+					columnWidth: '.art'
+				}
+			});
+		});
+	});
+
+
 </script>
 
 </body>
