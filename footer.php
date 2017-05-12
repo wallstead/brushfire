@@ -350,8 +350,6 @@
 
 	// execute above function
 	initPhotoSwipeFromDOM('.artistart');
-
-
 </script>
 
 </body>
