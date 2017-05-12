@@ -334,7 +334,10 @@ body {
         align-items: flex-start;
 
         .portraitContainer {
-            width: 30%;
+            width: 100%;
+            @include break(not-small) {
+                width: 30%;
+            }
         }
         .portrait {
             width:100%;
@@ -342,7 +345,10 @@ body {
         }
 
         .artist-content {
-            width: 69%;
+            width: 100%;
+            @include break(not-small) {
+                width: 69%;
+            }
 
             .artistbio {
                 margin: 0;

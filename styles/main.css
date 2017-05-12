@@ -251,12 +251,18 @@ body {
     flex-wrap: wrap;
     align-items: flex-start; }
     #content .entry-content .portraitContainer {
-      width: 30%; }
+      width: 100%; }
+      @media screen and (min-width: 48em) {
+        #content .entry-content .portraitContainer {
+          width: 30%; } }
     #content .entry-content .portrait {
       width: 100%;
       border-radius: 4px; }
     #content .entry-content .artist-content {
-      width: 69%; }
+      width: 100%; }
+      @media screen and (min-width: 48em) {
+        #content .entry-content .artist-content {
+          width: 69%; } }
       #content .entry-content .artist-content .artistbio {
         margin: 0;
         max-width: none;
