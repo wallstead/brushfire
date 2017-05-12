@@ -42,28 +42,28 @@
 	// });
 
 	$(document).ready(function(){
-		// $('.artistart').imagesLoaded( function() {
-		// 	$('.artistart').isotope({
-		// 		itemSelector: '.art',
-		// 		percentPosition: true,
-		// 		masonry: {
-		// 			columnWidth: '.art'
-		// 		}
-		// 	});
-		// });
-		var artistArtArray = $(".artistart").toArray();
-		for (i = 0; i < 2; i++) {
-			var thisArtistArt = artistArtArray[i];
-			$(thisArtistArt).imagesLoaded( function() {
-				$(thisArtistArt).isotope({
-					itemSelector: '.art',
-					percentPosition: true,
-					masonry: {
-						columnWidth: '.art'
-					}
-				});
+		$('.artistart').imagesLoaded( function() {
+			$('.artistart').isotope({
+				itemSelector: '.art',
+				percentPosition: true,
+				masonry: {
+					columnWidth: '.art'
+				}
 			});
-		}
+		});
+		// var artistArtArray = $(".artistart").toArray();
+		// for (i = 0; i < 2; i++) {
+		// 	var thisArtistArt = artistArtArray[i];
+		// 	$(thisArtistArt).imagesLoaded( function() {
+		// 		$(thisArtistArt).isotope({
+		// 			itemSelector: '.art',
+		// 			percentPosition: true,
+		// 			masonry: {
+		// 				columnWidth: '.art'
+		// 			}
+		// 		});
+		// 	});
+		// }
 		// $(".artistart").toArray()
 		// .each(function( index ) {
 		// 	$(this).imagesLoaded( function() {
