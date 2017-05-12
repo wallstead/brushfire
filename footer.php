@@ -34,7 +34,7 @@
 	// 	}
 	// });
 
-	$(document).ready({
+	$(document).ready(function(){
 		$('.artistart').imagesLoaded( function() {
 			$('.artistart').isotope({
 				// options
