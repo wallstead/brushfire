@@ -363,7 +363,10 @@ body {
             .artistbio {
                 margin: 0;
                 max-width: none;
-                padding-left: 30px;
+                @include break(not-small) {
+                    padding-left: 30px;
+                }
+
                 font-family: "adelle";
                 font-weight: 100; // thin
             }
