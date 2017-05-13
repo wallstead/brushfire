@@ -260,6 +260,7 @@ body {
     #content .entry-content .portrait {
       max-width: 320px;
       align-self: center;
+      margin: 0 auto;
       border-radius: 4px; }
       @media screen and (min-width: 48em) {
         #content .entry-content .portrait {
