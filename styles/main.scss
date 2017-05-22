@@ -385,6 +385,18 @@ body {
                 }
                 font-family: "futura-pt";
                 font-weight: 300; // light
+
+                h3 {
+                    font-family: "futura-pt";
+                    font-weight: 300;
+                    text-align: center;
+                    font-size: 2.5em;
+                    line-height: 1em;
+                    margin: 0;
+                    padding: 0 10px 0 0;
+                    border-right: 2px solid;
+                    margin-right: 15px;
+                }
             }
 
             .artistart {

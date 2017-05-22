@@ -291,6 +291,16 @@ body {
         @media screen and (min-width: 48em) {
           #content .entry-content .artist-content .artistbio {
             padding-left: 30px; } }
+        #content .entry-content .artist-content .artistbio h3 {
+          font-family: "futura-pt";
+          font-weight: 300;
+          text-align: center;
+          font-size: 2.5em;
+          line-height: 1em;
+          margin: 0;
+          padding: 0 10px 0 0;
+          border-right: 2px solid;
+          margin-right: 15px; }
       #content .entry-content .artist-content .artistart {
         width: 100%;
         position: relative; }
