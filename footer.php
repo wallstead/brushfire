@@ -90,7 +90,6 @@
 
 
 <script>
-
 	$('.artistbio').flowtype({
 		minimum   : 500,
 		minFont   : 12,
@@ -98,15 +97,12 @@
 		fontRatio : 30
 	});
 
-	// $(document).ready(function(){
-	// 	$('.artistart').imagesLoaded( function() {
-	// 		$('.artistart').isotope({
-	// 			itemSelector: '.art',
-	// 			layoutMode: 'fitRows',
-	// 			percentPosition: true
-	// 		});
-	// 	});
-	// });
+	$('.aboutUs').flowtype({
+		minimum   : 500,
+		minFont   : 12,
+		maxFont   : 19,
+		fontRatio : 30
+	});
 
 	$(document).ready(function(){
 		$('.artistart').imagesLoaded( function() {
@@ -118,31 +114,6 @@
 				}
 			});
 		});
-		// var artistArtArray = $(".artistart").toArray();
-		// for (i = 0; i < 2; i++) {
-		// 	var thisArtistArt = artistArtArray[i];
-		// 	$(thisArtistArt).imagesLoaded( function() {
-		// 		$(thisArtistArt).isotope({
-		// 			itemSelector: '.art',
-		// 			percentPosition: true,
-		// 			masonry: {
-		// 				columnWidth: '.art'
-		// 			}
-		// 		});
-		// 	});
-		// }
-		// $(".artistart").toArray()
-		// .each(function( index ) {
-		// 	$(this).imagesLoaded( function() {
-		// 		$(this).isotope({
-		// 			itemSelector: '.art',
-		// 			percentPosition: true,
-		// 			masonry: {
-		// 				columnWidth: '.art'
-		// 			}
-		// 		});
-		// 	});
-		// });
 	});
 
 	var initPhotoSwipeFromDOM = function(gallerySelector) {
