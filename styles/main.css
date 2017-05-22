@@ -274,8 +274,8 @@ body {
       #content .entry-content .artist-content .artistbio {
         margin: 0;
         max-width: none;
-        font-family: "adelle";
-        font-weight: 100; }
+        font-family: "futura-pt";
+        font-weight: 300; }
         @media screen and (min-width: 48em) {
           #content .entry-content .artist-content .artistbio {
             padding-left: 30px; } }
