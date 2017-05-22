@@ -42,13 +42,13 @@
 			    }
 			}
 			echo '<div class="artist-content">';
-			echo '<p class="artistbio">';
+			echo '<div class="artistbio"><h3>B<br>I<br>O</h3><p>';
 			the_content( sprintf(
 				/* translators: %s: Name of current post. */
 				wp_kses( __( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'bf_futuretastic' ), array( 'span' => array( 'class' => array() ) ) ),
 				the_title( '<span class="screen-reader-text">"', '"</span>', false )
 			) );
-			echo '</p>';
+			echo '</p></div>';
 			echo '<div class="artistart" itemscope itemtype="http://schema.org/ImageGallery">';
 			$artImages = rwmb_meta( 'image_upload', 'type=image&size=large');
 			if ( !empty( $artImages ) ) {
