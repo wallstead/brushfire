@@ -363,10 +363,10 @@ body {
             .artistbio {
                 margin: 0;
                 max-width: none;
+                padding: 0;
                 @include break(not-small) {
                     padding-left: 30px;
                 }
-
                 font-family: "futura-pt";
                 font-weight: 300; // light
             }
