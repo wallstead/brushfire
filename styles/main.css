@@ -212,13 +212,11 @@ body {
     margin-top: 17px; }
     #content .entry-header h1 {
       font-family: "ff-meta-serif-sc-web-pro";
-      font-weight: 500;
       text-decoration: none;
       color: inherit;
       font-size: 2em; }
   #content .entry-title {
-    margin-top: 0;
-    font-weight: auto; }
+    margin-top: 0; }
     #content .entry-title a {
       font-family: "ff-meta-serif-sc-web-pro";
       font-weight: 500;
