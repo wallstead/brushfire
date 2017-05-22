@@ -90,7 +90,7 @@
 
 
 <script>
-	$('.artistbio').flowtype({
+	$('.biotext').flowtype({
 		minimum   : 500,
 		minFont   : 12,
 		maxFont   : 19,

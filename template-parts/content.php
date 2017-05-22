@@ -42,7 +42,7 @@
 			    }
 			}
 			echo '<div class="artist-content">';
-			echo '<div class="artistbio"><h3>B<br>I<br>O</h3><p>';
+			echo '<div class="artistbio"><h3>B<br>I<br>O</h3><p class="biotext">';
 			the_content( sprintf(
 				/* translators: %s: Name of current post. */
 				wp_kses( __( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'bf_futuretastic' ), array( 'span' => array( 'class' => array() ) ) ),
