@@ -301,6 +301,8 @@ body {
           padding: 0 10px 0 0;
           border-right: 2px solid;
           margin-right: 15px; }
+        #content .entry-content .artist-content .artistbio .biotext {
+          padding: 0; }
       #content .entry-content .artist-content .artistart {
         width: 100%;
         position: relative; }
