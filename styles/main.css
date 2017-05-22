@@ -210,6 +210,12 @@ body {
     width: 100%; }
   #content .entry-header {
     margin-top: 17px; }
+    #content .entry-header h1 {
+      font-family: "ff-meta-serif-sc-web-pro";
+      font-weight: 500;
+      text-decoration: none;
+      color: inherit;
+      font-size: 2em; }
   #content .entry-title {
     margin-top: 0; }
     #content .entry-title a {
@@ -321,6 +327,8 @@ body {
       border-radius: 4px;
       vertical-align: bottom; }
   #content .aboutUs {
+    font-family: "futura-pt";
+    font-weight: 700;
     width: 100%;
     padding: 20px 0;
     background-color: white; }
