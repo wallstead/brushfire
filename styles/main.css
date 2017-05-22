@@ -217,7 +217,8 @@ body {
       color: inherit;
       font-size: 2em; }
   #content .entry-title {
-    margin-top: 0; }
+    margin-top: 0;
+    font-weight: auto; }
     #content .entry-title a {
       font-family: "ff-meta-serif-sc-web-pro";
       font-weight: 500;
@@ -257,7 +258,8 @@ body {
     flex-wrap: wrap;
     align-items: flex-start; }
     #content .entry-content h2 {
-      font-family: "ff-meta-serif-sc-web-pro"; }
+      font-family: "ff-meta-serif-sc-web-pro";
+      font-size: 2em; }
     #content .entry-content .portraitContainer {
       width: 100%;
       display: flex;
