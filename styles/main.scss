@@ -184,6 +184,10 @@
                 display: flex;
                 justify-content: center;
                 padding-top: 12px;
+                @include break(not-small) {
+                    margin-left: 10px;
+                }
+
             }
         }
 

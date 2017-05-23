@@ -148,7 +148,11 @@
     #navbar .navlinks .navbar-right {
       display: flex;
       justify-content: center;
-      padding-top: 12px; }
+      padding-top: 12px; } }
+    @media screen and (max-width: 715px) and (min-width: 48em) {
+      #navbar .navlinks .navbar-right {
+        margin-left: 10px; } }
+@media screen and (max-width: 715px) {
   #navbar .logo-container a {
     text-align: center; }
   #navbar .logo-container .logo {
