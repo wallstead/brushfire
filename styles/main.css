@@ -181,7 +181,8 @@
       text-align: center;
       margin: 0;
       line-height: 30px;
-      font-weight: 300; }
+      font-weight: 300;
+      font-family: "futura-pt"; }
     #issuu-docs .recent-journal:hover {
       cursor: pointer;
       transform: translateY(-10px);
