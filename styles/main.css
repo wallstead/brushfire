@@ -76,7 +76,9 @@
       transition: color 0.2s;
       text-decoration: none;
       color: #e0dfdf;
-      margin: 10px; }
+      margin: 10px;
+      font-family: "futura-pt";
+      font-weight: 500; }
       #primary-menu li a:hover {
         color: #773D3B; }
   #primary-menu .current_page_item {
