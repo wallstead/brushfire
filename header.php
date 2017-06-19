@@ -62,7 +62,7 @@
             			</section>
             			<section class="navbar-right" role="button" aria-label="Submission Work">
             				<a class="nav-button" href="https://brushfire.submittable.com/submit">Submit Your Work</a>
-                            <a class="nav-button" href="https://brushfire.submittable.com/submit">Submit Your Logo</a>
+                            <a class="nav-button" href="https://brushfire.submittable.com/submit/87351/logo-design-contest">Submit Your Logo</a>
             			</section>
                     </div>
         		</nav>
