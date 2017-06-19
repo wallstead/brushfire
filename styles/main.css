@@ -347,7 +347,8 @@ body {
           font-size: 1.5em;
           margin-bottom: 0; }
           #content .entry-content .artist-content .artistwriting h4 span {
-            font-weight: 200; }
+            font-weight: 200;
+            font-size: smaller; }
         #content .entry-content .artist-content .artistwriting p {
           font-size: 0.95em; }
     #content .entry-content .cscfBlock {
