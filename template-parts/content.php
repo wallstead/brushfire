@@ -74,14 +74,13 @@
 
 			echo '<div class="artistwriting" itemscope itemtype="http://schema.org/text"><h4>';
 
-
 			$artWritingTitle = rwmb_meta( 'writing_media_title');
 			echo $artWritingTitle;
 			echo '</h4>';
-			echo '<p>';
-			$artWriting = rwmb_meta( 'writing_media');
-			echo $artWriting;
-			echo '</p></div>';
+			// echo '<p>';
+			// $artWriting = rwmb_meta( 'writing_media');
+			// echo $artWriting;
+			// echo '</p></div>';
 			echo '</div>';
 
 			wp_link_pages( array(
