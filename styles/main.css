@@ -163,10 +163,13 @@
         display: flex;
         justify-content: center;
         padding-top: 12px;
-        margin-bottom: 0.5em; } }
-      @media screen and (max-width: 715px) and (min-width: 48em) {
+        margin-bottom: 0.5em; }
         #navbar .navlinks .navbar-right .nav-button {
-          margin-left: 10px; } }
+          width: auto;
+          margin: 0 0.25em; } }
+        @media screen and (max-width: 715px) and (min-width: 48em) {
+          #navbar .navlinks .navbar-right .nav-button {
+            margin-left: 10px; } }
 @media screen and (max-width: 715px) {
     #navbar .logo-container a {
       text-align: center; }

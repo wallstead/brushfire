@@ -204,6 +204,8 @@
                 padding-top: 12px;
 
                 .nav-button {
+                    width: auto;
+                    margin: 0 0.25em;
                     @include break(not-small) {
                         margin-left: 10px;
                     }
