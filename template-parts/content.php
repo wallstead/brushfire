@@ -71,6 +71,14 @@
 			    }
 			}
 			echo '</div>';
+
+			echo '<div class="artistwriting" itemscope itemtype="http://schema.org/text"><h4>';
+
+
+			$artWritingTitle = rwmb_meta( 'writing_media_title');
+			echo $artWritingTitle;
+
+			echo '</h4></div>';
 			echo '</div>';
 
 			wp_link_pages( array(
