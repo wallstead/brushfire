@@ -72,7 +72,7 @@
 			}
 			echo '</div>';
 
-			echo '<div class="artistwriting" itemscope itemtype="http://schema.org/text"><h4>Featured Work: ';
+			echo '<div class="artistwriting" itemscope itemtype="http://schema.org/text"><h4><span>Featured Work: </span>';
 
 			$artWritingTitle = rwmb_meta( 'writing_media_title');
 			echo $artWritingTitle;
