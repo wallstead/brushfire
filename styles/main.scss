@@ -49,6 +49,12 @@
     .navlinks {
         display: flex;
         flex-wrap: nowrap;
+
+        .links {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
     }
 }
 
@@ -96,7 +102,10 @@
 
 #navbar .navbar-right {
     display: flex;
+    flex-wrap: wrap;
+    width: 12em;
     align-items: center;
+    justify-content: center;
 
     .nav-button {
         white-space: nowrap;
@@ -116,6 +125,7 @@
         text-decoration: none;
         transition: all 0.15s ease;
         -webkit-backface-visibility: hidden;
+        margin-bottom: 0.2em;
 
         &:hover {
             transform: translateY(-1px);
@@ -190,6 +200,8 @@
                         margin-left: 10px;
                     }
                 }
+
+                margin-bottom: 0.5em;
 
             }
         }
