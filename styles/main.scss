@@ -402,6 +402,8 @@ body {
             border-radius: 4px;
         }
 
+        .
+
         .artist-content {
             width: 100%;
             @include break(not-small) {
@@ -450,6 +452,16 @@ body {
                 }
                 .landscape {
                     width: 50%;
+                }
+            }
+
+            .artistwriting {
+                padding-left: 25px;
+
+                h4 {
+                    font-weight: 400;
+                    font-size: 1.5em;
+                    margin-bottom: 0;
                 }
             }
         }
