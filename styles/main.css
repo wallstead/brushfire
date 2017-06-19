@@ -139,35 +139,37 @@
     height: 280px !important; } }
 @media screen and (max-width: 715px) {
   /* ONLY for use with nav, everything else is mobile-first! */
-  #navbar .navlinks {
-    flex-wrap: wrap; }
-    #navbar .navlinks section {
-      width: 100%; }
-      #navbar .navlinks section #primary-menu {
-        flex-wrap: wrap;
-        height: auto; }
-        #navbar .navlinks section #primary-menu ul {
-          width: 100%;
-          flex-wrap: wrap; }
-          #navbar .navlinks section #primary-menu ul li {
+  #navbar {
+    height: auto; }
+    #navbar .navlinks {
+      flex-wrap: wrap; }
+      #navbar .navlinks section {
+        width: 100%; }
+        #navbar .navlinks section #primary-menu {
+          flex-wrap: wrap;
+          height: auto; }
+          #navbar .navlinks section #primary-menu ul {
             width: 100%;
-            border-bottom: 2px solid rgba(104, 18, 22, 0.19); }
-          #navbar .navlinks section #primary-menu ul .current_page_item {
-            background-color: rgba(104, 18, 22, 0.19); }
-    #navbar .navlinks .navbar-right {
-      display: flex;
-      justify-content: center;
-      padding-top: 12px;
-      margin-bottom: 0.5em; } }
-    @media screen and (max-width: 715px) and (min-width: 48em) {
-      #navbar .navlinks .navbar-right .nav-button {
-        margin-left: 10px; } }
+            flex-wrap: wrap; }
+            #navbar .navlinks section #primary-menu ul li {
+              width: 100%;
+              border-bottom: 2px solid rgba(104, 18, 22, 0.19); }
+            #navbar .navlinks section #primary-menu ul .current_page_item {
+              background-color: rgba(104, 18, 22, 0.19); }
+      #navbar .navlinks .navbar-right {
+        display: flex;
+        justify-content: center;
+        padding-top: 12px;
+        margin-bottom: 0.5em; } }
+      @media screen and (max-width: 715px) and (min-width: 48em) {
+        #navbar .navlinks .navbar-right .nav-button {
+          margin-left: 10px; } }
 @media screen and (max-width: 715px) {
-  #navbar .logo-container a {
-    text-align: center; }
-  #navbar .logo-container .logo {
-    max-width: none;
-    width: 85%; }
+    #navbar .logo-container a {
+      text-align: center; }
+    #navbar .logo-container .logo {
+      max-width: none;
+      width: 85%; }
 
   #issuu-docs {
     display: none !important; }
