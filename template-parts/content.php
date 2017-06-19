@@ -77,9 +77,9 @@
 			$artWritingTitle = rwmb_meta( 'writing_media_title');
 			echo $artWritingTitle;
 			echo '</h4>';
-			echo '<p>test';
-			// $artWriting = rwmb_meta( 'writing_media');
-			// echo $artWriting;
+			echo '<p>';
+			$artWriting = rwmb_meta( 'writing_media');
+			echo $artWriting;
 			echo '</p></div>';
 			echo '</div>';
 
