@@ -80,6 +80,7 @@
 			echo '<p>';
 			$artWriting = rwmb_meta( 'writing_media');
 			echo $artWriting;
+			
 			echo '</p></div>';
 			echo '</div>';
 
