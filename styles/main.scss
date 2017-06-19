@@ -141,6 +141,11 @@
 }
 @media screen and (max-width: 1215px) {
     /* ONLY for use with nav, everything else is mobile-first! */
+
+    #header-container {
+        height: auto;
+    }
+
     #navbar {
         flex-wrap: wrap;
 
