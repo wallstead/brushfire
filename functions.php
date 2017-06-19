@@ -109,6 +109,17 @@ function your_prefix_meta_boxes( $meta_boxes ) {
 				'max_status'       => true,
 			),
 			array(
+                'id'   => 'writing_media_title',
+                'name' => __( 'Writing title', 'textdomain' ),
+                'type' => 'text',
+            ),
+			array(
+                'id'   => 'writing_media',
+                'name' => __( 'Writing', 'textdomain' ),
+                'type' => 'textarea',
+				'rows' => 20,
+            ),
+			array(
 				'id'   => 'color_pickers',
 				'name' => esc_html__( 'Color picker', 'your-prefix' ),
 				'type' => 'color',
