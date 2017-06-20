@@ -200,7 +200,8 @@
     margin-right: 25px;
     border-radius: 3px;
     transition: all 0.25s;
-    flex: none; }
+    flex: none;
+    display: none; }
     #issuu-docs .recent-journal p {
       /* title */
       text-align: center;
