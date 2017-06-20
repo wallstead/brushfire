@@ -89,13 +89,19 @@
         $( document ).ready(function() {
 
 
-            var recentJournals = $( ".recent-journal" ).get();
-            for ( var i = 0; i < recentJournals.length; i++ ) {
-                let recentJournal = recentJournals[i];
-                recentJournal.fadeIn( "slow", function() {
+            // var recentJournals = $( ".recent-journal" ).get();
+            // for ( var i = 0; i < recentJournals.length; i++ ) {
+            //     let recentJournal = recentJournals[i];
+            //     recentJournal.fadeIn( "slow", function() {
+            //
+            //     });
+            // }
+
+            $('.recent-journal').each(function(i, obj) {
+                $(this).fadeIn( "slow", function() {
 
                 });
-            }
+            });
 
         });
         </script>
