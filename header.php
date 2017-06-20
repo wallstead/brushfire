@@ -85,5 +85,12 @@
             </div>
     	</div>
 
+        <script>
+        $( document ).ready(function() {
+            console.log( $( ".recent-journal" ).get() );
+
+        });
+        </script>
+
 
     	<div id="content" class="site-content">
