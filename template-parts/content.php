@@ -72,9 +72,13 @@
 			}
 			echo '</div>';
 
+			$artWritingTitle = rwmb_meta( 'writing_media_title');
+
+			if(!empty($artWritingTitle)){
 			echo '<div class="artistwriting" itemscope itemtype="http://schema.org/text"><h4><span>Featured Work: </span>';
 
-			$artWritingTitle = rwmb_meta( 'writing_media_title');
+
+
 			echo $artWritingTitle;
 			echo '</h4>';
 
@@ -82,6 +86,7 @@
 			echo $artWriting;
 
 			echo '</div>';
+			}
 			echo '</div>';
 
 			wp_link_pages( array(
