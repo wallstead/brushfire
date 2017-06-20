@@ -98,7 +98,7 @@
             // }
 
             $('.recent-journal').each(function(i, obj) {
-                $(this).fadeIn( 1000, function() {
+                $(this).animate({opacity:1}, 500, function() {
                     console.log("done.");
                 });
             });
