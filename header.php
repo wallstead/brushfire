@@ -87,7 +87,16 @@
 
         <script>
         $( document ).ready(function() {
-            console.log( $( ".recent-journal" ).get() );
+
+
+            var recentJournals = $( ".recent-journal" ).get();
+            for ( var i = 0; i < recentJournals.length; i++ ) {
+                let recentJournal = recentJournals[i];
+                recentJournal.delay(i*500);
+                recentJournal.fadeIn( "slow", function() {
+
+                });
+            }
 
         });
         </script>
