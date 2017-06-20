@@ -15,7 +15,9 @@
 #header-container {
     height: 500px;
     width: 100%;
-    @include gradient-background(#6f0000, #200122);
+
+    /*background: linear-gradient(to right, #981000, #ff9900); */
+    @include gradient-background(#981000, #ff9900);
     display: flex;
     /* flex-wrap: wrap; */
     flex-direction: column;
@@ -376,7 +378,7 @@ body {
         align-items: flex-start;
 
         h2 {
-            font-family: "futura-pt";
+            font-family: "futura-pt" !important;
             font-size: 1.75em;
             font-weight: 500;
         }
