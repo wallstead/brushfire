@@ -86,16 +86,7 @@
     	</div>
 
         <script>
-        $( document ).ready(function() {
-
-
-            // var recentJournals = $( ".recent-journal" ).get();
-            // for ( var i = 0; i < recentJournals.length; i++ ) {
-            //     let recentJournal = recentJournals[i];
-            //     recentJournal.fadeIn( "slow", function() {
-            //
-            //     });
-            // }
+        $(window).load(function(e) {
 
             $('.recent-journal').each(function(i, obj) {
 
