@@ -17,15 +17,15 @@
   height: 500px;
   width: 100%;
   /*background: linear-gradient(to right, #981000, #ff9900); */
-  background: #ff9900;
+  background: #981000;
   /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left top, #ff9900, #981000);
+  background: -webkit-linear-gradient(left top, #981000, #ff9900);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom right, #ff9900, #981000);
+  background: -o-linear-gradient(bottom right, #981000, #ff9900);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(bottom right, #ff9900, #981000);
+  background: -moz-linear-gradient(bottom right, #981000, #ff9900);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom right, #ff9900, #981000);
+  background: linear-gradient(to bottom right, #981000, #ff9900);
   /* Standard syntax */
   display: flex;
   /* flex-wrap: wrap; */
