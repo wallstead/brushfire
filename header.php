@@ -92,8 +92,7 @@
             var recentJournals = $( ".recent-journal" ).get();
             for ( var i = 0; i < recentJournals.length; i++ ) {
                 let recentJournal = recentJournals[i];
-                recentJournal.delay(i*500);
-                recentJournal.fadeIn( "slow", function() {
+                recentJournal.delay(500).fadeIn( "slow", function() {
 
                 });
             }
