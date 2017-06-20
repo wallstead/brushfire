@@ -86,7 +86,9 @@
     	</div>
 
         <script>
-        $(window).load(function(e) {
+        $( window ).on( "load", function() {
+
+
 
             $('.recent-journal').each(function(i, obj) {
 
