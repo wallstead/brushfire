@@ -99,7 +99,7 @@
 
             $('.recent-journal').each(function(i, obj) {
                 $(this).delay(500*i).fadeIn( "slow", function() {
-
+                    console.log("done.");
                 });
             });
 
