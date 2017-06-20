@@ -99,7 +99,7 @@
 
             $('.recent-journal').each(function(i, obj) {
 
-                $(this).animate({opacity:1}, 250*i, function() {
+                $(this).animate({opacity:1}, 350*i, function() {
                     console.log(250*i);
                 });
             });
