@@ -258,7 +258,8 @@
         border-radius: 3px;
         transition: all 0.25s;
         flex: none;
-        display: none;
+        // display: none;
+        opacity: 0;
 
         p { /* title */
             text-align: center;
