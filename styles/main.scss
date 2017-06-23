@@ -16,7 +16,7 @@
     height: 500px;
     width: 100%;
 
-    @include gradient-background(#ff9900, #ff9900);
+    @include gradient-background(#981000, #ff9900);
     display: flex;
     /* flex-wrap: wrap; */
     flex-direction: column;
@@ -224,7 +224,7 @@
             }
 
             .logo {
-                max-width: none;
+                max-width: 450px;
                 width: 85%;
             }
         }

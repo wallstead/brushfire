@@ -18,13 +18,13 @@
   width: 100%;
   background: #ff9900;
   /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left top, #ff9900, #ff9900);
+  background: -webkit-linear-gradient(left top, #ff9900, #981000);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom right, #ff9900, #ff9900);
+  background: -o-linear-gradient(bottom right, #ff9900, #981000);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(bottom right, #ff9900, #ff9900);
+  background: -moz-linear-gradient(bottom right, #ff9900, #981000);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom right, #ff9900, #ff9900);
+  background: linear-gradient(to bottom right, #ff9900, #981000);
   /* Standard syntax */
   display: flex;
   /* flex-wrap: wrap; */
@@ -175,7 +175,7 @@
     #navbar .logo-container a {
       text-align: center; }
     #navbar .logo-container .logo {
-      max-width: none;
+      max-width: 450px;
       width: 85%; }
 
   #issuu-docs {
