@@ -154,7 +154,8 @@
 
   #navbar {
     height: auto;
-    padding-bottom: 15px; }
+    padding-bottom: 15px;
+    padding: 10px; }
     #navbar .navlinks {
       display: none;
       flex-wrap: wrap; }
