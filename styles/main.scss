@@ -12,6 +12,11 @@
     /* Standard syntax */
 }
 /* to override other styles */
+#navburger {
+    display: none; // hide unless mobile
+    background-color: #e0dfdf !important
+}
+
 #header-container {
     height: 500px;
     width: 100%;
@@ -170,6 +175,10 @@
 }
 @media screen and (max-width: 715px) {
     /* ONLY for use with nav, everything else is mobile-first! */
+    #navburger {
+        display: inline; // hide unless mobile
+    }
+
     #navbar {
         height: auto;
         padding-bottom: 15px;

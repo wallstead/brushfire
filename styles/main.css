@@ -13,6 +13,10 @@
  *
  */
 /* to override other styles */
+#navburger {
+  display: none;
+  background-color: #e0dfdf !important; }
+
 #header-container {
   height: 500px;
   width: 100%;
@@ -142,6 +146,9 @@
     height: 280px !important; } }
 @media screen and (max-width: 715px) {
   /* ONLY for use with nav, everything else is mobile-first! */
+  #navburger {
+    display: inline; }
+
   #navbar {
     height: auto;
     padding-bottom: 15px; }
