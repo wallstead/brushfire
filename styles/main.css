@@ -20,6 +20,8 @@
     background-color: #e0dfdf !important; }
     #navburger .hamburger-inner:before, #navburger .hamburger-inner:after {
       background-color: #e0dfdf !important; }
+  #navburger:hover {
+    opacity: 1 !important; }
 
 #header-container {
   height: 500px;
