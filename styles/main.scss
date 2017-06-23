@@ -16,9 +16,9 @@
     display: none; // hide unless mobile
     padding-bottom: 10px;
     .hamburger-inner {
-        background-color: #e0dfdf !important;
+        background-color: white !important;
         &:before, &:after {
-            background-color: #e0dfdf !important;
+            background-color: white !important;
         }
     }
 
@@ -31,7 +31,7 @@
     height: 500px;
     width: 100%;
 
-    @include gradient-background(#981000, #ff9900);
+    @include gradient-background(#ef473a, #cb2d3e);
     display: flex;
     /* flex-wrap: wrap; */
     flex-direction: column;

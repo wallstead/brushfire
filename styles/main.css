@@ -17,24 +17,24 @@
   display: none;
   padding-bottom: 10px; }
   #navburger .hamburger-inner {
-    background-color: #e0dfdf !important; }
+    background-color: white !important; }
     #navburger .hamburger-inner:before, #navburger .hamburger-inner:after {
-      background-color: #e0dfdf !important; }
+      background-color: white !important; }
   #navburger:hover {
     opacity: 1 !important; }
 
 #header-container {
   height: 500px;
   width: 100%;
-  background: #ff9900;
+  background: #cb2d3e;
   /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left top, #ff9900, #981000);
+  background: -webkit-linear-gradient(left top, #cb2d3e, #ef473a);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom right, #ff9900, #981000);
+  background: -o-linear-gradient(bottom right, #cb2d3e, #ef473a);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(bottom right, #ff9900, #981000);
+  background: -moz-linear-gradient(bottom right, #cb2d3e, #ef473a);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom right, #ff9900, #981000);
+  background: linear-gradient(to bottom right, #cb2d3e, #ef473a);
   /* Standard syntax */
   display: flex;
   /* flex-wrap: wrap; */
