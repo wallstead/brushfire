@@ -53,7 +53,7 @@
     	<div id="header-container">
             <div class="nav-container">
                 <nav id="navbar" role="navigation">
-                    <button class="hamburger hamburger--slider" type="button">
+                    <button id="navburger" class="hamburger hamburger--slider" type="button">
                         <span class="hamburger-box">
                             <span class="hamburger-inner"></span>
                         </span>
