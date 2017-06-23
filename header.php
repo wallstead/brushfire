@@ -54,7 +54,7 @@
             <div class="nav-container">
                 <nav id="navbar" role="navigation">
         			<section class="logo-container" role="banner" aria-label="Brushfire Logo">
-                        <button id="navburger" class="hamburger hamburger--slider" type="button">
+                        <button id="navburger" class="hamburger hamburger--slider" type="button" aria-label="Menu" aria-controls="navigation">
                             <span class="hamburger-box">
                                 <span class="hamburger-inner"></span>
                             </span>

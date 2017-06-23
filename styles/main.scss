@@ -183,6 +183,10 @@
     /* ONLY for use with nav, everything else is mobile-first! */
     #navburger {
         display: inline; // hide unless mobile
+
+        &:focus {
+            outline: none;
+        }
     }
 
     #navbar {

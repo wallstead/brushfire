@@ -152,6 +152,8 @@
   /* ONLY for use with nav, everything else is mobile-first! */
   #navburger {
     display: inline; }
+    #navburger:focus {
+      outline: none; }
 
   #navbar {
     height: auto;
