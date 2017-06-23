@@ -196,6 +196,8 @@ function bf_futuretastic_scripts() {
 
 	wp_enqueue_style( 'main', get_template_directory_uri() . '/styles/main.css' );
 
+	wp_enqueue_style( 'hamburgers', get_template_directory_uri() . '/styles/hamburgers.min.css' );
+
 	wp_enqueue_style( 'bf_futuretastic-pswp-style', get_template_directory_uri() . '/js/pswp/photoswipe.css' );
 
 	wp_enqueue_style( 'bf_futuretastic-pswp-skin', get_template_directory_uri() . '/js/pswp/default-skin.css' );
