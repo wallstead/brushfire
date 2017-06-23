@@ -160,6 +160,7 @@
     padding: 10px; }
     #navbar .navlinks {
       overflow: hidden;
+      transition: height 1s;
       height: 0;
       flex-wrap: wrap; }
       #navbar .navlinks section {

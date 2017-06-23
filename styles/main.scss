@@ -195,6 +195,7 @@
 
         .navlinks {
             overflow: hidden;
+            transition: height 1s;
             height: 0;
             flex-wrap: wrap;
 
