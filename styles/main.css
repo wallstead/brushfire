@@ -165,6 +165,7 @@
       #navbar .navlinks section {
         width: 100%; }
         #navbar .navlinks section #primary-menu {
+          width: 100%;
           flex-wrap: wrap;
           height: auto; }
           #navbar .navlinks section #primary-menu ul {
