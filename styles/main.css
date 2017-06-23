@@ -14,7 +14,8 @@
  */
 /* to override other styles */
 #navburger {
-  display: none; }
+  display: none;
+  padding-bottom: 10px; }
   #navburger .hamburger-inner {
     background-color: #e0dfdf !important; }
     #navburger .hamburger-inner:before, #navburger .hamburger-inner:after {
@@ -154,7 +155,6 @@
 
   #navbar {
     height: auto;
-    padding-bottom: 15px;
     padding: 10px; }
     #navbar .navlinks {
       display: none;

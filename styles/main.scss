@@ -14,6 +14,7 @@
 /* to override other styles */
 #navburger {
     display: none; // hide unless mobile
+    padding-bottom: 10px;
     .hamburger-inner {
         background-color: #e0dfdf !important;
         &:before, &:after {
@@ -186,8 +187,7 @@
 
     #navbar {
         height: auto;
-        padding-bottom: 15px;
-        padding: 10px; 
+        padding: 10px;
 
         .navlinks {
             display: none;
