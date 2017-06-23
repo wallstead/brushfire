@@ -16,10 +16,7 @@
     display: none; // hide unless mobile
     .hamburger-inner {
         background-color: #e0dfdf !important;
-        &:before {
-            background-color: #e0dfdf !important;
-        }
-        &:after {
+        &:before, &:after { 
             background-color: #e0dfdf !important;
         }
     }

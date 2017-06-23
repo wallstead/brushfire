@@ -17,9 +17,7 @@
   display: none; }
   #navburger .hamburger-inner {
     background-color: #e0dfdf !important; }
-    #navburger .hamburger-inner:before {
-      background-color: #e0dfdf !important; }
-    #navburger .hamburger-inner:after {
+    #navburger .hamburger-inner:before, #navburger .hamburger-inner:after {
       background-color: #e0dfdf !important; }
 
 #header-container {
