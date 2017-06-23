@@ -143,7 +143,8 @@
 @media screen and (max-width: 715px) {
   /* ONLY for use with nav, everything else is mobile-first! */
   #navbar {
-    height: auto; }
+    height: auto;
+    padding-bottom: 15px; }
     #navbar .navlinks {
       display: none;
       flex-wrap: wrap; }
