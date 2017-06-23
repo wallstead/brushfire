@@ -11,7 +11,7 @@ $(document).ready(function(){
 			$(this).addClass("is-active");
 			navOpen = true;
 		}
-		$(".navlinks").slideToggle(1000, 'swing');
-		
+		$(".navlinks").slideToggle(350, 'swing');
+
     });
 });
