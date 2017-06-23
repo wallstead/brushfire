@@ -14,8 +14,9 @@
  */
 /* to override other styles */
 #navburger {
-  display: none;
-  color: #e0dfdf !important; }
+  display: none; }
+  #navburger .hamburger-inner {
+    background-color: #e0dfdf !important; }
 
 #header-container {
   height: 500px;
