@@ -178,6 +178,7 @@
               border-bottom: none; }
       #navbar .navlinks .navbar-right {
         display: flex;
+        flex-wrap: none;
         justify-content: center;
         padding-top: 12px;
         margin-bottom: 0.5em; }
