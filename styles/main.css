@@ -178,7 +178,7 @@
               border-bottom: none; }
       #navbar .navlinks .navbar-right {
         display: flex;
-        flex-wrap: none;
+        flex-wrap: nowrap;
         justify-content: center;
         padding-top: 12px;
         margin-bottom: 0.5em; }
