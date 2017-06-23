@@ -16,7 +16,7 @@
     display: none; // hide unless mobile
     .hamburger-inner {
         background-color: #e0dfdf !important;
-        &:before, &:after { 
+        &:before, &:after {
             background-color: #e0dfdf !important;
         }
     }
@@ -234,6 +234,10 @@
         }
 
         .logo-container {
+
+            width: 100%;
+            display: flex;
+
             a {
                 text-align: center;
             }

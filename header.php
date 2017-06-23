@@ -53,12 +53,12 @@
     	<div id="header-container">
             <div class="nav-container">
                 <nav id="navbar" role="navigation">
-                    <button id="navburger" class="hamburger hamburger--slider" type="button">
-                        <span class="hamburger-box">
-                            <span class="hamburger-inner"></span>
-                        </span>
-                    </button>
         			<section class="logo-container" role="banner" aria-label="Brushfire Logo">
+                        <button id="navburger" class="hamburger hamburger--slider" type="button">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
         				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="navbar-brand mr-10" rel="home"><img class="logo" src="http://unrbrushfire.org/wp-content/uploads/2017/03/logo_offwhite-e1490808554731-1.png" alt="Brushfire "></a>
         			</section>
                     <div class="navlinks" role="menubar" aria-label="Navigation Links">

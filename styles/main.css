@@ -183,11 +183,14 @@
           #navbar .navlinks .navbar-right .nav-button {
             margin-left: 10px; } }
 @media screen and (max-width: 715px) {
-    #navbar .logo-container a {
-      text-align: center; }
-    #navbar .logo-container .logo {
-      max-width: 450px;
-      width: 85%; }
+    #navbar .logo-container {
+      width: 100%;
+      display: flex; }
+      #navbar .logo-container a {
+        text-align: center; }
+      #navbar .logo-container .logo {
+        max-width: 450px;
+        width: 85%; }
 
   #issuu-docs {
     display: none !important; }
