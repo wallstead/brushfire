@@ -214,13 +214,16 @@
 #issuu-docs {
   display: flex;
   flex-wrap: nowrap;
-  height: 295px;
+  height: 350px;
   overflow-y: hidden;
   overflow-x: scroll;
   margin: 0 auto;
   font-family: "ingra";
   padding: 20px 30px 0;
   width: 100%; }
+  #issuu-docs .most-recent-journal {
+    width: 260px;
+    margin-top: 0; }
   #issuu-docs .recent-journal {
     box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
     background-color: white;
@@ -229,6 +232,7 @@
     border-radius: 3px;
     transition: all 0.25s;
     flex: none;
+    margin-top: 40px;
     opacity: 0; }
     #issuu-docs .recent-journal p {
       /* title */

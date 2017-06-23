@@ -81,8 +81,16 @@
                         $body = $response['body']; // use the content
                         $array = json_decode( $body, true );
                         if( ! empty( $array ) ) {
+
+                            $counter = 0;
                             foreach($array['response']['docs'] as $doc) {
-                                echo '<a href="https://issuu.com/brushfire/docs/'.$doc['docname'].'"><div class="recent-journal"><p>'.$doc['title'].'</p><img src="https://image.isu.pub/'.$doc['documentId'].'/jpg/page_1_thumb_large.jpg" alt="'.$doc['title on Issuu'].'"></div></a>';
+                                if ($counter == 0) {
+                                    echo '<a href="https://issuu.com/brushfire/docs/'.$doc['docname'].'"><div class="recent-journal most-recent-journal"><p>'.$doc['title'].'</p><img src="https://image.isu.pub/'.$doc['documentId'].'/jpg/page_1_thumb_large.jpg" alt="'.$doc['title on Issuu'].'"></div></a>';
+                                } else {
+                                    echo '<a href="https://issuu.com/brushfire/docs/'.$doc['docname'].'"><div class="recent-journal"><p>'.$doc['title'].'</p><img src="https://image.isu.pub/'.$doc['documentId'].'/jpg/page_1_thumb_large.jpg" alt="'.$doc['title on Issuu'].'"></div></a>';
+                                }
+
+                                counter++;
                             }
                         }
                     }
