@@ -159,8 +159,8 @@
     height: auto;
     padding: 10px; }
     #navbar .navlinks {
-      overflow: hidden;
       display: none;
+      overflow: hidden;
       flex-wrap: wrap; }
       #navbar .navlinks section {
         width: 100%; }
