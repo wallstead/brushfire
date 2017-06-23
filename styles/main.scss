@@ -235,6 +235,10 @@
                     @include break(not-small) {
                         margin-left: 10px;
                     }
+
+                    line-height: 30px !important;
+                    padding: 0 9px !important;
+                    height: 30px !important;
                 }
 
                 margin-bottom: 0.5em;
