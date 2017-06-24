@@ -11,6 +11,11 @@
     background: linear-gradient(to bottom right, $top, $bottom);
     /* Standard syntax */
 }
+
+$passionate-red: #cb2d3e;
+$passionate-orange: #ef473a;
+$near-white: #f1f1f1;
+
 /* to override other styles */
 #navburger {
     display: none; // hide unless mobile
@@ -31,7 +36,7 @@
     height: 500px;
     width: 100%;
 
-    @include gradient-background(#ef473a, #cb2d3e);
+    @include gradient-background($passionate-orange, $passionate-red);
     display: flex;
     /* flex-wrap: wrap; */
     flex-direction: column;
@@ -100,7 +105,7 @@
         a {
             transition: color 0.2s;
             text-decoration: none;
-            color: rgb(224, 223, 223);
+            color: $near-white;
             margin: 10px;
             font-family: "futura-pt";
             font-weight: 500;
@@ -130,14 +135,14 @@
         line-height: 40px;
         padding: 0 14px;
         box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
-        background-color: rgb(224, 223, 223);
+        background-color: $near-white;
         border-radius: 4px;
         font-size: 16px;
         font-weight: 600;
         font-family: "futura-pt";
         text-transform: uppercase;
         letter-spacing: 0.025em;
-        color: #981000;
+        color: $passionate-red;
         text-decoration: none;
         transition: all 0.15s ease;
         -webkit-backface-visibility: hidden;
@@ -296,7 +301,7 @@
         margin-top: 0 !important;
 
         span {
-            background-color: #ef473a;
+            background-color: $passionate-red;
             color: white;
             padding: 2px 6px;
             border-radius: 12px;
