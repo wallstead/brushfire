@@ -84,7 +84,7 @@
 
                             $counter = 0;
                             foreach($array['response']['docs'] as $doc) {
-                                echo '<a href="https://issuu.com/brushfire/docs/'.$doc['docname'].'"><div class="recent-journal '.$counter.'"><p>'.$doc['title'].'</p><img src="https://image.isu.pub/'.$doc['documentId'].'/jpg/page_1_thumb_large.jpg" alt="'.$doc['title on Issuu'].'"></div></a>';
+                                echo '<a href="https://issuu.com/brushfire/docs/'.$doc['docname'].'"><div class="recent-journal index-'.$counter.'"><p>'.$doc['title'].'</p><img src="https://image.isu.pub/'.$doc['documentId'].'/jpg/page_1_thumb_large.jpg" alt="'.$doc['title on Issuu'].'"></div></a>';
 
                                 $counter++;
                             }
