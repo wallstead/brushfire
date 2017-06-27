@@ -74,7 +74,7 @@
             </div>
 
             <div id="issuu-docs">
-                <?php
+                <!-- ?php
                     $response = wp_remote_get( 'http://search.issuu.com/api/2_0/document?q=username:brushfire&responseParams=%2A&sortBy=epoch' );
                     if( is_array($response) ) {
                       $header = $response['headers']; // array of http header lines
@@ -94,7 +94,7 @@
                             }
                         }
                     }
-                ?>
+                ? -->
                 <!-- loading animation -->
                 <div class="la-ball-spin-clockwise la-2x loading-header">
                     <div></div>
@@ -114,15 +114,16 @@
 
             $('.loading-header').fadeOut( "slow", function() {
                 $('.loading-header').css("display", "none");
-                $('.recent-journal').animate({opacity:1}, 200*i, function() {
+                
+            });
 
+            // $("#issuu-docs").css("display", "flex");
+
+            $('.recent-journal').each(function(i, obj) {
+
+                $(this).animate({opacity:1}, 200*i, function() {
                 });
             });
-
-            $('.recent-journal').animate({opacity:1}, 200*i, function() {
-
-            });
-
 
         });
         </script>
