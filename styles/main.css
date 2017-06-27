@@ -288,7 +288,8 @@ body {
       font-size: 2em;
       font-weight: 500; }
   #content .entry-title {
-    margin-top: 0; }
+    margin-top: 0;
+    color: #4c3838; }
     #content .entry-title a {
       font-family: "ff-meta-serif-sc-web-pro";
       font-weight: 500;
@@ -330,7 +331,8 @@ body {
     #content .entry-content h2 {
       font-family: "futura-pt" !important;
       font-size: 1.75em;
-      font-weight: 500; }
+      font-weight: 500;
+      color: #4c3838; }
     #content .entry-content .portraitContainer {
       width: 100%;
       display: flex;

@@ -388,6 +388,8 @@ body {
     .entry-title {
         margin-top: 0;
 
+        color: $reddish-black;
+
         a {
             font-family: "ff-meta-serif-sc-web-pro";
             font-weight: 500;
@@ -446,6 +448,7 @@ body {
             font-family: "futura-pt" !important;
             font-size: 1.75em;
             font-weight: 500;
+            color: $reddish-black;
         }
 
         .portraitContainer {
