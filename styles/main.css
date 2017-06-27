@@ -212,7 +212,7 @@
     padding: 0 9px !important;
     height: 30px !important; } }
 #issuu-docs {
-  display: none;
+  display: flex;
   flex-wrap: nowrap;
   height: 350px;
   overflow-y: hidden;
