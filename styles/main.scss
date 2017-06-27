@@ -519,7 +519,10 @@ body {
             }
 
             .artistwriting {
-                padding: 0 60px;
+                @include break(not-small) {
+                    padding: 0 60px;
+                }
+
 
                 h4 {
                     font-weight: 400;
