@@ -519,8 +519,9 @@ body {
             }
 
             .artistwriting {
+                font-family: serif;
                 @include break(not-small) {
-                    padding: 0 60px;
+                    padding: 10px 0 0 70px;
                 }
 
 

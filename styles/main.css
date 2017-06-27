@@ -384,19 +384,21 @@ body {
           width: 25%; }
         #content .entry-content .artist-content .artistart .landscape {
           width: 50%; }
-      @media screen and (min-width: 48em) {
-        #content .entry-content .artist-content .artistwriting {
-          padding: 0 60px; } }
-      #content .entry-content .artist-content .artistwriting h4 {
-        font-weight: 400;
-        font-size: 1.5em;
-        margin-bottom: 0;
-        margin-top: 10px; }
-        #content .entry-content .artist-content .artistwriting h4 span {
-          font-weight: 200;
-          font-size: smaller; }
-      #content .entry-content .artist-content .artistwriting p {
-        font-size: 0.95em; }
+      #content .entry-content .artist-content .artistwriting {
+        font-family: serif; }
+        @media screen and (min-width: 48em) {
+          #content .entry-content .artist-content .artistwriting {
+            padding: 10px 0 0 70px; } }
+        #content .entry-content .artist-content .artistwriting h4 {
+          font-weight: 400;
+          font-size: 1.5em;
+          margin-bottom: 0;
+          margin-top: 10px; }
+          #content .entry-content .artist-content .artistwriting h4 span {
+            font-weight: 200;
+            font-size: smaller; }
+        #content .entry-content .artist-content .artistwriting p {
+          font-size: 0.95em; }
     #content .entry-content .cscfBlock {
       max-width: 650px;
       margin: 0 auto; }
