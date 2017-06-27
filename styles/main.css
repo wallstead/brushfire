@@ -271,7 +271,8 @@ body {
   margin: 0 auto;
   font-family: "ingra";
   padding: 0 30px;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  color: #4c3838; }
   #content h1 {
     font-size: 3em;
     text-align: center; }
