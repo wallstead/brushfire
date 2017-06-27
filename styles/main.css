@@ -389,7 +389,8 @@ body {
         #content .entry-content .artist-content .artistwriting h4 {
           font-weight: 400;
           font-size: 1.5em;
-          margin-bottom: 0; }
+          margin-bottom: 0;
+          margin-top: 10px; }
           #content .entry-content .artist-content .artistwriting h4 span {
             font-weight: 200;
             font-size: smaller; }
