@@ -476,7 +476,8 @@ body {
   align-items: center;
   justify-content: center;
   height: 150px;
-  font-family: "futura-pt"; }
+  font-family: "futura-pt";
+  font-size: 1.1rem; }
 
 .loading-header {
   margin: 90px auto 0 auto; }
