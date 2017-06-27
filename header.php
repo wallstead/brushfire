@@ -94,7 +94,7 @@
                             }
                         }
                     }
-                ? --> 
+                ? -->
                 <!-- loading animation -->
                 <div class="la-ball-spin-clockwise la-2x loading-header">
                     <div></div>
@@ -112,7 +112,7 @@
         <script>
         $( window ).on( "load", function() {
 
-            $('.loading-header').fadeOut().css("display", "none");
+            // $('.loading-header').fadeOut().css("display", "none");
 
             // $("#issuu-docs").css("display", "flex");
 
