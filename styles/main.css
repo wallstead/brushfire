@@ -470,6 +470,9 @@ body {
   height: 150px;
   font-family: "ingra"; }
 
+.loading-header {
+  margin: 90px auto 0 auto; }
+
 .la-ball-spin-clockwise {
   position: relative;
   -webkit-box-sizing: border-box;

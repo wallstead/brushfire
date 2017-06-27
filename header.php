@@ -96,7 +96,7 @@
                     }
                 ? -->
                 <!-- loading animation -->
-                <div class="la-ball-spin-clockwise la-2x">
+                <div class="la-ball-spin-clockwise la-2x loading-header">
                     <div></div>
                     <div></div>
                     <div></div>
