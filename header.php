@@ -115,7 +115,7 @@
             $('.loading-header').fadeOut( "slow", function() {
                 $('.loading-header').css("display", "none");
                 $('.recent-journal').each(function(i, obj) {
-                    obj.animate({opacity:1}, 200*i, function() {
+                    $(this).animate({opacity:1}, 200*i, function() {
 
                     });
                 });
