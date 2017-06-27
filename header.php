@@ -112,9 +112,9 @@
         <script>
         $( window ).on( "load", function() {
 
-            $('.loading-header').css("display", "none");
+            $('.loading-header').fadeOut().css("display", "none");
 
-            $("#issuu-docs").css("display", "flex");
+            // $("#issuu-docs").css("display", "flex");
 
             $('.recent-journal').each(function(i, obj) {
 
