@@ -114,7 +114,7 @@
 
             $('.loading-header').fadeOut( "slow", function() {
                 $('.loading-header').css("display", "none");
-                $('.recent-journal').css("display", "auto");
+                $('.recent-journal').css("display", "inline");
             });
 
             // $("#issuu-docs").css("display", "flex");
