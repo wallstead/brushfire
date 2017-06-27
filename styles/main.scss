@@ -14,6 +14,7 @@
 $passionate-red: #cb2d3e;
 $passionate-orange: #ef473a;
 $near-white: #f1f1f1;
+$reddish-black: #4c3838;
 /* to override other styles */
 #navburger {
     display: none; // hide unless mobile
@@ -473,6 +474,7 @@ body {
             }
 
             .artistbio {
+                color: $reddish-black;
                 display: flex;
                 margin: 0;
                 max-width: none;
@@ -565,7 +567,7 @@ body {
         font-weight: 400;
         font-size: 17px;
         line-height: 26px;
-        color: #4c3838;
+        color: $reddish-black;
         background-color: white;
         padding: 0 0 20px;
     }
@@ -614,6 +616,7 @@ body {
         padding: 0 10px;
 
         h3 {
+            color: $reddish-black;
             width: 100%;
             text-align: center;
             font-weight: 500;

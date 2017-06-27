@@ -352,6 +352,7 @@ body {
         #content .entry-content .artist-content {
           width: 69%; } }
       #content .entry-content .artist-content .artistbio {
+        color: #4c3838;
         display: flex;
         margin: 0;
         max-width: none;
@@ -451,6 +452,7 @@ body {
       #content .profile {
         width: 25%; } }
     #content .profile h3 {
+      color: #4c3838;
       width: 100%;
       text-align: center;
       font-weight: 500;
