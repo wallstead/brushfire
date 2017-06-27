@@ -407,13 +407,13 @@ body {
       #content .entry-content .cscfBlock textarea {
         width: 100% !important; }
   #content p {
-    font-weight: 200;
-    font-size: 1.05em;
-    line-height: 1.2;
     max-width: 1200px;
     margin: 0 auto;
     border-radius: 15px;
-    color: #404040;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: #715353;
     background-color: white;
     padding: 0 0 20px; }
   #content .basicInfo {
