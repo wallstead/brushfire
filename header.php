@@ -119,6 +119,10 @@
                 });
             });
 
+            $('.recent-journal').animate({opacity:1}, 200*i, function() {
+
+            });
+
 
         });
         </script>
