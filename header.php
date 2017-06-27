@@ -114,16 +114,15 @@
 
             $('.loading-header').fadeOut( "slow", function() {
                 $('.loading-header').css("display", "none");
-                $('.recent-journal').css("display", "inline");
+                $('.recent-journal').each(function(i, obj) {
+                    $(this).css("display", "inline");
+                    $(this).animate({opacity:1}, 200*i, function() {
+                    });
+                });
             });
 
             // $("#issuu-docs").css("display", "flex");
 
-            $('.recent-journal').each(function(i, obj) {
-
-                $(this).animate({opacity:1}, 200*i, function() {
-                });
-            });
 
         });
         </script>
