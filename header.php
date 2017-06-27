@@ -51,60 +51,62 @@
     <div id="page" class="site">
     	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'bf_futuretastic' ); ?></a>
     	<div id="header-container">
-            <div class="nav-container">
-                <nav id="navbar" role="navigation">
-        			<section class="logo-container" role="banner" aria-label="Brushfire Logo">
-                        <button id="navburger" class="hamburger hamburger--slider" type="button" aria-label="Menu" aria-controls="navigation">
-                            <span class="hamburger-box">
-                                <span class="hamburger-inner"></span>
-                            </span>
-                        </button>
-        				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="navbar-brand mr-10" rel="home"><img class="logo" src="http://unrbrushfire.org/wp-content/uploads/2017/03/logo_offwhite-e1490808554731-1.png" alt="Brushfire "></a>
-        			</section>
-                    <div class="navlinks" role="menubar" aria-label="Navigation Links">
-                        <section class="links" role="menu" aria-label="Main Navigation Links" >
-            				<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
+            <div class="header-bg">
+                <div class="nav-container">
+                    <nav id="navbar" role="navigation">
+            			<section class="logo-container" role="banner" aria-label="Brushfire Logo">
+                            <button id="navburger" class="hamburger hamburger--slider" type="button" aria-label="Menu" aria-controls="navigation">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+            				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="navbar-brand mr-10" rel="home"><img class="logo" src="http://unrbrushfire.org/wp-content/uploads/2017/03/logo_offwhite-e1490808554731-1.png" alt="Brushfire "></a>
             			</section>
-            			<section class="navbar-right" role="button" aria-label="Submission Work">
-            				<a class="nav-button" href="https://brushfire.submittable.com/submit">Submit Your Work</a>
-                            <a class="nav-button" href="https://brushfire.submittable.com/submit/87351/logo-design-contest">Submit Your Logo</a>
-            			</section>
-                    </div>
-        		</nav>
-            </div>
+                        <div class="navlinks" role="menubar" aria-label="Navigation Links">
+                            <section class="links" role="menu" aria-label="Main Navigation Links" >
+                				<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
+                			</section>
+                			<section class="navbar-right" role="button" aria-label="Submission Work">
+                				<a class="nav-button" href="https://brushfire.submittable.com/submit">Submit Your Work</a>
+                                <a class="nav-button" href="https://brushfire.submittable.com/submit/87351/logo-design-contest">Submit Your Logo</a>
+                			</section>
+                        </div>
+            		</nav>
+                </div>
 
-            <div id="issuu-docs">
-                <?php
-                    $response = wp_remote_get( 'http://search.issuu.com/api/2_0/document?q=username:brushfire&responseParams=%2A&sortBy=epoch' );
-                    if( is_array($response) ) {
-                      $header = $response['headers']; // array of http header lines
-                        $body = $response['body']; // use the content
-                        $array = json_decode( $body, true );
-                        if( ! empty( $array ) ) {
+                <div id="issuu-docs">
+                    <?php
+                        $response = wp_remote_get( 'http://search.issuu.com/api/2_0/document?q=username:brushfire&responseParams=%2A&sortBy=epoch' );
+                        if( is_array($response) ) {
+                          $header = $response['headers']; // array of http header lines
+                            $body = $response['body']; // use the content
+                            $array = json_decode( $body, true );
+                            if( ! empty( $array ) ) {
 
-                            $counter = 0;
-                            foreach($array['response']['docs'] as $doc) {
-                                if($counter == 0) {
-                                    echo '<a href="https://issuu.com/brushfire/docs/'.$doc['docname'].'"><div class="recent-journal index-'.$counter.'"><p><span>New</span> '.$doc['title'].'</p><img src="https://image.isu.pub/'.$doc['documentId'].'/jpg/page_1_thumb_large.jpg" alt="'.$doc['title on Issuu'].'"></div></a>';
-                                } else {
-                                    echo '<a href="https://issuu.com/brushfire/docs/'.$doc['docname'].'"><div class="recent-journal index-'.$counter.'"><p>'.$doc['title'].'</p><img src="https://image.isu.pub/'.$doc['documentId'].'/jpg/page_1_thumb_large.jpg" alt="'.$doc['title on Issuu'].'"></div></a>';
+                                $counter = 0;
+                                foreach($array['response']['docs'] as $doc) {
+                                    if($counter == 0) {
+                                        echo '<a href="https://issuu.com/brushfire/docs/'.$doc['docname'].'"><div class="recent-journal index-'.$counter.'"><p><span>New</span> '.$doc['title'].'</p><img src="https://image.isu.pub/'.$doc['documentId'].'/jpg/page_1_thumb_large.jpg" alt="'.$doc['title on Issuu'].'"></div></a>';
+                                    } else {
+                                        echo '<a href="https://issuu.com/brushfire/docs/'.$doc['docname'].'"><div class="recent-journal index-'.$counter.'"><p>'.$doc['title'].'</p><img src="https://image.isu.pub/'.$doc['documentId'].'/jpg/page_1_thumb_large.jpg" alt="'.$doc['title on Issuu'].'"></div></a>';
+                                    }
+
+                                    $counter++;
                                 }
-
-                                $counter++;
                             }
                         }
-                    }
-                ?>
-                <!-- loading animation -->
-                <div class="la-ball-spin-clockwise la-2x loading-header">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    ?>
+                    <!-- loading animation -->
+                    <div class="la-ball-spin-clockwise la-2x loading-header">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
                 </div>
             </div>
     	</div>

@@ -41,6 +41,9 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center; }
+  #header-container .header-bg {
+    height: 100%;
+    width: 100%; }
   #header-container .nav-container {
     max-width: 1400px;
     display: flex;
