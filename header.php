@@ -113,7 +113,6 @@
 
         <script>
         $( window ).on( "load", function() {
-
             $('.loading-header').fadeOut( "slow", function() {
                 $('.loading-header').css("display", "none");
                 $('.recent-journal').each(function(i, obj) {
@@ -126,6 +125,5 @@
             });
         });
         </script>
-
-
+        
     	<div id="content" class="site-content">
