@@ -119,7 +119,7 @@
                 $('.recent-journal').each(function(i, obj) {
                     $(this).css("display", "block");
                     $(this).css("display");
-                    $(this).delay(1000).queue(function(){
+                    $(this).delay(200*i).queue(function(){
                         $(this).addClass("loaded-journal").clearQueue();
                     });
 
