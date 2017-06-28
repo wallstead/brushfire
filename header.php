@@ -122,10 +122,8 @@
                     $(this).delay(75*i).queue(function(){
                         $(this).addClass("loaded-journal").clearQueue();
                     });
-
                 });
             });
-
         });
         </script>
 
