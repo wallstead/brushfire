@@ -62,6 +62,11 @@ $reddish-black: #4c3838;
     max-width: 500px;
 }
 
+a {
+    color: #4596e0;
+    text-decoration: none;
+}
+
 #navbar {
     font-family: "ingra";
     padding-top: 15px;
@@ -610,10 +615,7 @@ body {
         padding: 20px 0;
         background-color: white;
 
-        a {
-            color: #4596e0;
-            text-decoration: none;
-        }
+
     }
 
     .profile {
