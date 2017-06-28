@@ -192,7 +192,6 @@ a {
         flex-wrap: wrap;
 
         .navlinks {
-            max-height: 0;
             width: 100%;
             display: flex;
             flex-wrap: nowrap;
@@ -225,6 +224,7 @@ a {
         padding: 10px;
 
         .navlinks {
+            max-height: 0;
             display: block;
             overflow: hidden;
             flex-wrap: wrap;
