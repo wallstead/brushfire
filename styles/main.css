@@ -362,6 +362,7 @@ body {
       #content .entry-content .artist-content .artistbio {
         color: #4c3838;
         display: flex;
+        align-items: flex-start;
         margin: 0;
         max-width: none;
         padding: 0;
