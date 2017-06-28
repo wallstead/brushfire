@@ -119,9 +119,9 @@
                 $('.recent-journal').each(function(i, obj) {
                     $(this).css("display", "block");
                     $(this).css("display");
-                    setTimeout(function() {
-                        $(this).addClass("loaded-journal");
-                    }, 200);
+                    $(this).delay(1000).queue(function(){
+                        $(this).addClass("loaded-journal").clearQueue();
+                    });
 
                 });
             });
