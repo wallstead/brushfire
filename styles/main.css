@@ -443,6 +443,9 @@ body {
       #content .aboutUs {
         width: 50%;
         padding: 0 0 0 30px; } }
+    #content .aboutUs a {
+      color: #4596e0;
+      text-decoration: none; }
   #content .profile {
     font-family: "futura-pt";
     background-color: white;
