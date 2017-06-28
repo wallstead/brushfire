@@ -333,6 +333,10 @@ a {
         margin-top: 20px !important;
     }
 
+    .loaded-journal {
+        opacity: 1;
+    }
+
     .recent-journal {
         display: none;
         box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
@@ -344,6 +348,11 @@ a {
         flex: none;
         margin-top: 40px;
         opacity: 0;
+        -webkit-transition: opacity 2s ease-in;
+       -moz-transition: opacity 2s ease-in;
+        -ms-transition: opacity 2s ease-in;
+         -o-transition: opacity 2s ease-in;
+            transition: opacity 2s ease-in;
 
         p {
             /* title */
