@@ -35,12 +35,13 @@
   background: -moz-linear-gradient(bottom right, #cb2d3e, #ef473a);
   /* For Firefox 3.6 to 15 */
   background: linear-gradient(to bottom right, #cb2d3e, #ef473a);
-  /* Standard syntax */
-  display: flex;
-  /* flex-wrap: wrap; */
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center; }
+  /* Standard syntax */ }
+  #header-container .header-bg {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; }
   #header-container .nav-container {
     max-width: 1400px;
     display: flex;

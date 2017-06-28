@@ -38,11 +38,14 @@ $reddish-black: #4c3838;
     height: 500px;
     width: 100%;
     @include gradient-background($passionate-orange, $passionate-red);
-    display: flex;
-    /* flex-wrap: wrap; */
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+
+    .header-bg {
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
 
 
 
