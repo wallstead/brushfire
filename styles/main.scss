@@ -80,12 +80,21 @@ a {
     .navlinks {
         display: flex;
         flex-wrap: nowrap;
+        -webkit-transition: all 500ms cubic-bezier(0.675, 0.170, 0.245, 0.795);
+        -moz-transition: all 500ms cubic-bezier(0.675, 0.170, 0.245, 0.795);
+        -ms-transition: all 500ms cubic-bezier(0.675, 0.170, 0.245, 0.795);
+        transition: all 500ms cubic-bezier(0.675, 0.170, 0.245, 0.795);
+        height: 0;
 
         .links {
             display: flex;
             align-items: center;
             justify-content: center;
         }
+    }
+
+    .active {
+        height: auto;
     }
 }
 

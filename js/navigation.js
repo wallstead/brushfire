@@ -12,6 +12,7 @@ $(document).ready(function(){
 			navOpen = true;
 		}
 		$(".navlinks").slideToggle(300, 'swing');
+		$('.navlinks').toggleClass('active');
 
     });
 });
