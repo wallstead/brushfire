@@ -333,9 +333,7 @@ a {
         margin-top: 20px !important;
     }
 
-    .loaded-journal {
-        opacity: 1;
-    }
+
 
     .recent-journal {
         display: none;
@@ -373,6 +371,10 @@ a {
             transform: translateY(10px);
             box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
         }
+    }
+
+    .loaded-journal {
+        opacity: 1;
     }
 
     a {
