@@ -11,7 +11,7 @@ $(document).ready(function(){
 			$(this).addClass("is-active");
 			navOpen = true;
 		}
-		$(".navlinks").slideToggle(300, 'swing');
+		// $(".navlinks").slideToggle(300, 'swing');
 		$('.navlinks').toggleClass('active');
 
     });
