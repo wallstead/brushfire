@@ -84,7 +84,6 @@ a {
         -moz-transition: all 1s cubic-bezier(0.675, 0.170, 0.245, 0.795);
         -ms-transition: all 1s cubic-bezier(0.675, 0.170, 0.245, 0.795);
         transition: all 1s cubic-bezier(0.675, 0.170, 0.245, 0.795);
-        height: auto;
 
         .links {
             display: flex;
@@ -94,7 +93,7 @@ a {
     }
 
     .active {
-        height: auto;
+        max-height: 600px; // bigger than it could ever be
     }
 }
 
@@ -189,7 +188,7 @@ a {
         flex-wrap: wrap;
 
         .navlinks {
-            height: 0;
+            max-height: 0;
             width: 100%;
             display: flex;
             flex-wrap: nowrap;
