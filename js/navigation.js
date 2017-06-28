@@ -11,9 +11,7 @@ $(document).ready(function(){
 			$(this).addClass("is-active");
 			navOpen = true;
 		}
-		$(".navlinks").slideToggle(300, 'swing', function() {
-	        if ($(this).css('display') == 'block') $(this).css('display', 'flex'); // enter desired display type
-	    });
+		$(".navlinks").slideToggle(300, 'swing');
 
     });
 });
