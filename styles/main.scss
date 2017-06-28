@@ -80,10 +80,10 @@ a {
     .navlinks {
         display: flex;
         flex-wrap: nowrap;
-        -webkit-transition: all 1s cubic-bezier(0.675, 0.170, 0.245, 0.795);
-        -moz-transition: all 1s cubic-bezier(0.675, 0.170, 0.245, 0.795);
-        -ms-transition: all 1s cubic-bezier(0.675, 0.170, 0.245, 0.795);
-        transition: all 1s cubic-bezier(0.675, 0.170, 0.245, 0.795);
+        -webkit-transition: all 500ms ease-in-out;
+        -moz-transition: all 500ms ease-in-out;
+        -ms-transition: all 500ms ease-in-out;
+        transition: all 500ms ease-in-out;
 
         .links {
             display: flex;
@@ -93,7 +93,7 @@ a {
     }
 
     .active {
-        max-height: 600px; // bigger than it could ever be
+        max-height: 600px !important; // bigger than it could ever be
     }
 }
 
