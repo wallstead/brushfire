@@ -119,7 +119,10 @@
                 $('.recent-journal').each(function(i, obj) {
                     $(this).css("display", "block");
                     $(this).css("display");
-                    $(this).addClass("loaded-journal");
+                    setTimeout(function() {
+                        $(this).addClass("loaded-journal");
+                    }, 200);
+
                 });
             });
 
