@@ -80,10 +80,10 @@ a {
     .navlinks {
         display: flex;
         flex-wrap: nowrap;
-        -webkit-transition: all 500ms ease-in-out;
-        -moz-transition: all 500ms ease-in-out;
-        -ms-transition: all 500ms ease-in-out;
-        transition: all 500ms ease-in-out;
+        -webkit-transition: all 1s cubic-bezier(.02, .01, .47, 1);
+        -moz-transition: all 1s cubic-bezier(.02, .01, .47, 1);
+        -ms-transition: all 1s cubic-bezier(.02, .01, .47, 1);
+        transition: all 1s cubic-bezier(.02, .01, .47, 1);
 
         .links {
             display: flex;
