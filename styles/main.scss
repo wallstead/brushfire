@@ -38,7 +38,7 @@ $reddish-black: #4c3838;
 #header-container {
     height: 500px;
     width: 100%;
-    @include gradient-background($passionate-orange, $passionate-yellow);
+    @include gradient-background($passionate-yellow, $passionate-yellow);
 
     .header-bg {
         display: flex;
