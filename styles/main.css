@@ -17,9 +17,9 @@
   display: none;
   padding-bottom: 10px; }
   #navburger .hamburger-inner {
-    background-color: white !important; }
+    background-color: #000000 !important; }
     #navburger .hamburger-inner:after, #navburger .hamburger-inner:before {
-      background-color: white !important; }
+      background-color: #000000 !important; }
   #navburger:hover {
     opacity: 1 !important; }
 
