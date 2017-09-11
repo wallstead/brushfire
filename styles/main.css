@@ -126,14 +126,14 @@ a {
     line-height: 40px;
     padding: 0 14px;
     box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
-    background-color: #000000;
+    background-color: #f1f1f1;
     border-radius: 4px;
     font-size: 16px;
     font-weight: 600;
     font-family: "futura-pt";
     text-transform: uppercase;
     letter-spacing: 0.025em;
-    color: #f1f1f1;
+    color: #cb2d3e;
     text-decoration: none;
     transition: all 0.15s ease;
     -webkit-backface-visibility: hidden;
