@@ -135,7 +135,7 @@ a {
             font-weight: 500;
 
             &:hover {
-                color: lighten($near-black, 10%);
+                color: lighten($near-black, 20%);
             }
         }
     }
@@ -322,7 +322,7 @@ a {
         margin-top: 0 !important;
 
         span {
-            background-color: $passionate-red;
+            background-color: $passionate-orange;
             color: white;
             padding: 2px 6px;
             border-radius: 12px;

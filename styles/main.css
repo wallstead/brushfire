@@ -109,7 +109,7 @@ a {
       font-family: "futura-pt";
       font-weight: 500; }
       #primary-menu li a:hover {
-        color: #1a1a1a; }
+        color: #333333; }
   #primary-menu .current_page_item {
     border-bottom: 2px solid #000000; }
 
@@ -242,7 +242,7 @@ a {
     width: 260px !important;
     margin-top: 0 !important; }
     #issuu-docs .index-0 span {
-      background-color: #cb2d3e;
+      background-color: #ef4723;
       color: white;
       padding: 2px 6px;
       border-radius: 12px;
