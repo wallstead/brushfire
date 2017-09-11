@@ -135,7 +135,7 @@ a {
             font-weight: 500;
 
             &:hover {
-                color: #90222e;
+                color: lighten($near-black, 10%);
             }
         }
     }
