@@ -17,15 +17,17 @@
         <link rel="profile" href="http://gmpg.org/xfn/11">
 
         <!-- Global Site Tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-80840432-1"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-80715098-1"></script>
         <script>
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments)};
           gtag('js', new Date());
 
-          gtag('config', 'UA-80840432-1');
+          gtag('config', 'UA-80715098-1');
         </script>
-        
+
+
+
         <script> /* this will stop the page from showing until text is loaded */
           (function(d) {
             var config = {
