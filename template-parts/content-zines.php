@@ -25,7 +25,14 @@
 			<p>If you have any questions/concerns about the field trip feel free to <a href="mailto:percythefirst98@gmail.com">email our Zine Editor Percy</a>.</p>
 			<p>Hope to see you at the field trip!</p>
 		</div>
-
+		<div class="zines">
+			<div class="zine zine1" >
+			</div>
+			<div class="zine zine2">
+			</div>
+			<div class="zine zine3">
+			</div>
+		</div>
 	</div><!-- .entry-content -->
 
 	<?php if ( get_edit_post_link() ) : ?>
