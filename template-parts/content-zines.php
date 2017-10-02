@@ -26,11 +26,14 @@
 			<p>Hope to see you at the field trip!</p>
 		</div>
 		<div class="zines">
-			<div class="zine zine1" >
+			<div class="zine">
+				<img src="http://unrbrushfire.org/wp-content/uploads/2017/10/zine1.jpg">
 			</div>
-			<div class="zine zine2">
+			<div class="zine">
+				<img src="http://unrbrushfire.org/wp-content/uploads/2017/10/zine2.jpg">
 			</div>
-			<div class="zine zine3">
+			<div class="zine">
+				<img src="http://unrbrushfire.org/wp-content/uploads/2017/10/zine3.jpg">
 			</div>
 		</div>
 	</div><!-- .entry-content -->

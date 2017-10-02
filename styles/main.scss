@@ -629,23 +629,17 @@ body {
             width: 100%;
             background-size: contain;
             background-repeat: no-repeat;
-            
+
             @include break(not-small) {
                 width: 33.33%;
             }
 
-            height: 200px;
             background-color: pink;
-          }
 
-          .zine1 {
-            background-image: url('http://unrbrushfire.org/wp-content/uploads/2017/10/zine1.jpg');
-          }
-          .zine2 {
-            background-image: url('http://unrbrushfire.org/wp-content/uploads/2017/10/zine2.jpg');
-          }
-          .zine3 {
-            background-image: url('http://unrbrushfire.org/wp-content/uploads/2017/10/zine3.jpg');
+            img {
+              height: auto;
+              max-width: 100%;
+            }
           }
         }
     }

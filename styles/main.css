@@ -454,17 +454,13 @@ body {
         width: 100%;
         background-size: contain;
         background-repeat: no-repeat;
-        height: 200px;
         background-color: pink; }
         @media screen and (min-width: 48em) {
           #content .entry-content .zines .zine {
             width: 33.33%; } }
-      #content .entry-content .zines .zine1 {
-        background-image: url("http://unrbrushfire.org/wp-content/uploads/2017/10/zine1.jpg"); }
-      #content .entry-content .zines .zine2 {
-        background-image: url("http://unrbrushfire.org/wp-content/uploads/2017/10/zine2.jpg"); }
-      #content .entry-content .zines .zine3 {
-        background-image: url("http://unrbrushfire.org/wp-content/uploads/2017/10/zine3.jpg"); }
+        #content .entry-content .zines .zine img {
+          height: auto;
+          max-width: 100%; }
   #content .zines-content {
     align-items: stretch; }
   #content p {
