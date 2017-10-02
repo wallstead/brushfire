@@ -599,8 +599,15 @@ body {
 
         .zinesInfo {
           width: 50%;
-          // background-color: lightgray;
-          // height: 800px;
+
+          p {
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 26px;
+            color: #4c3838;
+            padding: 0 0 20px;
+            font-family: "futura-pt";
+          }
         }
 
         .zinesPoster {

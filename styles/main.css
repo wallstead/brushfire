@@ -433,6 +433,13 @@ body {
         width: 100% !important; }
     #content .entry-content .zinesInfo {
       width: 50%; }
+      #content .entry-content .zinesInfo p {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 26px;
+        color: #4c3838;
+        padding: 0 0 20px;
+        font-family: "futura-pt"; }
     #content .entry-content .zinesPoster {
       width: 50%; }
   #content p {
