@@ -695,14 +695,8 @@ body {
         font-family: "futura-pt";
         font-weight: 700;
         width: 100%;
-        @include break(large) {
-            width: 50%;
-            padding: 0 0 0 30px;
-        }
         padding: 20px 0;
         background-color: white;
-
-
     }
 
     .profile {
