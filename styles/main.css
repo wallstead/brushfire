@@ -456,7 +456,8 @@ body {
         #content .entry-content .zinesPoster {
           width: 50%;
           padding: 0 0 0 30px;
-          margin-bottom: 0; } }
+          margin-bottom: 0;
+          background-position: 0% 0%; } }
     #content .entry-content .zines {
       width: 100%;
       display: flex;
