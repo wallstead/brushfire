@@ -432,13 +432,9 @@ body {
       #content .entry-content .cscfBlock textarea {
         width: 100% !important; }
     #content .entry-content .zinesInfo {
-      width: 50%;
-      background-color: lightgray;
-      height: 800px; }
+      width: 50%; }
     #content .entry-content .zinesPoster {
-      width: 50%;
-      background-color: gray;
-      height: 800px; }
+      width: 50%; }
   #content p {
     max-width: 1200px;
     margin: 0 auto;
