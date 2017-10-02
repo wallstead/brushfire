@@ -441,7 +441,9 @@ body {
         padding: 0 0 20px;
         font-family: "futura-pt"; }
     #content .entry-content .zinesPoster {
-      width: 50%; }
+      width: 50%;
+      background-image: url("http://unrbrushfire.org/wp-content/uploads/2017/10/Zine-field-trip-poster.jpg");
+      background-size: contain; }
   #content p {
     max-width: 1200px;
     margin: 0 auto;

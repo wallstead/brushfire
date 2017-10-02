@@ -15,6 +15,7 @@
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
+		<div class="zinesPoster"></div>
 		<div class="zinesInfo">
 			<p>What's a zine, you ask?</p>
 			<p>The name comes from the latter half of the word maga(zine). Generally speaking, it's a low budget, hand-crafted, specialized booklet for a community, cause, or theme. What it looks like and how its made varies by the community that builds it.</p>
@@ -24,7 +25,7 @@
 			<p>If you have any questions/concerns about the field trip feel free to <a href="mailto:percythefirst98@gmail.com">email our Zine Editor Percy</a>.</p>
 			<p>Hope to see you at the field trip!</p>
 		</div>
-		<div class="zinesPoster"></div>
+
 	</div><!-- .entry-content -->
 
 	<?php if ( get_edit_post_link() ) : ?>
