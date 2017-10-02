@@ -14,7 +14,7 @@
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 
-	<div class="entry-content">
+	<div class="entry-content zines-content">
 		<div class="zinesPoster"></div>
 		<div class="zinesInfo">
 			<p>What's a zine, you ask?</p>

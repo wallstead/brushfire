@@ -432,7 +432,8 @@ body {
       #content .entry-content .cscfBlock textarea {
         width: 100% !important; }
     #content .entry-content .zinesInfo {
-      width: 50%; }
+      width: 50%;
+      padding: 0 0 0 30px; }
       #content .entry-content .zinesInfo p {
         font-weight: 400;
         font-size: 17px;
@@ -443,7 +444,10 @@ body {
     #content .entry-content .zinesPoster {
       width: 50%;
       background-image: url("http://unrbrushfire.org/wp-content/uploads/2017/10/Zine-field-trip-poster.jpg");
-      background-size: contain; }
+      background-size: contain;
+      background-repeat: no-repeat; }
+  #content .zines-content {
+    align-items: stretch; }
   #content p {
     max-width: 1200px;
     margin: 0 auto;

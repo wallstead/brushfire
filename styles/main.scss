@@ -599,6 +599,7 @@ body {
 
         .zinesInfo {
           width: 50%;
+          padding: 0 0 0 30px;
 
           p {
             font-weight: 400;
@@ -614,7 +615,12 @@ body {
           width: 50%;
           background-image: url('http://unrbrushfire.org/wp-content/uploads/2017/10/Zine-field-trip-poster.jpg');
           background-size: contain;
+          background-repeat: no-repeat;
         }
+    }
+
+    .zines-content {
+      align-items:stretch;
     }
 
 
