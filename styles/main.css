@@ -454,7 +454,7 @@ body {
         width: 100%;
         background-size: contain;
         background-repeat: no-repeat;
-        background-color: pink; }
+        padding: 5px; }
         @media screen and (min-width: 48em) {
           #content .entry-content .zines .zine {
             width: 33.33%; } }

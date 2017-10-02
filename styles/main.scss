@@ -629,12 +629,12 @@ body {
             width: 100%;
             background-size: contain;
             background-repeat: no-repeat;
-
+            padding: 5px;
             @include break(not-small) {
                 width: 33.33%;
             }
 
-            background-color: pink;
+
 
             img {
               height: auto;
