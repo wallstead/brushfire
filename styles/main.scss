@@ -622,13 +622,16 @@ body {
           width: 100%;
           display: flex;
           flex-wrap: wrap;
-          @include break(not-small) {
-              width: 30%;
-          }
+
 
 
           .zine {
-            width: 33.33%;
+            width: 100%;
+            
+            @include break(not-small) {
+                width: 33.33%;
+            }
+
             height: 200px;
             background-color: pink;
           }

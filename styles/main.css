@@ -450,13 +450,13 @@ body {
       width: 100%;
       display: flex;
       flex-wrap: wrap; }
-      @media screen and (min-width: 48em) {
-        #content .entry-content .zines {
-          width: 30%; } }
       #content .entry-content .zines .zine {
-        width: 33.33%;
+        width: 100%;
         height: 200px;
         background-color: pink; }
+        @media screen and (min-width: 48em) {
+          #content .entry-content .zines .zine {
+            width: 33.33%; } }
   #content .zines-content {
     align-items: stretch; }
   #content p {
