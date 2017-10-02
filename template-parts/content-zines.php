@@ -27,13 +27,13 @@
 		</div>
 		<div class="zines">
 			<div class="zine">
-				<img src="http://unrbrushfire.org/wp-content/uploads/2017/10/zine1.jpg">
+				<img src="http://unrbrushfire.org/wp-content/uploads/2017/10/zine1.jpg" alt="loose leaf example 1">
 			</div>
 			<div class="zine">
-				<img src="http://unrbrushfire.org/wp-content/uploads/2017/10/zine2.jpg">
+				<img src="http://unrbrushfire.org/wp-content/uploads/2017/10/zine2.jpg" alt="loose leaf example 2">
 			</div>
 			<div class="zine">
-				<img src="http://unrbrushfire.org/wp-content/uploads/2017/10/zine3.jpg">
+				<img src="http://unrbrushfire.org/wp-content/uploads/2017/10/zine3.jpg" alt="loose leaf example 3">
 			</div>
 		</div>
 	</div><!-- .entry-content -->
