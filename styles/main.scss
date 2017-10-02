@@ -599,9 +599,13 @@ body {
 
         .zinesInfo {
           width: 100%;
+          min-height: 400px;
+          background-position: center;
+          margin-bottom: 15px;
           @include break(not-small) {
               width: 50%;
               padding: 0 0 0 30px;
+              margin-bottom: 0;
           }
 
           p {
