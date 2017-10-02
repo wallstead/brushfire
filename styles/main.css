@@ -346,7 +346,8 @@ body {
     margin: 0;
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start; }
+    align-items: flex-start;
+    /* zines */ }
     #content .entry-content h2 {
       font-family: "futura-pt" !important;
       font-size: 1.75em;
@@ -430,6 +431,14 @@ body {
         width: 250px; }
       #content .entry-content .cscfBlock textarea {
         width: 100% !important; }
+    #content .entry-content .zinesInfo {
+      width: 50%;
+      background-color: lightgray;
+      height: 800px; }
+    #content .entry-content .zinesPoster {
+      width: 50%;
+      background-color: gray;
+      height: 800px; }
   #content p {
     max-width: 1200px;
     margin: 0 auto;

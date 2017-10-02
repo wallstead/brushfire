@@ -594,7 +594,23 @@ body {
                 width: 100% !important;
             }
         }
+
+        /* zines */
+
+        .zinesInfo {
+          width: 50%;
+          background-color: lightgray;
+          height: 800px;
+        }
+
+        .zinesPoster {
+          width: 50%;
+          background-color: gray;
+          height: 800px;
+        }
     }
+
+
 
     p {
         max-width: 1200px;

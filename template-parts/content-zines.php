@@ -15,7 +15,9 @@
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
-		<p>test1</p>
+		<div class="zinesInfo"></div>
+		<div class="zinesPoster"></div>
+
 	</div><!-- .entry-content -->
 
 	<?php if ( get_edit_post_link() ) : ?>
