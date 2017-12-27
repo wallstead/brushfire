@@ -537,7 +537,10 @@ body {
   #content .profileContainer {
     align-items: flex-start;
     display: flex;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    position: absolute;
+    right: 0;
+    left: 0; }
 
 #colophon {
   width: 100%;
