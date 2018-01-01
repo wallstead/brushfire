@@ -548,7 +548,8 @@ body {
     #content .staff h2 {
       max-width: 1100px;
       margin: 0 auto;
-      padding: 0 30px; }
+      padding: 20px 30px;
+      color: #ECF0F3; }
   #content .profileContainer {
     max-width: 1100px;
     margin: 0 auto;
