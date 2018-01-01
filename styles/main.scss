@@ -953,6 +953,22 @@ body {
             }
         }
     }
+
+    @media screen and (min-width: 675px) {
+        .profileContainer {
+            .profile {
+                height: 520px;
+            }
+        }
+    }
+
+    // @media screen and (min-width: 675px) {
+    //     .profileContainer {
+    //         .profile {
+    //             height: 520px;
+    //         }
+    //     }
+    // }
 }
 //footer
 #colophon {
