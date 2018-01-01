@@ -720,14 +720,14 @@ body {
         overflow: hidden;
         background-size: cover;
         width: 50%;
-        height: 500px;
+        height: 550px;
         @include break(medium) {
             width: 33.33%;
-            height: 500px;
+            height: 550px;
         }
         @include break(large) {
             width: 33.33%;
-            height: 500px;
+            height: 550px;
         }
 
         h3 {
