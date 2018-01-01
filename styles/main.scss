@@ -831,7 +831,7 @@ body {
         display: grid;
         grid-template-columns: 1fr;
         grid-column-gap: 10px;
-        grid-row-gap: 10px;
+        grid-row-gap: 20px;
 
 
     }
@@ -888,6 +888,8 @@ body {
     @media screen and (min-width: 500px) {
         .profileContainer {
             grid-template-columns: 1fr 1fr;
+            grid-column-gap: 10px;
+            grid-row-gap: 10px;
 
             .profile {
                 height: 340px;

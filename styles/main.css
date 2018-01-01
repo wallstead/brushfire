@@ -592,7 +592,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-column-gap: 10px;
-    grid-row-gap: 10px; }
+    grid-row-gap: 20px; }
   @media screen and (min-width: 320px) {
     #content .profileContainer .profile {
       height: 450px; } }
@@ -613,7 +613,9 @@ body {
       height: 660px; } }
   @media screen and (min-width: 500px) {
     #content .profileContainer {
-      grid-template-columns: 1fr 1fr; }
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 10px;
+      grid-row-gap: 10px; }
       #content .profileContainer .profile {
         height: 340px; }
         #content .profileContainer .profile h3 {
