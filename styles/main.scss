@@ -931,7 +931,7 @@ body {
     @media screen and (min-width: 610px) {
         .profileContainer {
             .profile {
-                height: 450px;
+                height: 475px;
 
                 h3 {
                     padding: 40px 10px 0;
@@ -942,6 +942,14 @@ body {
                     font-size: 1.05em;
                     padding: 10px 10px 0;
                 }
+            }
+        }
+    }
+
+    @media screen and (min-width: 640px) {
+        .profileContainer {
+            .profile {
+                height: 450px;
             }
         }
     }
