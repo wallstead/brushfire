@@ -405,7 +405,10 @@ body {
     }
 
     .entry-header {
-        margin-top: 17px;
+        max-width: 1100px;
+        margin: 17px auto 0;
+        padding: 0 30px;
+        background-color: #ffffff;
 
         h1 {
             font-family: "futura-pt";
