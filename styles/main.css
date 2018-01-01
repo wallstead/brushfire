@@ -521,7 +521,7 @@ body {
     background-size: cover;
     width: 100%;
     height: 550px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); }
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.8); }
     @media screen and (min-width: 48em) and (max-width: 64em) {
       #content .profile {
         width: 100%;
@@ -552,7 +552,7 @@ body {
       letter-spacing: 0.8px; }
     #content .profile .person {
       height: 100%;
-      background-color: black;
+      background-color: #111111;
       background-size: cover;
       background-position: center; }
       #content .profile .person p {
