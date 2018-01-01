@@ -927,6 +927,24 @@ body {
             }
         }
     }
+
+    @media screen and (min-width: 610px) {
+        .profileContainer {
+            .profile {
+                height: 450px;
+
+                h3 {
+                    padding: 40px 10px 0;
+                    font-size: 1.6em;
+                }
+
+                p {
+                    font-size: 1.05em;
+                    padding: 10px 10px 0;
+                }
+            }
+        }
+    }
 }
 //footer
 #colophon {
