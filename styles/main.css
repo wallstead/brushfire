@@ -667,6 +667,9 @@ body {
   @media screen and (min-width: 1030px) {
     #content .profileContainer .profile {
       height: 513px; } }
+  @media screen and (min-width: 1085px) {
+    #content .profileContainer .profile {
+      height: 532px; } }
 
 #colophon {
   width: 100%;
