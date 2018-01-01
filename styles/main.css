@@ -611,7 +611,9 @@ body {
       height: 660px; } }
   @media screen and (min-width: 500px) {
     #content .profileContainer {
-      grid-template-columns: 1fr 1fr; } }
+      grid-template-columns: 1fr 1fr; }
+      #content .profileContainer .profile {
+        height: 340px; } }
 
 #colophon {
   width: 100%;

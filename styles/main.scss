@@ -884,6 +884,10 @@ body {
     @media screen and (min-width: 500px) {
         .profileContainer {
             grid-template-columns: 1fr 1fr;
+
+            .profile {
+                height: 340px;
+            }
         }
     }
 }
