@@ -517,6 +517,7 @@ body {
   #content .profile {
     font-family: "futura-pt";
     border-radius: 4px;
+    overflow: hidden;
     background-size: cover;
     width: 50%;
     height: 500px; }
