@@ -901,6 +901,22 @@ body {
             }
         }
     }
+
+    @media screen and (min-width: 510px) {
+        .profileContainer {
+            .profile {
+                height: 380px;
+            }
+        }
+    }
+
+    @media screen and (min-width: 560px) {
+        .profileContainer {
+            .profile {
+                height: 410px;
+            }
+        }
+    }
 }
 //footer
 #colophon {
