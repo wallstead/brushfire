@@ -551,6 +551,7 @@ body {
       letter-spacing: 0.8px; }
     #content .profile .person {
       height: 100%;
+      background-color: black;
       background-size: cover;
       background-position: center; }
       #content .profile .person p {
