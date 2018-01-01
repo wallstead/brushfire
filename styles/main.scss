@@ -832,11 +832,19 @@ body {
 
     }
 
+    @media screen and (min-width: 320px) {
+        .profileContainer {
+            grid-template-columns: 1fr 1fr;
+
+            .profile {
+                height: 450px;
+            }
+        }
+    }
+
     @media screen and (min-width: 415px) {
         .profileContainer {
             grid-template-columns: 1fr 1fr;
-            grid-column-gap: 22px;
-            grid-row-gap: 22px;
         }
     }
 }
