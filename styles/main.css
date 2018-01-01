@@ -552,6 +552,8 @@ body {
         display: none; }
       #content .profile .person:hover {
         background-image: url("http://unrbrushfire.org/wp-content/uploads/2018/01/IMG_20171226_0006_0001.jpg"); }
+        #content .profile .person:hover p {
+          display: block; }
     #content .profile .edgar {
       background-image: url("http://unrbrushfire.org/wp-content/uploads/2018/01/IMG_20171226_0005.jpg"); }
     #content .profile .marshall {
