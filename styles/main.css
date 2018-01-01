@@ -518,8 +518,7 @@ body {
   #content .profile {
     font-family: "futura-pt";
     border-radius: 4px;
-    width: 50%;
-    padding: 0 10px; }
+    width: 50%; }
     @media screen and (min-width: 48em) and (max-width: 64em) {
       #content .profile {
         width: 33.33%; } }
