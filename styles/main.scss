@@ -754,12 +754,20 @@ body {
     .staff {
         background-color: #15181C;
         color: #ECF0F3;
+        width: 100%;
+
+        h2 {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 30px;
+            
+        }
     }
     .profileContainer {
         max-width: 1100px;
         margin: 0 auto;
         padding: 0 30px;
-        
+
         align-items: flex-start;
         display: flex;
         flex-wrap: wrap;
