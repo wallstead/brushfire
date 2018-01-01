@@ -731,11 +731,11 @@ body {
         }
 
         h3 {
-            color: $reddish-black;
+            color: #DEE3E9;
             width: 100%;
             text-align: center;
-            font-weight: 500;
-            margin: 7px 0;
+            font-weight: 800;
+            padding: 40px 10px 0;
 
             span {
                 font-weight: 300;
@@ -750,7 +750,7 @@ body {
         p {
             font-family: "futura-pt";
             font-size: 1.05em;
-            padding: 40px 10px 0;
+            padding: 10px 10px 0;
             color: #DEE3E9;
             margin-bottom: 0;
             letter-spacing: 0.8px;
@@ -765,8 +765,16 @@ body {
                 display: none;
             }
 
+            h3 {
+                display: none;
+            }
+
             &:hover {
                 background-image: url("http://unrbrushfire.org/wp-content/uploads/2018/01/IMG_20171226_0006_0001.jpg");
+
+                h3 {
+                    display: block;
+                }
 
                 p {
                     display: block;
