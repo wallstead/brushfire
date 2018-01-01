@@ -606,6 +606,9 @@ body {
   @media screen and (min-width: 450px) {
     #content .profileContainer .profile {
       height: 630px; } }
+  @media screen and (min-width: 465px) {
+    #content .profileContainer .profile {
+      height: 660px; } }
   @media screen and (min-width: 600px) {
     #content .profileContainer {
       grid-template-columns: 1fr 1fr; } }
