@@ -829,7 +829,11 @@ body {
         grid-column-gap: 22px;
         grid-row-gap: 22px;
 
-        @media screen and (min-width: 415px) {
+
+    }
+
+    @media screen and (min-width: 415px) {
+        .profileContainer {
             grid-template-columns: 1fr 1fr;
             grid-column-gap: 22px;
             grid-row-gap: 22px;
