@@ -540,6 +540,8 @@ body {
       font-family: "futura-pt";
       font-size: 1.05em;
       margin-bottom: 0; }
+    #content .profile .edgar {
+      background-image: url("http://unrbrushfire.org/wp-content/uploads/2018/01/IMG_20171226_0005.jpg"); }
   #content .staff {
     background-color: #15181C;
     color: #ECF0F3;
