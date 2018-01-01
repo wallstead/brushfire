@@ -548,6 +548,8 @@ body {
       height: 100%;
       background-size: cover;
       background-position: center; }
+      #content .profile .person p {
+        display: none; }
     #content .profile .edgar {
       background-image: url("http://unrbrushfire.org/wp-content/uploads/2018/01/IMG_20171226_0005.jpg"); }
     #content .profile .marshall {
