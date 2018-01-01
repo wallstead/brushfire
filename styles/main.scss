@@ -996,6 +996,14 @@ body {
             }
         }
     }
+
+    @media screen and (min-width: 1030px) {
+        .profileContainer {
+            .profile {
+                height: 513px;
+            }
+        }
+    }
 }
 //footer
 #colophon {
