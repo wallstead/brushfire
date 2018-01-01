@@ -825,9 +825,15 @@ body {
         padding: 0 30px;
 
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
         grid-column-gap: 22px;
         grid-row-gap: 22px;
+
+        @media screen and (min-width: 415px) {
+            grid-template-columns: 1fr 1fr;
+            grid-column-gap: 22px;
+            grid-row-gap: 22px;
+        }
     }
 }
 //footer
