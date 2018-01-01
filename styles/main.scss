@@ -719,14 +719,14 @@ body {
         border-radius: 4px;
         overflow: hidden;
         background-size: cover;
-        width: 50%;
+        width: 100%;
         height: 550px;
         @include break(medium) {
-            width: 33.33%;
+            width: 100%;
             height: 550px;
         }
         @include break(large) {
-            width: 33.33%;
+            width: 100%;
             height: 550px;
         }
 
@@ -797,9 +797,8 @@ body {
         margin: 0 auto;
         padding: 0 30px;
 
-        align-items: flex-start;
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 //footer
