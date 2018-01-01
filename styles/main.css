@@ -544,8 +544,9 @@ body {
       font-family: "futura-pt";
       font-size: 1.05em;
       padding: 40px 10px 0;
-      color: #ECF0F3;
-      margin-bottom: 0; }
+      color: #DEE3E9;
+      margin-bottom: 0;
+      letter-spacing: 0.8px; }
     #content .profile .person {
       height: 100%;
       background-size: cover;
