@@ -626,7 +626,13 @@ body {
       height: 380px; } }
   @media screen and (min-width: 560px) {
     #content .profileContainer .profile {
-      height: 410px; } }
+      height: 410px; }
+      #content .profileContainer .profile h3 {
+        font-size: 1.1em;
+        padding-top: 30px; }
+      #content .profileContainer .profile p {
+        font-size: 1em;
+        line-height: 1.5; } }
 
 #colophon {
   width: 100%;
