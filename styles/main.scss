@@ -969,6 +969,25 @@ body {
             }
         }
     }
+
+    @media screen and (min-width: 840px) {
+        .profileContainer {
+            .profile {
+                height: 650px;
+            }
+        }
+    }
+
+    @media screen and (min-width: 930px) {
+        .profileContainer {
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-column-gap: 20px;
+            grid-row-gap: 20px;
+            .profile {
+                height: 650px;
+            }
+        }
+    }
 }
 //footer
 #colophon {

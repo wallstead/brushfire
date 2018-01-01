@@ -651,6 +651,16 @@ body {
   @media screen and (min-width: 750px) {
     #content .profileContainer .profile {
       height: 575px; } }
+  @media screen and (min-width: 840px) {
+    #content .profileContainer .profile {
+      height: 650px; } }
+  @media screen and (min-width: 930px) {
+    #content .profileContainer {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-column-gap: 20px;
+      grid-row-gap: 20px; }
+      #content .profileContainer .profile {
+        height: 650px; } }
 
 #colophon {
   width: 100%;
