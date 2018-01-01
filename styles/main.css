@@ -549,6 +549,14 @@ body {
       background-size: cover; }
     #content .profile .edgar {
       background-image: url("http://unrbrushfire.org/wp-content/uploads/2018/01/IMG_20171226_0005.jpg"); }
+    #content .profile .marshall {
+      background-image: url("http://unrbrushfire.org/wp-content/uploads/2018/01/IMG_20171226_0004.jpg"); }
+    #content .profile .nick {
+      background-image: url("http://unrbrushfire.org/wp-content/uploads/2018/01/IMG_20171226_0003.jpg"); }
+    #content .profile .cecy {
+      background-image: url("http://unrbrushfire.org/wp-content/uploads/2018/01/IMG_20171226_0002.jpg"); }
+    #content .profile .percy {
+      background-image: url("http://unrbrushfire.org/wp-content/uploads/2018/01/IMG_20171226_0001.jpg"); }
   #content .staff {
     background-color: #15181C;
     color: #ECF0F3;
