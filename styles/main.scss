@@ -841,6 +841,22 @@ body {
         }
     }
 
+    @media screen and (min-width: 360px) {
+        .profileContainer {
+            .profile {
+                height: 500px;
+            }
+        }
+    }
+
+    @media screen and (min-width: 390px) {
+        .profileContainer {
+            .profile {
+                height: 550px;
+            }
+        }
+    }
+
     @media screen and (min-width: 415px) {
         .profileContainer {
             grid-template-columns: 1fr 1fr;
