@@ -671,6 +671,11 @@ body {
     #content .profileContainer .profile {
       height: 532px; } }
 
+.type-post {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px; }
+
 #colophon {
   width: 100%;
   background-color: #fbfbfb;
