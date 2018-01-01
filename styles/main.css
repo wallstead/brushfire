@@ -519,15 +519,15 @@ body {
     border-radius: 4px;
     background-size: cover;
     width: 50%;
-    height: 400px; }
+    height: 500px; }
     @media screen and (min-width: 48em) and (max-width: 64em) {
       #content .profile {
         width: 33.33%;
-        height: 400px; } }
+        height: 500px; } }
     @media screen and (min-width: 64em) {
       #content .profile {
         width: 33.33%;
-        height: 400px; } }
+        height: 500px; } }
     #content .profile h3 {
       color: #4c3838;
       width: 100%;

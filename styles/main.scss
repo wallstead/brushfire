@@ -720,14 +720,14 @@ body {
         border-radius: 4px;
         background-size: cover;
         width: 50%;
-        height: 400px;
+        height: 500px;
         @include break(medium) {
             width: 33.33%;
-            height: 400px;
+            height: 500px;
         }
         @include break(large) {
             width: 33.33%;
-            height: 400px;
+            height: 500px;
         }
 
         h3 {
