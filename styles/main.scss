@@ -387,11 +387,11 @@ body {
 }
 
 #content {
-    max-width: 1100px;
-    margin: 0 auto;
+    // max-width: 1100px;
+    // margin: 0 auto;
+    // padding: 0 30px;
+    // background-color: #ffffff;
     font-family: "ingra";
-    padding: 0 30px;
-    background-color: #ffffff;
     color: $reddish-black;
 
     h1 {
@@ -711,7 +711,7 @@ body {
 
     .profile {
         font-family: "futura-pt";
-        background-color: white;
+        // background-color: white;
         border-radius: 4px;
         width: 50%;
         @include break(medium) {
