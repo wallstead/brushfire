@@ -544,7 +544,8 @@ body {
       font-size: 1.05em;
       margin-bottom: 0; }
     #content .profile .person {
-      height: 100%; }
+      height: 100%;
+      background-size: cover; }
     #content .profile .edgar {
       background-image: url("http://unrbrushfire.org/wp-content/uploads/2018/01/IMG_20171226_0005.jpg"); }
   #content .staff {
