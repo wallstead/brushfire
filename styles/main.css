@@ -618,9 +618,9 @@ body {
           font-size: 0.9em;
           padding-top: 30px; }
         #content .profileContainer .profile p {
-          padding-top: 0;
+          padding-top: 5px;
           font-size: 0.75em;
-          line-height: 0.75; } }
+          line-height: 1.5; } }
 
 #colophon {
   width: 100%;
