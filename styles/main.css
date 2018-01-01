@@ -602,7 +602,10 @@ body {
       height: 550px; } }
   @media screen and (min-width: 420px) {
     #content .profileContainer .profile {
-      height: 570px; } }
+      height: 590px; } }
+  @media screen and (min-width: 450px) {
+    #content .profileContainer .profile {
+      height: 620px; } }
   @media screen and (min-width: 600px) {
     #content .profileContainer {
       grid-template-columns: 1fr 1fr; } }

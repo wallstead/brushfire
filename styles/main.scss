@@ -860,7 +860,15 @@ body {
     @media screen and (min-width: 420px) {
         .profileContainer {
             .profile {
-                height: 570px;
+                height: 590px;
+            }
+        }
+    }
+
+    @media screen and (min-width: 450px) {
+        .profileContainer {
+            .profile {
+                height: 620px;
             }
         }
     }
