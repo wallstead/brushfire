@@ -497,6 +497,9 @@ body {
   #content .basicInfo {
     display: flex;
     width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
     flex-wrap: wrap; }
   #content .theCrewContainer {
     width: 100%; }
