@@ -854,6 +854,9 @@ body {
     -moz-transform: scale(0);
     -o-transform: scale(0);
     transform: scale(0); } }
+.hentry {
+  margin: 0; }
+
 .header-bg {
   height: 100%;
   width: 100%;
