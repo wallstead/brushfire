@@ -613,7 +613,11 @@ body {
     #content .profileContainer {
       grid-template-columns: 1fr 1fr; }
       #content .profileContainer .profile {
-        height: 340px; } }
+        height: 340px; }
+        #content .profileContainer .profile h3 {
+          font-size: 0.75em; }
+        #content .profileContainer .profile p {
+          font-size: 0.75em; } }
 
 #colophon {
   width: 100%;
