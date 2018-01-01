@@ -718,12 +718,16 @@ body {
         font-family: "futura-pt";
         // background-color: white;
         border-radius: 4px;
+        background-size: cover;
         width: 50%;
+        height: 400px;
         @include break(medium) {
             width: 33.33%;
+            height: 400px;
         }
         @include break(large) {
             width: 33.33%;
+            height: 400px;
         }
 
         h3 {
