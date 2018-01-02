@@ -97,6 +97,14 @@
 		fontRatio : 30
 	});
 
+
+	$('.artist-name').flowtype({
+		minimum   : 500,
+		minFont   : 12,
+		maxFont   : 19,
+		fontRatio : 30
+	});
+
 	$('.aboutUs').flowtype({
 		minimum   : 500,
 		minFont   : 12,
