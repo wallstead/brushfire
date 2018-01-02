@@ -102,7 +102,7 @@
 		minimum   : 500,
 		minFont   : 12,
 		maxFont   : 38,
-		fontRatio : 20
+		fontRatio : 10
 	});
 
 	$('.aboutUs').flowtype({
