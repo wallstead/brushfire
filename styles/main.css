@@ -311,6 +311,8 @@ body {
       margin-top: 25px; }
   #content .entry-title {
     margin-top: 0;
+    font-family: "ff-meta-serif-sc-web-pro";
+    font-weight: 500;
     color: #4c3838; }
     #content .entry-title a {
       font-family: "ff-meta-serif-sc-web-pro";
