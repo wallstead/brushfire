@@ -101,7 +101,7 @@
 	$('.artist-name').flowtype({
 		minimum   : 500,
 		minFont   : 12,
-		maxFont   : 19,
+		maxFont   : 38,
 		fontRatio : 20
 	});
 
