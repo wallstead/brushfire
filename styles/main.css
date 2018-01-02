@@ -354,7 +354,7 @@ body {
     align-items: flex-start;
     /* zines */ }
     #content .entry-content h2 {
-      font-family: "futura-pt" !important;
+      font-family: "futura-pt";
       font-size: 1.75em;
       font-weight: 500;
       color: #4c3838;
