@@ -31,7 +31,7 @@
 				if ( is_single() ) :
 					the_title( '<h1 class="entry-title">', '</h1>' );
 				else :
-					the_title( '<h2 class="entry-title artist-name" style="color: '.$value.';"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+					the_title( '<h2 class="entry-title artist-name" style="color: '.$value.';">', '</h2>' );
 				endif;
 
 			    foreach ( $portraitImages as $portraitImage ) {
