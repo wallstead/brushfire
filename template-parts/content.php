@@ -37,40 +37,80 @@
 			    foreach ( $portraitImages as $portraitImage ) {
 					echo '<img class="portrait" src="', esc_url( $portraitImage['full_url'] ), '"  alt="', esc_attr( $portraitImage['alt'] ), '"></div>';
 			    }
-			}
-			echo '<div class="artist-content">';
-			echo '<div class="artistbio"><h3>B<br>I<br>O</h3><p class="biotext">';
-			the_content( sprintf(
-				/* translators: %s: Name of current post. */
-				wp_kses( __( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'bf_futuretastic' ), array( 'span' => array( 'class' => array() ) ) ),
-				the_title( '<span class="screen-reader-text">"', '"</span>', false )
-			) );
-			echo '</p></div>';
-			echo '<div class="artistart" itemscope itemtype="http://schema.org/ImageGallery">';
-			$artImages = rwmb_meta( 'image_upload', 'type=image&size=large');
-			if ( !empty( $artImages ) ) {
-			    foreach ( $artImages as $artImage ) {
+
+				echo '<div class="artist-content">';
+				echo '<div class="artistbio"><h3>B<br>I<br>O</h3><p class="biotext">';
+				the_content( sprintf(
+					/* translators: %s: Name of current post. */
+					wp_kses( __( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'bf_futuretastic' ), array( 'span' => array( 'class' => array() ) ) ),
+					the_title( '<span class="screen-reader-text">"', '"</span>', false )
+				) );
+				echo '</p></div>';
+				echo '<div class="artistart" itemscope itemtype="http://schema.org/ImageGallery">';
+				$artImages = rwmb_meta( 'image_upload', 'type=image&size=large');
+				if ( !empty( $artImages ) ) {
+				    foreach ( $artImages as $artImage ) {
 
 
-					$image_attachment_id = attachment_url_to_postid( $artImage['full_url'] );
-				    $imagesrc = wp_get_attachment_image_src( $image_attachment_id, '');
-				    $image_w = $imagesrc[1];
-				    $image_h = $imagesrc[2];
+						$image_attachment_id = attachment_url_to_postid( $artImage['full_url'] );
+					    $imagesrc = wp_get_attachment_image_src( $image_attachment_id, '');
+					    $image_w = $imagesrc[1];
+					    $image_h = $imagesrc[2];
 
-					echo '<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">';
-					echo '<a href="'.esc_url( $artImage['full_url'] ).'" itemprop="contentUrl" data-size="'.$image_w.'x'.$image_h.'">';
+						echo '<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">';
+						echo '<a href="'.esc_url( $artImage['full_url'] ).'" itemprop="contentUrl" data-size="'.$image_w.'x'.$image_h.'">';
 
-				    if ($image_w > $image_h) { /* landscape */
-				        echo '<img class="art landscape" src="', esc_url( $artImage['url'] ), '" itemprop="thumbnail" alt="', esc_attr( $artImage['alt'] ), '">';
-				    } else { /* portrait or square */
-						echo '<img class="art portrait-orientation" src="', esc_url( $artImage['url'] ), '" itemprop="thumbnail" alt="', esc_attr( $artImage['alt'] ), '">';
+					    if ($image_w > $image_h) { /* landscape */
+					        echo '<img class="art landscape" src="', esc_url( $artImage['url'] ), '" itemprop="thumbnail" alt="', esc_attr( $artImage['alt'] ), '">';
+					    } else { /* portrait or square */
+							echo '<img class="art portrait-orientation" src="', esc_url( $artImage['url'] ), '" itemprop="thumbnail" alt="', esc_attr( $artImage['alt'] ), '">';
+					    }
+						echo '</a>';
+						// echo '<figcaption itemprop="caption description">Image caption 1</figcaption>';
+						echo '</figure>';
 				    }
-					echo '</a>';
-					// echo '<figcaption itemprop="caption description">Image caption 1</figcaption>';
-					echo '</figure>';
-			    }
+				}
+				echo '</div>';
+			} else { /* else this is a highlight spotlight like the lego logo braelynn */
+
+				echo '<div class="portraitContainer"s>';
+				// the_title( '<h2 class="entry-title artist-name" style="color: '.$value.';">', '</h2>' );
+				echo '<div class="artistart" itemscope itemtype="http://schema.org/ImageGallery">';
+				$artImages = rwmb_meta( 'image_upload', 'type=image&size=large');
+				if ( !empty( $artImages ) ) {
+				    foreach ( $artImages as $artImage ) {
+
+
+						$image_attachment_id = attachment_url_to_postid( $artImage['full_url'] );
+					    $imagesrc = wp_get_attachment_image_src( $image_attachment_id, '');
+					    $image_w = $imagesrc[1];
+					    $image_h = $imagesrc[2];
+
+						echo '<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">';
+						echo '<a href="'.esc_url( $artImage['full_url'] ).'" itemprop="contentUrl" data-size="'.$image_w.'x'.$image_h.'">';
+
+					    if ($image_w > $image_h) { /* landscape */
+					        echo '<img class="art landscape" src="', esc_url( $artImage['url'] ), '" itemprop="thumbnail" alt="', esc_attr( $artImage['alt'] ), '">';
+					    } else { /* portrait or square */
+							echo '<img class="art portrait-orientation" src="', esc_url( $artImage['url'] ), '" itemprop="thumbnail" alt="', esc_attr( $artImage['alt'] ), '">';
+					    }
+						echo '</a>';
+						// echo '<figcaption itemprop="caption description">Image caption 1</figcaption>';
+						echo '</figure>';
+				    }
+				}
+				echo '</div>';
+				echo '<div class="artist-content fullwidth">';
+				echo '<div class="artistbio fullwidth"><p class="biotext">';
+				the_content( sprintf(
+					/* translators: %s: Name of current post. */
+					wp_kses( __( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'bf_futuretastic' ), array( 'span' => array( 'class' => array() ) ) ),
+					the_title( '<span class="screen-reader-text">"', '"</span>', false )
+				) );
+				echo '</p></div>';
+
 			}
-			echo '</div>';
+
 
 			$artWritingTitle = rwmb_meta( 'writing_media_title');
 
