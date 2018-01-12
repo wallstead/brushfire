@@ -27,12 +27,8 @@
 
 			$portraitImages = rwmb_meta( 'portrait_upload');
 			if ( !empty( $portraitImages ) ) {
-				echo '<div class="portraitContainer"s>';
-				if ( is_single() ) :
-					the_title( '<h1 class="entry-title">', '</h1>' );
-				else :
-					the_title( '<h2 class="entry-title artist-name" style="color: '.$value.';">', '</h2>' );
-				endif;
+				echo '<div class="portraitContainer">';
+				the_title( '<h2 class="entry-title artist-name" style="color: '.$value.';">', '</h2>' );
 
 			    foreach ( $portraitImages as $portraitImage ) {
 					echo '<img class="portrait" src="', esc_url( $portraitImage['full_url'] ), '"  alt="', esc_attr( $portraitImage['alt'] ), '"></div>';
@@ -73,8 +69,19 @@
 				echo '</div>';
 			} else { /* else this is a highlight spotlight like the lego logo braelynn */
 
-				echo '<div class="portraitContainer"s>';
-				// the_title( '<h2 class="entry-title artist-name" style="color: '.$value.';">', '</h2>' );
+				echo '<div class="portraitContainer">';
+				the_title( '<h2 class="entry-title artist-name" style="color: '.$value.';">', '</h2>' );
+				echo '<p class="biotext">';
+				the_content( sprintf(
+					/* translators: %s: Name of current post. */
+					wp_kses( __( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'bf_futuretastic' ), array( 'span' => array( 'class' => array() ) ) ),
+					the_title( '<span class="screen-reader-text">"', '"</span>', false )
+				) );
+				echo '</p></div>';
+
+
+				echo '<div class="artist-content">';
+
 				echo '<div class="artistart" itemscope itemtype="http://schema.org/ImageGallery">';
 				$artImages = rwmb_meta( 'image_upload', 'type=image&size=large');
 				if ( !empty( $artImages ) ) {
@@ -100,14 +107,6 @@
 				    }
 				}
 				echo '</div>';
-				echo '<div class="artist-content fullwidth">';
-				echo '<div class="artistbio fullwidth"><p class="biotext">';
-				the_content( sprintf(
-					/* translators: %s: Name of current post. */
-					wp_kses( __( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'bf_futuretastic' ), array( 'span' => array( 'class' => array() ) ) ),
-					the_title( '<span class="screen-reader-text">"', '"</span>', false )
-				) );
-				echo '</p></div>';
 
 			}
 
