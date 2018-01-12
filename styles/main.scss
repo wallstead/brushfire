@@ -507,7 +507,7 @@ body {
                 text-align: center;
                 line-height: 1;
                 margin: 0px 0px 20px;
-                
+
             }
 
             @include break(not-small) {
@@ -577,6 +577,10 @@ body {
 
                 .landscape {
                     width: 50%;
+                }
+
+                .fullwidth {
+                    width: 100%;
                 }
             }
 

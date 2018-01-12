@@ -425,6 +425,8 @@ body {
           width: 25%; }
         #content .entry-content .artist-content .artistart .landscape {
           width: 50%; }
+        #content .entry-content .artist-content .artistart .fullwidth {
+          width: 100%; }
       #content .entry-content .artist-content .artistwriting {
         font-family: serif; }
         @media screen and (min-width: 48em) {
