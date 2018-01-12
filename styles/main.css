@@ -368,6 +368,11 @@ body {
       width: 100%;
       display: flex;
       flex-wrap: wrap; }
+      #content .entry-content .portraitContainer .artist-name {
+        font-size: 55px;
+        text-align: center;
+        line-height: 1;
+        margin: 0px 0px 20px; }
       @media screen and (min-width: 48em) {
         #content .entry-content .portraitContainer {
           width: 30%; } }

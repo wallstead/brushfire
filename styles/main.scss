@@ -501,6 +501,15 @@ body {
             width: 100%;
             display: flex;
             flex-wrap: wrap;
+
+            .artist-name {
+                font-size: 55px;
+                text-align: center;
+                line-height: 1;
+                margin: 0px 0px 20px;
+                
+            }
+
             @include break(not-small) {
                 width: 30%;
             }
