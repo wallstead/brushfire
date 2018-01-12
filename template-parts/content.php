@@ -82,7 +82,7 @@
 
 				echo '<div class="artist-content">';
 
-				echo '<div class="artistart" itemscope itemtype="http://schema.org/ImageGallery">';
+				echo '<div class="artistart" itemscope itemtype="http://schema.org/ImageGallery" style="min-height: 200px;">';
 				$artImages = rwmb_meta( 'image_upload', 'type=image&size=large');
 				if ( !empty( $artImages ) ) {
 				    foreach ( $artImages as $artImage ) {
