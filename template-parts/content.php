@@ -67,7 +67,7 @@
 				    }
 				}
 				echo '</div>';
-			} else { /* else this is a highlight spotlight like the lego logo braelynn */
+			} else { /* else this is a highlight spotlight like the lego logo braelynn made */
 
 				echo '<div class="portraitContainer">';
 				the_title( '<h2 class="entry-title artist-name" style="color: '.$value.';">', '</h2>' );
