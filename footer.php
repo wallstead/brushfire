@@ -68,11 +68,8 @@
                 <div class="pswp__share-tooltip"></div>
             </div>
 
-            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-            </button>
-
-            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-            </button>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"><span class="btn-label">Previous Image</span></button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"><span class="btn-label">Next Image</span></button>
 
             <div class="pswp__caption">
                 <div class="pswp__caption__center"></div>
