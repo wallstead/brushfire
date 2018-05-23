@@ -48,16 +48,12 @@
                 <!--  Controls are self-explanatory. Order can be changed. -->
 
                 <div class="pswp__counter"></div>
+				test
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"><span class="btn-label">Close</span></button>
+                <button class="pswp__button pswp__button--share" title="Share"><span class="btn-label">Share</span></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"><span class="btn-label">Full-screen</span></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"><span class="btn-label">Zoom in or out</span></button>
 
-                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-
-                <button class="pswp__button pswp__button--share" title="Share"></button>
-
-                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-
-                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-
-                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
                 <!-- element will get class pswp__preloader--active when preloader is running -->
                 <div class="pswp__preloader">
                     <div class="pswp__preloader__icn">

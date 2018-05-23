@@ -1305,3 +1305,10 @@ body:after { // for preloading
  display: none;
  content: url("http://unrbrushfire.org/wp-content/uploads/2018/01/IMG_20171226_0006_0001.jpg");
 }
+
+.btn-label { // for fixing screen reader issues with PhotoSwipe buttons
+    font-size: 0;
+    height: 1px;
+    overflow: hidden;
+    display: block;
+}
